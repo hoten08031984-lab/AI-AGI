@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard Phân Tích Chi Phí Hợp Đồng | AI AGI_2</title>
+  <meta name="description" content="Dashboard phân tích các mục thanh toán theo Loại Chi Phí (Cột A) và Năm từ dữ liệu Theo Dõi Hợp Đồng.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Styles System -->
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <!-- Top Header Navigation -->
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-logo">
+        <i class="fas fa-chart-pie"></i>
+      </div>
+      <div class="brand-text">
+        <h1>BÁO CÁO CHI PHÍ BỘ PHẬN</h1>
+        <p><i class="fas fa-file-excel" style="color:#10b981; margin-right:4px;"></i> Theo Dõi Hợp Đồng - Sheet CHI</p>
+      </div>
+    </div>
+    
+    <div class="header-actions">
+      <button class="btn btn-primary" id="btn-export">
+        <i class="fas fa-file-csv"></i> Xuất CSV
+      </button>
+    </div>
+  </header>
+
+  <!-- Main App Container -->
+  <main class="app-container">
+
+    <!-- Global Filter Control Bar -->
+    <section class="filter-bar">
+      <div class="filter-group">
+        <label for="filter-year"><i class="far fa-calendar-alt"></i> Lọc Theo Năm</label>
+        <select id="filter-year" class="filter-select">
+          <option value="ALL">-- Tất Cả Các Năm --</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-category"><i class="fas fa-list-ul"></i> Loại CP (Cột A)</label>
+        <select id="filter-category" class="filter-select">
+          <option value="ALL">-- Tất Cả Loại CP --</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-warehouse"><i class="fas fa-warehouse"></i> Kho / Địa Điểm</label>
+        <select id="filter-warehouse" class="filter-select">
+          <option value="ALL">-- Tất Cả Kho --</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-search"><i class="fas fa-search"></i> Tìm Kiếm Nhanh</label>
+        <input type="text" id="filter-search" class="filter-input" placeholder="Số HĐ, nội dung thanh toán, thụ hưởng...">
+      </div>
+
+      <div class="filter-group" style="flex-direction:row; gap:0.5rem">
+        <button class="btn" id="btn-reset" title="Đặt lại bộ lọc" style="width:100%">
+          <i class="fas fa-undo"></i> Đặt Lại
+        </button>
+      </div>
+    </section>
+
+    <!-- Key Performance Metric Cards -->
+    <section class="kpi-grid">
+      <div class="kpi-card" style="--card-accent: var(--accent-blue);">
+        <div class="kpi-header">
+          <span class="kpi-title">TỔNG THÀNH TIỀN (VAT)</span>
+          <div class="kpi-icon"><i class="fas fa-coins"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-total-amount">0 ₫</div>
+        <div class="kpi-sub"><i class="fas fa-arrow-up" style="color:var(--accent-emerald)"></i> Tổng ngân sách chi trả bộ phận</div>
+      </div>
+
+      <div class="kpi-card" style="--card-accent: var(--accent-purple);">
+        <div class="kpi-header">
+          <span class="kpi-title">TỔNG SỐ MỤC THANH TOÁN</span>
+          <div class="kpi-icon"><i class="fas fa-receipt"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-total-items">0 mục</div>
+        <div class="kpi-sub"><i class="fas fa-list-check"></i> Số lượt giao dịch hợp đồng</div>
+      </div>
+
+      <div class="kpi-card" style="--card-accent: var(--accent-emerald);">
+        <div class="kpi-header">
+          <span class="kpi-title">GIÁ TRỊ TRUNG BÌNH / MỤC</span>
+          <div class="kpi-icon"><i class="fas fa-calculator"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-avg-amount">0 ₫</div>
+        <div class="kpi-sub"><i class="fas fa-chart-line"></i> Trung bình 1 đợt thanh toán</div>
+      </div>
+
+      <div class="kpi-card" style="--card-accent: var(--accent-amber);">
+        <div class="kpi-header">
+          <span class="kpi-title">HẠNG MỤC CHI NHIỀU NHẤT</span>
+          <div class="kpi-icon"><i class="fas fa-crown"></i></div>
+        </div>
+        <div class="kpi-value" id="kpi-top-category" style="font-size: 1.4rem;">-</div>
+        <div class="kpi-sub" id="kpi-top-category-sub"><i class="fas fa-trophy"></i> Chi phí chiếm tỷ trọng cao nhất</div>
+      </div>
+    </section>
+
+    <!-- Matrix Pivot Table Section (Loại CP Cột A x Năm) -->
+    <section class="glass-card">
+      <div class="card-header">
+        <div class="card-title">
+          <i class="fas fa-table-cells"></i> BẢNG PHÂN TÍCH MA TRẬN: LOẠI CHI PHÍ (CỘT A) THEO NĂM
+        </div>
+        <div style="font-size:0.82rem; color:var(--text-muted)">
+          <i class="fas fa-info-circle"></i> Đơn vị tính: VNĐ / Triệu / Tỷ
+        </div>
+      </div>
+      
+      <div class="matrix-container">
+        <table class="matrix-table">
+          <thead id="matrix-thead"></thead>
+          <tbody id="matrix-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Visual Charts Grid Section -->
+    <section class="charts-grid">
+      <!-- Chart 1: Bar Chart by Category & Year -->
+      <div class="glass-card">
+        <div class="card-header">
+          <div class="card-title"><i class="fas fa-chart-bar"></i> So Sánh Chi Phí Các Loại CP Qua Các Năm</div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartCategoryYear"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 2: Donut % Share -->
+      <div class="glass-card">
+        <div class="card-header">
+          <div class="card-title"><i class="fas fa-chart-pie"></i> Cơ Cấu Tỷ Trọng Theo Loại Chi Phí</div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartDonutCategory"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 3: Top Warehouses -->
+      <div class="glass-card">
+        <div class="card-header">
+          <div class="card-title"><i class="fas fa-warehouse"></i> Top Địa Điểm / Kho Phát Sinh Chi Phí Nhiều Nhất</div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartTopWarehouse"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 4: Monthly Trend -->
+      <div class="glass-card">
+        <div class="card-header">
+          <div class="card-title"><i class="fas fa-chart-line"></i> Xu Hướng Chi Phí Theo Tháng</div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chartMonthlyTrend"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Detailed Transactions Data Table -->
+    <section class="glass-card">
+      <div class="card-header">
+        <div class="card-title">
+          <i class="fas fa-list"></i> DANH SÁCH CHI TIẾT CÁC MỤC THANH TOÁN
+        </div>
+        <div id="table-info" style="font-size:0.85rem; color:var(--text-muted); font-weight:600"></div>
+      </div>
+
+      <div class="data-table-container">
+        <table class="data-table" id="detail-table">
+          <thead>
+            <tr>
+              <th data-sort="id">STT <i class="fas fa-sort"></i></th>
+              <th data-sort="loai_cp">Loại CP (Cột A) <i class="fas fa-sort"></i></th>
+              <th data-sort="tieu_muc">Tiểu Mục <i class="fas fa-sort"></i></th>
+              <th data-sort="so_hd">Số HĐ <i class="fas fa-sort"></i></th>
+              <th data-sort="ngay_hd">Ngày HĐ <i class="fas fa-sort"></i></th>
+              <th data-sort="ly_do">Lý Do Thanh Toán <i class="fas fa-sort"></i></th>
+              <th data-sort="kho">Kho <i class="fas fa-sort"></i></th>
+              <th data-sort="st_vat" style="text-align:right">Số Tiền (VAT) <i class="fas fa-sort"></i></th>
+              <th data-sort="nguoi_thu_huong">Người Thụ Hưởng <i class="fas fa-sort"></i></th>
+              <th data-sort="nam">Năm <i class="fas fa-sort"></i></th>
+            </tr>
+          </thead>
+          <tbody id="detail-tbody"></tbody>
+        </table>
+      </div>
+
+      <div class="table-footer">
+        <div style="font-size:0.82rem; color:var(--text-dim)">Trang hiển thị 12 mục / lần</div>
+        <div class="pagination-controls" id="pagination-btns"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="app-footer">
+    <p>Dashboard Phân Tích Chi Phí Hợp Đồng &copy; 2026 - Dự án AI AGI_2</p>
+  </footer>
+
+  <!-- JS Scripts -->
+  <script src="dashboard_data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
