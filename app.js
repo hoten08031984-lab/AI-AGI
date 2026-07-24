@@ -56,15 +56,11 @@ function updateSyncBadge() {
 // Populate Filter Options dynamically
 function initFilterDropdowns() {
   const years = setOfValues('nam').sort((a, b) => b - a);
-  const categories = setOfValues('loai_cp').sort();
-  const warehouses = setOfValues('kho').sort();
-
   const selYear = document.getElementById('filter-year');
-  const selCat = document.getElementById('filter-category');
-  const selWh = document.getElementById('filter-warehouse');
+  selYear.innerHTML = '<option value="ALL">-- Tất Cả Các Năm --</option>';
 
   years.forEach(y => {
-    if (y && y !== 'N/A') {
+    if (y && y !== 'N/A' && Number(y) > 1900) {
       const opt = document.createElement('option');
       opt.value = y;
       opt.textContent = `Năm ${y}`;
@@ -72,23 +68,74 @@ function initFilterDropdowns() {
     }
   });
 
-  categories.forEach(c => {
-    if (c) {
-      const opt = document.createElement('option');
-      opt.value = c;
-      opt.textContent = c;
-      selCat.appendChild(opt);
-    }
+  updateDependentDropdowns();
+}
+
+function updateDependentDropdowns() {
+  const selCat = document.getElementById('filter-category');
+  const selWh = document.getElementById('filter-warehouse');
+
+  const currYear = currentFilters.year;
+  const currCat = currentFilters.category;
+  const currWh = currentFilters.warehouse;
+
+  // 1. Data subset for Category dropdown (filtered by active Year and Search)
+  let catData = allData;
+  if (currYear !== 'ALL') {
+    catData = catData.filter(item => String(item.nam) === String(currYear));
+  }
+  if (currentFilters.search) {
+    const s = currentFilters.search;
+    catData = catData.filter(item =>
+      (item.loai_cp && item.loai_cp.toLowerCase().includes(s)) ||
+      (item.tieu_muc && item.tieu_muc.toLowerCase().includes(s)) ||
+      (item.so_hd && item.so_hd.toLowerCase().includes(s)) ||
+      (item.ly_do && item.ly_do.toLowerCase().includes(s)) ||
+      (item.chi_tiet && item.chi_tiet.toLowerCase().includes(s)) ||
+      (item.kho && item.kho.toLowerCase().includes(s)) ||
+      (item.nguoi_thu_huong && item.nguoi_thu_huong.toLowerCase().includes(s))
+    );
+  }
+
+  const validCategories = new Set(catData.map(i => i.loai_cp).filter(Boolean));
+  const sortedCategories = Array.from(validCategories).sort();
+
+  selCat.innerHTML = '<option value="ALL">-- Tất Cả Loại CP --</option>';
+  sortedCategories.forEach(c => {
+    const opt = document.createElement('option');
+    opt.value = c;
+    opt.textContent = c;
+    if (c === currCat) opt.selected = true;
+    selCat.appendChild(opt);
   });
 
-  warehouses.forEach(w => {
-    if (w) {
-      const opt = document.createElement('option');
-      opt.value = w;
-      opt.textContent = w;
-      selWh.appendChild(opt);
-    }
+  if (currCat !== 'ALL' && !validCategories.has(currCat)) {
+    currentFilters.category = 'ALL';
+    selCat.value = 'ALL';
+  }
+
+  // 2. Data subset for Warehouse dropdown (filtered by active Year, Category, and Search)
+  let whData = catData;
+  if (currentFilters.category !== 'ALL') {
+    whData = whData.filter(item => item.loai_cp === currentFilters.category);
+  }
+
+  const validWarehouses = new Set(whData.map(i => i.kho).filter(Boolean));
+  const sortedWarehouses = Array.from(validWarehouses).sort();
+
+  selWh.innerHTML = '<option value="ALL">-- Tất Cả Kho --</option>';
+  sortedWarehouses.forEach(w => {
+    const opt = document.createElement('option');
+    opt.value = w;
+    opt.textContent = w;
+    if (w === currWh) opt.selected = true;
+    selWh.appendChild(opt);
   });
+
+  if (currWh !== 'ALL' && !validWarehouses.has(currWh)) {
+    currentFilters.warehouse = 'ALL';
+    selWh.value = 'ALL';
+  }
 }
 
 function setOfValues(key) {
@@ -132,6 +179,18 @@ function setupEventListeners() {
     applyFilters();
   });
 
+  const btnRefresh = document.getElementById('btn-refresh');
+  if (btnRefresh) {
+    btnRefresh.addEventListener('click', async () => {
+      const icon = document.getElementById('icon-refresh');
+      if (icon) icon.classList.add('fa-spin');
+      try {
+        await fetch('/index.html', { cache: 'no-store' });
+      } catch (e) {}
+      window.location.href = window.location.pathname + '?t=' + Date.now();
+    });
+  }
+
   document.getElementById('btn-export').addEventListener('click', exportToCSV);
 
   // Table header sorting
@@ -151,6 +210,8 @@ function setupEventListeners() {
 
 // Apply Filters
 function applyFilters() {
+  updateDependentDropdowns();
+
   filteredData = allData.filter(item => {
     if (currentFilters.year !== 'ALL' && String(item.nam) !== String(currentFilters.year)) return false;
     if (currentFilters.category !== 'ALL' && item.loai_cp !== currentFilters.category) return false;
@@ -159,13 +220,13 @@ function applyFilters() {
     if (currentFilters.search) {
       const s = currentFilters.search;
       const match = 
-        item.loai_cp.toLowerCase().includes(s) ||
-        item.tieu_muc.toLowerCase().includes(s) ||
-        item.so_hd.toLowerCase().includes(s) ||
-        item.ly_do.toLowerCase().includes(s) ||
-        item.chi_tiet.toLowerCase().includes(s) ||
-        item.kho.toLowerCase().includes(s) ||
-        item.nguoi_thu_huong.toLowerCase().includes(s);
+        (item.loai_cp && item.loai_cp.toLowerCase().includes(s)) ||
+        (item.tieu_muc && item.tieu_muc.toLowerCase().includes(s)) ||
+        (item.so_hd && item.so_hd.toLowerCase().includes(s)) ||
+        (item.ly_do && item.ly_do.toLowerCase().includes(s)) ||
+        (item.chi_tiet && item.chi_tiet.toLowerCase().includes(s)) ||
+        (item.kho && item.kho.toLowerCase().includes(s)) ||
+        (item.nguoi_thu_huong && item.nguoi_thu_huong.toLowerCase().includes(s));
       if (!match) return false;
     }
     return true;
@@ -277,14 +338,13 @@ function renderMatrixPivot() {
 
 // Render Chart.js Visualizations
 function renderCharts() {
-  const isDark = document.body.getAttribute('data-theme') !== 'light';
-  const textColor = isDark ? '#94a3b8' : '#475569';
-  const gridColor = isDark ? 'rgba(255, 255, 255, 0.08)' : 'rgba(0, 0, 0, 0.06)';
+  const textColor = '#94a3b8';
+  const gridColor = 'rgba(255, 255, 255, 0.07)';
 
   // Chart 1: Category Expenditure across Years (Bar Chart)
   const categories = setOfValues('loai_cp').sort();
   const years = [2023, 2024, 2025, 2026];
-  const yearColors = ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b'];
+  const yearColors = ['#06b6d4', '#3b82f6', '#8b5cf6', '#10b981'];
 
   const datasets = years.map((yr, idx) => {
     const data = categories.map(cat => {
@@ -296,7 +356,8 @@ function renderCharts() {
       label: `Năm ${yr}`,
       data: data,
       backgroundColor: yearColors[idx % yearColors.length],
-      borderRadius: 4
+      borderRadius: 6,
+      borderWidth: 0
     };
   });
 
@@ -310,8 +371,13 @@ function renderCharts() {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { labels: { color: textColor, font: { family: 'Plus Jakarta Sans' } } },
+        legend: { labels: { color: textColor, font: { family: 'Plus Jakarta Sans', weight: '600' } } },
         tooltip: {
+          backgroundColor: 'rgba(15, 23, 42, 0.95)',
+          titleColor: '#06b6d4',
+          borderColor: 'rgba(255, 255, 255, 0.15)',
+          borderWidth: 1,
+          padding: 12,
           callbacks: {
             label: (ctx) => `${ctx.dataset.label}: ${ctx.raw.toLocaleString('vi-VN')} Triệu VNĐ`
           }
@@ -348,24 +414,29 @@ function renderCharts() {
       datasets: [{
         data: donutValues,
         backgroundColor: [
-          '#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#ec4899', 
-          '#06b6d4', '#f43f5e', '#a855f7', '#64748b', '#14b8a6'
+          '#06b6d4', '#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', 
+          '#ec4899', '#f43f5e', '#a855f7', '#64748b', '#14b8a6'
         ],
-        borderWidth: 0
+        borderWidth: 2,
+        borderColor: '#0f172a'
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { position: 'right', labels: { color: textColor, font: { size: 11 } } },
+        legend: { position: 'right', labels: { color: textColor, font: { size: 11, family: 'Plus Jakarta Sans' } } },
         tooltip: {
+          backgroundColor: 'rgba(15, 23, 42, 0.95)',
+          borderColor: 'rgba(255, 255, 255, 0.15)',
+          borderWidth: 1,
+          padding: 12,
           callbacks: {
             label: (ctx) => ` ${ctx.label}: ${parseFloat(ctx.raw).toLocaleString('vi-VN')} Triệu VNĐ`
           }
         }
       },
-      cutout: '65%'
+      cutout: '68%'
     }
   });
 
@@ -387,7 +458,9 @@ function renderCharts() {
       datasets: [{
         label: 'Tổng Chi Phí',
         data: sortedWh.map(x => (x[1] / 1e6).toFixed(1)),
-        backgroundColor: 'rgba(59, 130, 246, 0.85)',
+        backgroundColor: 'rgba(6, 182, 212, 0.85)',
+        borderColor: '#06b6d4',
+        borderWidth: 1,
         borderRadius: 6
       }]
     },
@@ -398,6 +471,10 @@ function renderCharts() {
       plugins: {
         legend: { display: false },
         tooltip: {
+          backgroundColor: 'rgba(15, 23, 42, 0.95)',
+          borderColor: 'rgba(255, 255, 255, 0.15)',
+          borderWidth: 1,
+          padding: 12,
           callbacks: {
             label: (ctx) => ` Chi phí: ${parseFloat(ctx.raw).toLocaleString('vi-VN')} Triệu VNĐ`
           }
@@ -430,19 +507,26 @@ function renderCharts() {
         label: 'Chi phí theo Tháng',
         data: sortedMonths.map(m => (monthMap[m] / 1e6).toFixed(1)),
         borderColor: '#10b981',
-        backgroundColor: 'rgba(16, 185, 129, 0.15)',
+        backgroundColor: 'rgba(16, 185, 129, 0.18)',
         fill: true,
-        tension: 0.35,
-        pointRadius: 4,
-        pointHoverRadius: 6
+        tension: 0.4,
+        pointRadius: 5,
+        pointBackgroundColor: '#10b981',
+        pointBorderColor: '#ffffff',
+        pointBorderWidth: 2,
+        pointHoverRadius: 8
       }]
     },
     options: {
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
-        legend: { labels: { color: textColor } },
+        legend: { labels: { color: textColor, font: { family: 'Plus Jakarta Sans' } } },
         tooltip: {
+          backgroundColor: 'rgba(15, 23, 42, 0.95)',
+          borderColor: 'rgba(16, 185, 129, 0.4)',
+          borderWidth: 1,
+          padding: 12,
           callbacks: {
             label: (ctx) => ` ${ctx.raw} Triệu VNĐ`
           }
@@ -490,7 +574,7 @@ function renderDataTable() {
         <td><span class="badge badge-purple">${item.kho}</span></td>
         <td style="font-weight:700; color:var(--accent-blue); text-align:right">${formatVND(item.st_vat)}</td>
         <td style="font-size:0.82rem; color:var(--text-muted)">${item.nguoi_thu_huong || '-'}</td>
-        <td><span class="badge badge-emerald">Năm ${item.nam}</span></td>
+        <td><span class="badge badge-emerald">${(item.nam && item.nam !== 'N/A' && Number(item.nam) > 1900) ? 'Năm ' + item.nam : 'Chưa có năm'}</span></td>
       </tr>
     `).join('');
   }

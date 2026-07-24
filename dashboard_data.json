@@ -29,7 +29,7 @@
     "ly_do": "Satraco thanh toán",
     "chi_tiet": "Bia lễ  6-6",
     "chi_tiet_hd": "",
-    "kho": "",
+    "kho": "Khác",
     "st_no_vat": 9483840.0,
     "vat": 0.0,
     "st_vat": 9483840.0,
@@ -12977,7 +12977,7 @@
     "nguoi_thu_huong": "HTX DỊCH VỤ BỐC XẾP TOÀN THẮNG",
     "stk": "50001651762",
     "ngan_hang": "Ngân hàng Sacombank -CN Bình Thuận",
-    "nam": 1900
+    "nam": 2024
   },
   {
     "id": 650,
@@ -12997,7 +12997,27 @@
     "nguoi_thu_huong": "HTX DỊCH VỤ BỐC XẾP TOÀN THẮNG",
     "stk": "50001651762",
     "ngan_hang": "Ngân hàng Sacombank -CN Bình Thuận",
-    "nam": 2025
+    "nam": 2024
+  },
+  {
+    "id": 651,
+    "loai_cp": "Chưa phân loại",
+    "tieu_muc": "2025.0",
+    "so_hd": "",
+    "ngay_hd": "",
+    "thang": "1899-12-31 00:00:00+00:00",
+    "ly_do": "",
+    "chi_tiet": "",
+    "chi_tiet_hd": "",
+    "kho": "Khác",
+    "st_no_vat": 0.0,
+    "vat": 0.0,
+    "st_vat": 0.0,
+    "ngay_tt": "",
+    "nguoi_thu_huong": "",
+    "stk": "",
+    "ngan_hang": "",
+    "nam": "N/A"
   },
   {
     "id": 652,
@@ -13580,7 +13600,7 @@
     "nam": 2025
   },
   {
-    "id": 682,
+    "id": 681,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T02-25",
     "so_hd": "303.0",
@@ -13600,7 +13620,7 @@
     "nam": 2025
   },
   {
-    "id": 683,
+    "id": 682,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T02-25",
     "so_hd": "301.0",
@@ -13620,7 +13640,7 @@
     "nam": 2025
   },
   {
-    "id": 684,
+    "id": 683,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T02-25",
     "so_hd": "302.0",
@@ -13640,7 +13660,7 @@
     "nam": 2025
   },
   {
-    "id": 685,
+    "id": 684,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "BL02-25",
     "so_hd": "1064.0",
@@ -13660,7 +13680,7 @@
     "nam": 2025
   },
   {
-    "id": 686,
+    "id": 685,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25 (Đ1)",
     "so_hd": "5.0",
@@ -13680,7 +13700,7 @@
     "nam": 2025
   },
   {
-    "id": 687,
+    "id": 686,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2025",
     "so_hd": "283.0",
@@ -13700,7 +13720,7 @@
     "nam": 2025
   },
   {
-    "id": 688,
+    "id": 687,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2025",
     "so_hd": "283.0",
@@ -13720,7 +13740,7 @@
     "nam": 2025
   },
   {
-    "id": 689,
+    "id": 688,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2025",
     "so_hd": "121.0",
@@ -13740,7 +13760,7 @@
     "nam": 2025
   },
   {
-    "id": 690,
+    "id": 689,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2025",
     "so_hd": "05",
@@ -13760,7 +13780,7 @@
     "nam": 2025
   },
   {
-    "id": 691,
+    "id": 690,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2025",
     "so_hd": "05",
@@ -13780,7 +13800,7 @@
     "nam": 2025
   },
   {
-    "id": 692,
+    "id": 691,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2025",
     "so_hd": "05",
@@ -13800,7 +13820,7 @@
     "nam": 2025
   },
   {
-    "id": 693,
+    "id": 692,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Mực in Q1-2025",
     "so_hd": "07",
@@ -13820,7 +13840,7 @@
     "nam": 2025
   },
   {
-    "id": 694,
+    "id": 693,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Mực in Q1-2025",
     "so_hd": "07",
@@ -13840,7 +13860,7 @@
     "nam": 2025
   },
   {
-    "id": 695,
+    "id": 694,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T02-2025",
     "so_hd": "118837.0",
@@ -13850,6 +13870,26 @@
     "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 02-2025",
     "chi_tiet_hd": "Xăng",
     "kho": "Kho Nha Trang",
+    "st_no_vat": 100000.0,
+    "vat": 10000.0,
+    "st_vat": 110000.0,
+    "ngay_tt": "2025-02-20",
+    "nguoi_thu_huong": "Trần Hoàng Tiến",
+    "stk": "104000066948",
+    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
+    "nam": 2025
+  },
+  {
+    "id": 695,
+    "loai_cp": "Phí bảo trì",
+    "tieu_muc": "XĂNG T02-2025",
+    "so_hd": "118837.0",
+    "ngay_hd": "2025-02-20",
+    "thang": "2/2025",
+    "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
+    "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 02-2025",
+    "chi_tiet_hd": "Xăng",
+    "kho": "Kho Ninh Thuận",
     "st_no_vat": 100000.0,
     "vat": 10000.0,
     "st_vat": 110000.0,
@@ -13869,7 +13909,7 @@
     "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
     "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 02-2025",
     "chi_tiet_hd": "Xăng",
-    "kho": "Kho Ninh Thuận",
+    "kho": "Kho Bình Thuận",
     "st_no_vat": 100000.0,
     "vat": 10000.0,
     "st_vat": 110000.0,
@@ -13889,26 +13929,6 @@
     "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
     "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 02-2025",
     "chi_tiet_hd": "Xăng",
-    "kho": "Kho Bình Thuận",
-    "st_no_vat": 100000.0,
-    "vat": 10000.0,
-    "st_vat": 110000.0,
-    "ngay_tt": "2025-02-20",
-    "nguoi_thu_huong": "Trần Hoàng Tiến",
-    "stk": "104000066948",
-    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
-    "nam": 2025
-  },
-  {
-    "id": 698,
-    "loai_cp": "Phí bảo trì",
-    "tieu_muc": "XĂNG T02-2025",
-    "so_hd": "118837.0",
-    "ngay_hd": "2025-02-20",
-    "thang": "2/2025",
-    "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
-    "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 02-2025",
-    "chi_tiet_hd": "Xăng",
     "kho": "Kho Bến Lội",
     "st_no_vat": 100000.0,
     "vat": 10000.0,
@@ -13920,7 +13940,7 @@
     "nam": 2025
   },
   {
-    "id": 699,
+    "id": 698,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "3.0",
@@ -13940,7 +13960,7 @@
     "nam": 2025
   },
   {
-    "id": 700,
+    "id": 699,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "3.0",
@@ -13960,7 +13980,7 @@
     "nam": 2025
   },
   {
-    "id": 701,
+    "id": 700,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "3.0",
@@ -13980,7 +14000,7 @@
     "nam": 2025
   },
   {
-    "id": 702,
+    "id": 701,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "3.0",
@@ -14000,7 +14020,7 @@
     "nam": 2025
   },
   {
-    "id": 703,
+    "id": 702,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "3.0",
@@ -14009,6 +14029,26 @@
     "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T02/2025",
     "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 02/2025",
     "chi_tiet_hd": "Phí vệ sinh kho",
+    "kho": "Kho Bình Thuận",
+    "st_no_vat": 5300000.0,
+    "vat": 424000.0,
+    "st_vat": 5724000.0,
+    "ngay_tt": "2025-02-27",
+    "nguoi_thu_huong": "HTX DỊCH VỤ BỐC XẾP TOÀN THẮNG",
+    "stk": "50001651762",
+    "ngan_hang": "Ngân hàng Sacombank -CN Bình Thuận",
+    "nam": 2025
+  },
+  {
+    "id": 703,
+    "loai_cp": "BỐC XẾP",
+    "tieu_muc": "BX T02-25",
+    "so_hd": "3.0",
+    "ngay_hd": "2025-02-04",
+    "thang": "2/2025",
+    "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T02/2025",
+    "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 02/2025",
+    "chi_tiet_hd": "Phí vệ sinh kho (Bến Lội)",
     "kho": "Kho Bình Thuận",
     "st_no_vat": 5300000.0,
     "vat": 424000.0,
@@ -14028,26 +14068,6 @@
     "thang": "2/2025",
     "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T02/2025",
     "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 02/2025",
-    "chi_tiet_hd": "Phí vệ sinh kho (Bến Lội)",
-    "kho": "Kho Bình Thuận",
-    "st_no_vat": 5300000.0,
-    "vat": 424000.0,
-    "st_vat": 5724000.0,
-    "ngay_tt": "2025-02-27",
-    "nguoi_thu_huong": "HTX DỊCH VỤ BỐC XẾP TOÀN THẮNG",
-    "stk": "50001651762",
-    "ngan_hang": "Ngân hàng Sacombank -CN Bình Thuận",
-    "nam": 2025
-  },
-  {
-    "id": 705,
-    "loai_cp": "BỐC XẾP",
-    "tieu_muc": "BX T02-25",
-    "so_hd": "3.0",
-    "ngay_hd": "2025-02-04",
-    "thang": "2/2025",
-    "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T02/2025",
-    "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 02/2025",
     "chi_tiet_hd": "Phí xe nâng trọn gói",
     "kho": "Kho Bình Thuận",
     "st_no_vat": 7000000.0,
@@ -14060,7 +14080,7 @@
     "nam": 2025
   },
   {
-    "id": 706,
+    "id": 705,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "3.0",
@@ -14080,7 +14100,7 @@
     "nam": 2025
   },
   {
-    "id": 707,
+    "id": 706,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "6.0",
@@ -14100,7 +14120,7 @@
     "nam": 2025
   },
   {
-    "id": 708,
+    "id": 707,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "6.0",
@@ -14120,7 +14140,7 @@
     "nam": 2025
   },
   {
-    "id": 709,
+    "id": 708,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "6.0",
@@ -14140,7 +14160,7 @@
     "nam": 2025
   },
   {
-    "id": 710,
+    "id": 709,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "6.0",
@@ -14160,7 +14180,7 @@
     "nam": 2025
   },
   {
-    "id": 711,
+    "id": 710,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-25",
     "so_hd": "7.0",
@@ -14180,7 +14200,7 @@
     "nam": 2025
   },
   {
-    "id": 712,
+    "id": 711,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T02-2025",
     "so_hd": "693.0",
@@ -14200,7 +14220,7 @@
     "nam": 2025
   },
   {
-    "id": 713,
+    "id": 712,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T02-2025",
     "so_hd": "693.0",
@@ -14220,7 +14240,7 @@
     "nam": 2025
   },
   {
-    "id": 714,
+    "id": 713,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T02-2025",
     "so_hd": "693.0",
@@ -14240,7 +14260,7 @@
     "nam": 2025
   },
   {
-    "id": 715,
+    "id": 714,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T02-2025",
     "so_hd": "693.0",
@@ -14260,7 +14280,7 @@
     "nam": 2025
   },
   {
-    "id": 716,
+    "id": 715,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T3-25",
     "so_hd": "624.0",
@@ -14280,7 +14300,7 @@
     "nam": 2025
   },
   {
-    "id": 717,
+    "id": 716,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T3-25",
     "so_hd": "624.0",
@@ -14300,7 +14320,7 @@
     "nam": 2025
   },
   {
-    "id": 718,
+    "id": 717,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T3-25",
     "so_hd": "624.0",
@@ -14320,7 +14340,7 @@
     "nam": 2025
   },
   {
-    "id": 719,
+    "id": 718,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "BL03-25",
     "so_hd": "2050.0",
@@ -14340,7 +14360,7 @@
     "nam": 2025
   },
   {
-    "id": 720,
+    "id": 719,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T03-25",
     "so_hd": "610.0",
@@ -14360,7 +14380,7 @@
     "nam": 2025
   },
   {
-    "id": 721,
+    "id": 720,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T03-25",
     "so_hd": "611.0",
@@ -14380,7 +14400,7 @@
     "nam": 2025
   },
   {
-    "id": 722,
+    "id": 721,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T03-25",
     "so_hd": "612.0",
@@ -14400,7 +14420,7 @@
     "nam": 2025
   },
   {
-    "id": 723,
+    "id": 722,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T03-2025",
     "so_hd": "170995.0",
@@ -14420,7 +14440,7 @@
     "nam": 2025
   },
   {
-    "id": 724,
+    "id": 723,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T03-2025",
     "so_hd": "170995.0",
@@ -14430,6 +14450,26 @@
     "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 03-2025",
     "chi_tiet_hd": "Xăng",
     "kho": "Kho Ninh Thuận",
+    "st_no_vat": 100000.0,
+    "vat": 10000.0,
+    "st_vat": 110000.0,
+    "ngay_tt": "2025-03-14",
+    "nguoi_thu_huong": "Trần Hoàng Tiến",
+    "stk": "104000066948",
+    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
+    "nam": 2025
+  },
+  {
+    "id": 724,
+    "loai_cp": "Phí bảo trì",
+    "tieu_muc": "XĂNG T03-2025",
+    "so_hd": "170995.0",
+    "ngay_hd": "2025-03-14",
+    "thang": "3/2025",
+    "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
+    "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 03-2025",
+    "chi_tiet_hd": "Xăng",
+    "kho": "Kho Bình Thuận",
     "st_no_vat": 100000.0,
     "vat": 10000.0,
     "st_vat": 110000.0,
@@ -14449,26 +14489,6 @@
     "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
     "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 03-2025",
     "chi_tiet_hd": "Xăng",
-    "kho": "Kho Bình Thuận",
-    "st_no_vat": 100000.0,
-    "vat": 10000.0,
-    "st_vat": 110000.0,
-    "ngay_tt": "2025-03-14",
-    "nguoi_thu_huong": "Trần Hoàng Tiến",
-    "stk": "104000066948",
-    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
-    "nam": 2025
-  },
-  {
-    "id": 726,
-    "loai_cp": "Phí bảo trì",
-    "tieu_muc": "XĂNG T03-2025",
-    "so_hd": "170995.0",
-    "ngay_hd": "2025-03-14",
-    "thang": "3/2025",
-    "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
-    "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 03-2025",
-    "chi_tiet_hd": "Xăng",
     "kho": "Kho Bến Lội",
     "st_no_vat": 100000.0,
     "vat": 10000.0,
@@ -14480,7 +14500,7 @@
     "nam": 2025
   },
   {
-    "id": 727,
+    "id": 726,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25 (Đ1)",
     "so_hd": "9.0",
@@ -14500,7 +14520,7 @@
     "nam": 2025
   },
   {
-    "id": 728,
+    "id": 727,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "MAY CO PE",
     "so_hd": "16.0",
@@ -14520,7 +14540,7 @@
     "nam": 2025
   },
   {
-    "id": 729,
+    "id": 728,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "MAY CO PE",
     "so_hd": "24.0",
@@ -14540,7 +14560,7 @@
     "nam": 2025
   },
   {
-    "id": 730,
+    "id": 729,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "MAY CO PE",
     "so_hd": "23.0",
@@ -14560,7 +14580,7 @@
     "nam": 2025
   },
   {
-    "id": 731,
+    "id": 730,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T03-2025",
     "so_hd": "1195.0",
@@ -14580,7 +14600,7 @@
     "nam": 2025
   },
   {
-    "id": 732,
+    "id": 731,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T03-2025",
     "so_hd": "1195.0",
@@ -14600,7 +14620,7 @@
     "nam": 2025
   },
   {
-    "id": 733,
+    "id": 732,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T03-2025",
     "so_hd": "1195.0",
@@ -14620,7 +14640,7 @@
     "nam": 2025
   },
   {
-    "id": 734,
+    "id": 733,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T03-2025",
     "so_hd": "1195.0",
@@ -14640,7 +14660,7 @@
     "nam": 2025
   },
   {
-    "id": 735,
+    "id": 734,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "",
@@ -14660,7 +14680,7 @@
     "nam": 2025
   },
   {
-    "id": 736,
+    "id": 735,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "",
@@ -14680,7 +14700,7 @@
     "nam": 2025
   },
   {
-    "id": 737,
+    "id": 736,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "",
@@ -14700,7 +14720,7 @@
     "nam": 2025
   },
   {
-    "id": 738,
+    "id": 737,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "",
@@ -14720,7 +14740,7 @@
     "nam": 2025
   },
   {
-    "id": 739,
+    "id": 738,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "",
@@ -14740,7 +14760,7 @@
     "nam": 2025
   },
   {
-    "id": 740,
+    "id": 739,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "",
@@ -14749,6 +14769,26 @@
     "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T03/2025",
     "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 03/2025",
     "chi_tiet_hd": "Phí vệ sinh kho",
+    "kho": "Kho Bình Thuận",
+    "st_no_vat": 5300000.0,
+    "vat": 424000.0,
+    "st_vat": 5724000.0,
+    "ngay_tt": "2025-03-28",
+    "nguoi_thu_huong": "HTX DỊCH VỤ BỐC XẾP TOÀN THẮNG",
+    "stk": "50001651762",
+    "ngan_hang": "Ngân hàng Sacombank -CN Bình Thuận",
+    "nam": 2025
+  },
+  {
+    "id": 740,
+    "loai_cp": "BỐC XẾP",
+    "tieu_muc": "BX T03-25",
+    "so_hd": "",
+    "ngay_hd": "2025-03-28",
+    "thang": "3/2025",
+    "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T03/2025",
+    "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 03/2025",
+    "chi_tiet_hd": "Phí vệ sinh kho (Bến Lội)",
     "kho": "Kho Bình Thuận",
     "st_no_vat": 5300000.0,
     "vat": 424000.0,
@@ -14768,26 +14808,6 @@
     "thang": "3/2025",
     "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T03/2025",
     "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 03/2025",
-    "chi_tiet_hd": "Phí vệ sinh kho (Bến Lội)",
-    "kho": "Kho Bình Thuận",
-    "st_no_vat": 5300000.0,
-    "vat": 424000.0,
-    "st_vat": 5724000.0,
-    "ngay_tt": "2025-03-28",
-    "nguoi_thu_huong": "HTX DỊCH VỤ BỐC XẾP TOÀN THẮNG",
-    "stk": "50001651762",
-    "ngan_hang": "Ngân hàng Sacombank -CN Bình Thuận",
-    "nam": 2025
-  },
-  {
-    "id": 742,
-    "loai_cp": "BỐC XẾP",
-    "tieu_muc": "BX T03-25",
-    "so_hd": "",
-    "ngay_hd": "2025-03-28",
-    "thang": "3/2025",
-    "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T03/2025",
-    "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 03/2025",
     "chi_tiet_hd": "Phí xe nâng trọn gói",
     "kho": "Kho Bình Thuận",
     "st_no_vat": 7000000.0,
@@ -14800,7 +14820,7 @@
     "nam": 2025
   },
   {
-    "id": 743,
+    "id": 742,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "10.0",
@@ -14820,7 +14840,7 @@
     "nam": 2025
   },
   {
-    "id": 744,
+    "id": 743,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "10.0",
@@ -14837,10 +14857,10 @@
     "nguoi_thu_huong": "DOANH NGHIỆP TƯ NHÂN NGỌC TRANG-NT",
     "stk": "402704060098668",
     "ngan_hang": "NH TM CP Quốc tế (VIB)- CN Nha Trang",
-    "nam": 1900
+    "nam": 2025
   },
   {
-    "id": 745,
+    "id": 744,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "10.0",
@@ -14860,7 +14880,7 @@
     "nam": 2025
   },
   {
-    "id": 746,
+    "id": 745,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-25",
     "so_hd": "11.0",
@@ -14880,7 +14900,7 @@
     "nam": 2025
   },
   {
-    "id": 747,
+    "id": 746,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "BL04-25",
     "so_hd": "3120.0",
@@ -14900,7 +14920,7 @@
     "nam": 2025
   },
   {
-    "id": 748,
+    "id": 747,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CT-T04",
     "so_hd": "",
@@ -14909,10 +14929,30 @@
     "ly_do": "Thanh toán  công tác phí 01,02,03/tháng 04-2025 theo phê duyệt chị Khanh ngày 31-03",
     "chi_tiet": "Tiền ăn ca 3 ngày",
     "chi_tiet_hd": "",
-    "kho": "",
+    "kho": "Khác",
     "st_no_vat": 600000.0,
     "vat": 0.0,
     "st_vat": 600000.0,
+    "ngay_tt": " 14/04/202",
+    "nguoi_thu_huong": "Trần Hoàng Tiến",
+    "stk": "104000066948",
+    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
+    "nam": "N/A"
+  },
+  {
+    "id": 748,
+    "loai_cp": "Công tác phí",
+    "tieu_muc": "CT-T04",
+    "so_hd": "85.0",
+    "ngay_hd": "2025-04-03",
+    "thang": "4/2025",
+    "ly_do": "Thanh toán  công tác phí 01,02,03/tháng 04-2025 theo phê duyệt chị Khanh ngày 31-03",
+    "chi_tiet": "Tiền Khách sạn 2 ngày",
+    "chi_tiet_hd": "",
+    "kho": "Khác",
+    "st_no_vat": 1203704.0,
+    "vat": 96296.32,
+    "st_vat": 1300000.32,
     "ngay_tt": " 14/04/202",
     "nguoi_thu_huong": "Trần Hoàng Tiến",
     "stk": "104000066948",
@@ -14923,16 +14963,16 @@
     "id": 749,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CT-T04",
-    "so_hd": "85.0",
-    "ngay_hd": "2025-04-03",
+    "so_hd": "3343.0",
+    "ngay_hd": "2025-04-01",
     "thang": "4/2025",
     "ly_do": "Thanh toán  công tác phí 01,02,03/tháng 04-2025 theo phê duyệt chị Khanh ngày 31-03",
-    "chi_tiet": "Tiền Khách sạn 2 ngày",
+    "chi_tiet": "Tiền Vé xe chiều đi(01/04)",
     "chi_tiet_hd": "",
-    "kho": "",
-    "st_no_vat": 1203704.0,
-    "vat": 96296.32,
-    "st_vat": 1300000.32,
+    "kho": "Khác",
+    "st_no_vat": 350000.0,
+    "vat": 0.0,
+    "st_vat": 350000.0,
     "ngay_tt": " 14/04/202",
     "nguoi_thu_huong": "Trần Hoàng Tiến",
     "stk": "104000066948",
@@ -14944,12 +14984,12 @@
     "loai_cp": "Công tác phí",
     "tieu_muc": "CT-T04",
     "so_hd": "3343.0",
-    "ngay_hd": "2025-04-01",
+    "ngay_hd": "2025-04-03",
     "thang": "4/2025",
     "ly_do": "Thanh toán  công tác phí 01,02,03/tháng 04-2025 theo phê duyệt chị Khanh ngày 31-03",
-    "chi_tiet": "Tiền Vé xe chiều đi(01/04)",
+    "chi_tiet": "Tiền Vé xe chiều về (03/04)",
     "chi_tiet_hd": "",
-    "kho": "",
+    "kho": "Khác",
     "st_no_vat": 350000.0,
     "vat": 0.0,
     "st_vat": 350000.0,
@@ -14961,26 +15001,6 @@
   },
   {
     "id": 751,
-    "loai_cp": "Công tác phí",
-    "tieu_muc": "CT-T04",
-    "so_hd": "3343.0",
-    "ngay_hd": "2025-04-03",
-    "thang": "4/2025",
-    "ly_do": "Thanh toán  công tác phí 01,02,03/tháng 04-2025 theo phê duyệt chị Khanh ngày 31-03",
-    "chi_tiet": "Tiền Vé xe chiều về (03/04)",
-    "chi_tiet_hd": "",
-    "kho": "",
-    "st_no_vat": 350000.0,
-    "vat": 0.0,
-    "st_vat": 350000.0,
-    "ngay_tt": " 14/04/202",
-    "nguoi_thu_huong": "Trần Hoàng Tiến",
-    "stk": "104000066948",
-    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
-    "nam": 2025
-  },
-  {
-    "id": 752,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25 (Đ1)",
     "so_hd": "13.0",
@@ -15000,7 +15020,7 @@
     "nam": 2025
   },
   {
-    "id": 753,
+    "id": 752,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T04-25",
     "so_hd": "1073.0",
@@ -15020,7 +15040,7 @@
     "nam": 2025
   },
   {
-    "id": 754,
+    "id": 753,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T04-25",
     "so_hd": "1074.0",
@@ -15040,7 +15060,7 @@
     "nam": 2025
   },
   {
-    "id": 755,
+    "id": 754,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T04-25",
     "so_hd": "1075.0",
@@ -15060,7 +15080,7 @@
     "nam": 2025
   },
   {
-    "id": 756,
+    "id": 755,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T04-2025",
     "so_hd": "272086.0",
@@ -15080,7 +15100,7 @@
     "nam": 2025
   },
   {
-    "id": 757,
+    "id": 756,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T04-2025",
     "so_hd": "272086.0",
@@ -15090,6 +15110,26 @@
     "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 04-2025",
     "chi_tiet_hd": "Xăng",
     "kho": "Kho Ninh Thuận",
+    "st_no_vat": 100000.0,
+    "vat": 10000.0,
+    "st_vat": 110000.0,
+    "ngay_tt": "2025-04-24",
+    "nguoi_thu_huong": "Trần Hoàng Tiến",
+    "stk": "104000066948",
+    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
+    "nam": 2025
+  },
+  {
+    "id": 757,
+    "loai_cp": "Phí bảo trì",
+    "tieu_muc": "XĂNG T04-2025",
+    "so_hd": "272086.0",
+    "ngay_hd": "2025-04-24",
+    "thang": "4/2025",
+    "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
+    "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 04-2025",
+    "chi_tiet_hd": "Xăng",
+    "kho": "Kho Bình Thuận",
     "st_no_vat": 100000.0,
     "vat": 10000.0,
     "st_vat": 110000.0,
@@ -15109,26 +15149,6 @@
     "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
     "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 04-2025",
     "chi_tiet_hd": "Xăng",
-    "kho": "Kho Bình Thuận",
-    "st_no_vat": 100000.0,
-    "vat": 10000.0,
-    "st_vat": 110000.0,
-    "ngay_tt": "2025-04-24",
-    "nguoi_thu_huong": "Trần Hoàng Tiến",
-    "stk": "104000066948",
-    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
-    "nam": 2025
-  },
-  {
-    "id": 759,
-    "loai_cp": "Phí bảo trì",
-    "tieu_muc": "XĂNG T04-2025",
-    "so_hd": "272086.0",
-    "ngay_hd": "2025-04-24",
-    "thang": "4/2025",
-    "ly_do": "Thanh toán tiền nhiên liệu  cho máy bơm PCCC theo định kỳ",
-    "chi_tiet": "Thanh toán tiền nhiên liệu  cho máy PCCC định kỳ  tháng 04-2025",
-    "chi_tiet_hd": "Xăng",
     "kho": "Kho Bến Lội",
     "st_no_vat": 100000.0,
     "vat": 10000.0,
@@ -15140,7 +15160,7 @@
     "nam": 2025
   },
   {
-    "id": 760,
+    "id": 759,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T04-2025",
     "so_hd": "1774.0",
@@ -15160,7 +15180,7 @@
     "nam": 2025
   },
   {
-    "id": 761,
+    "id": 760,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T04-2025",
     "so_hd": "1774.0",
@@ -15180,7 +15200,7 @@
     "nam": 2025
   },
   {
-    "id": 762,
+    "id": 761,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T04-2025",
     "so_hd": "1774.0",
@@ -15200,7 +15220,7 @@
     "nam": 2025
   },
   {
-    "id": 763,
+    "id": 762,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T04-2025",
     "so_hd": "1774.0",
@@ -15220,7 +15240,7 @@
     "nam": 2025
   },
   {
-    "id": 764,
+    "id": 763,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "5.0",
@@ -15240,7 +15260,7 @@
     "nam": 2025
   },
   {
-    "id": 765,
+    "id": 764,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "5.0",
@@ -15260,7 +15280,7 @@
     "nam": 2025
   },
   {
-    "id": 766,
+    "id": 765,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "5.0",
@@ -15280,7 +15300,7 @@
     "nam": 2025
   },
   {
-    "id": 767,
+    "id": 766,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "5.0",
@@ -15300,7 +15320,7 @@
     "nam": 2025
   },
   {
-    "id": 768,
+    "id": 767,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "15.0",
@@ -15320,7 +15340,7 @@
     "nam": 2025
   },
   {
-    "id": 769,
+    "id": 768,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "15.0",
@@ -15329,6 +15349,26 @@
     "ly_do": "Thanh toán Bốc xếp  Kho Nha Trang T04/2025",
     "chi_tiet": "HĐ Bốc xếp Kho Nha Trang Tháng 04/2025-Đợt 2",
     "chi_tiet_hd": "Phí vệ sinh kho",
+    "kho": "Kho Nha Trang",
+    "st_no_vat": 10000000.0,
+    "vat": 800000.0,
+    "st_vat": 10800000.0,
+    "ngay_tt": "2025-04-29",
+    "nguoi_thu_huong": "DOANH NGHIỆP TƯ NHÂN NGỌC TRANG-NT",
+    "stk": "402704060098668",
+    "ngan_hang": "NH TM CP Quốc tế (VIB)- CN Nha Trang",
+    "nam": 2025
+  },
+  {
+    "id": 769,
+    "loai_cp": "BỐC XẾP",
+    "tieu_muc": "BX T04-25",
+    "so_hd": "15.0",
+    "ngay_hd": "2025-04-29",
+    "thang": "4/2025",
+    "ly_do": "Thanh toán Bốc xếp  Kho Nha Trang T04/2025",
+    "chi_tiet": "HĐ Bốc xếp Kho Nha Trang Tháng 04/2025-Đợt 2",
+    "chi_tiet_hd": "Phí xe nâng trọn gói",
     "kho": "Kho Nha Trang",
     "st_no_vat": 10000000.0,
     "vat": 800000.0,
@@ -15348,26 +15388,6 @@
     "thang": "4/2025",
     "ly_do": "Thanh toán Bốc xếp  Kho Nha Trang T04/2025",
     "chi_tiet": "HĐ Bốc xếp Kho Nha Trang Tháng 04/2025-Đợt 2",
-    "chi_tiet_hd": "Phí xe nâng trọn gói",
-    "kho": "Kho Nha Trang",
-    "st_no_vat": 10000000.0,
-    "vat": 800000.0,
-    "st_vat": 10800000.0,
-    "ngay_tt": "2025-04-29",
-    "nguoi_thu_huong": "DOANH NGHIỆP TƯ NHÂN NGỌC TRANG-NT",
-    "stk": "402704060098668",
-    "ngan_hang": "NH TM CP Quốc tế (VIB)- CN Nha Trang",
-    "nam": 2025
-  },
-  {
-    "id": 771,
-    "loai_cp": "BỐC XẾP",
-    "tieu_muc": "BX T04-25",
-    "so_hd": "15.0",
-    "ngay_hd": "2025-04-29",
-    "thang": "4/2025",
-    "ly_do": "Thanh toán Bốc xếp  Kho Nha Trang T04/2025",
-    "chi_tiet": "HĐ Bốc xếp Kho Nha Trang Tháng 04/2025-Đợt 2",
     "chi_tiet_hd": "Phí Công nhật POSM",
     "kho": "Kho Nha Trang",
     "st_no_vat": 3150000.0,
@@ -15380,7 +15400,7 @@
     "nam": 2025
   },
   {
-    "id": 772,
+    "id": 771,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "16.0",
@@ -15400,7 +15420,7 @@
     "nam": 2025
   },
   {
-    "id": 773,
+    "id": 772,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "16.0",
@@ -15420,7 +15440,7 @@
     "nam": 2025
   },
   {
-    "id": 774,
+    "id": 773,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "5.0",
@@ -15440,7 +15460,7 @@
     "nam": 2025
   },
   {
-    "id": 775,
+    "id": 774,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "5.0",
@@ -15449,6 +15469,26 @@
     "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T04/2025",
     "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 04/2025",
     "chi_tiet_hd": "Phí vệ sinh kho",
+    "kho": "Kho Bình Thuận",
+    "st_no_vat": 5300000.0,
+    "vat": 424000.0,
+    "st_vat": 5724000.0,
+    "ngay_tt": "2025-04-30",
+    "nguoi_thu_huong": "HTX DỊCH VỤ BỐC XẾP TOÀN THẮNG",
+    "stk": "50001651762",
+    "ngan_hang": "Ngân hàng Sacombank -CN Bình Thuận",
+    "nam": 2025
+  },
+  {
+    "id": 775,
+    "loai_cp": "BỐC XẾP",
+    "tieu_muc": "BX T04-25",
+    "so_hd": "5.0",
+    "ngay_hd": "2025-04-30",
+    "thang": "4/2025",
+    "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T04/2025",
+    "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 04/2025",
+    "chi_tiet_hd": "Phí vệ sinh kho (Bến Lội)",
     "kho": "Kho Bình Thuận",
     "st_no_vat": 5300000.0,
     "vat": 424000.0,
@@ -15468,26 +15508,6 @@
     "thang": "4/2025",
     "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T04/2025",
     "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 04/2025",
-    "chi_tiet_hd": "Phí vệ sinh kho (Bến Lội)",
-    "kho": "Kho Bình Thuận",
-    "st_no_vat": 5300000.0,
-    "vat": 424000.0,
-    "st_vat": 5724000.0,
-    "ngay_tt": "2025-04-30",
-    "nguoi_thu_huong": "HTX DỊCH VỤ BỐC XẾP TOÀN THẮNG",
-    "stk": "50001651762",
-    "ngan_hang": "Ngân hàng Sacombank -CN Bình Thuận",
-    "nam": 2025
-  },
-  {
-    "id": 777,
-    "loai_cp": "BỐC XẾP",
-    "tieu_muc": "BX T04-25",
-    "so_hd": "5.0",
-    "ngay_hd": "2025-04-30",
-    "thang": "4/2025",
-    "ly_do": "Thanh toán Bốc xếp  Kho Bình Thuận T04/2025",
-    "chi_tiet": "HĐ Bốc xếp Kho Bình Thuận Tháng 04/2025",
     "chi_tiet_hd": "Phí xe nâng trọn gói",
     "kho": "Kho Bình Thuận",
     "st_no_vat": 7000000.0,
@@ -15500,7 +15520,7 @@
     "nam": 2025
   },
   {
-    "id": 778,
+    "id": 777,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-25",
     "so_hd": "5.0",
@@ -15520,7 +15540,7 @@
     "nam": 2025
   },
   {
-    "id": 779,
+    "id": 778,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "7.0",
@@ -15540,7 +15560,7 @@
     "nam": 2025
   },
   {
-    "id": 780,
+    "id": 779,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "7.0",
@@ -15560,7 +15580,7 @@
     "nam": 2025
   },
   {
-    "id": 781,
+    "id": 780,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "7.0",
@@ -15580,7 +15600,7 @@
     "nam": 2025
   },
   {
-    "id": 782,
+    "id": 781,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "7.0",
@@ -15600,7 +15620,7 @@
     "nam": 2025
   },
   {
-    "id": 783,
+    "id": 782,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "7.0",
@@ -15620,7 +15640,7 @@
     "nam": 2025
   },
   {
-    "id": 784,
+    "id": 783,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "17.0",
@@ -15640,7 +15660,7 @@
     "nam": 2025
   },
   {
-    "id": 785,
+    "id": 784,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "17.0",
@@ -15660,7 +15680,7 @@
     "nam": 2025
   },
   {
-    "id": 786,
+    "id": 785,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "17.0",
@@ -15680,7 +15700,7 @@
     "nam": 2025
   },
   {
-    "id": 787,
+    "id": 786,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "BL05-25",
     "so_hd": "4139.0",
@@ -15700,7 +15720,7 @@
     "nam": 2025
   },
   {
-    "id": 788,
+    "id": 787,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T05-25",
     "so_hd": "1454.0",
@@ -15720,7 +15740,7 @@
     "nam": 2025
   },
   {
-    "id": 789,
+    "id": 788,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T05-25",
     "so_hd": "1485.0",
@@ -15740,7 +15760,7 @@
     "nam": 2025
   },
   {
-    "id": 790,
+    "id": 789,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T05-2025",
     "so_hd": "2225.0",
@@ -15760,7 +15780,7 @@
     "nam": 2025
   },
   {
-    "id": 791,
+    "id": 790,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "6.0",
@@ -15780,7 +15800,7 @@
     "nam": 2025
   },
   {
-    "id": 792,
+    "id": 791,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "6.0",
@@ -15800,7 +15820,7 @@
     "nam": 2025
   },
   {
-    "id": 793,
+    "id": 792,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25",
     "so_hd": "6.0",
@@ -15820,7 +15840,7 @@
     "nam": 2025
   },
   {
-    "id": 794,
+    "id": 793,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -15840,7 +15860,7 @@
     "nam": 2025
   },
   {
-    "id": 795,
+    "id": 794,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -15860,7 +15880,7 @@
     "nam": 2025
   },
   {
-    "id": 796,
+    "id": 795,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -15880,7 +15900,7 @@
     "nam": 2025
   },
   {
-    "id": 797,
+    "id": 796,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -15900,7 +15920,7 @@
     "nam": 2025
   },
   {
-    "id": 798,
+    "id": 797,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -15920,7 +15940,7 @@
     "nam": 2025
   },
   {
-    "id": 799,
+    "id": 798,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -15940,7 +15960,7 @@
     "nam": 2025
   },
   {
-    "id": 800,
+    "id": 799,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -15960,7 +15980,7 @@
     "nam": 2025
   },
   {
-    "id": 801,
+    "id": 800,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -15980,7 +16000,7 @@
     "nam": 2025
   },
   {
-    "id": 802,
+    "id": 801,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-25-Đ2",
     "so_hd": "150.0",
@@ -16000,7 +16020,7 @@
     "nam": 2025
   },
   {
-    "id": 803,
+    "id": 802,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T5-25",
     "so_hd": "1694.0",
@@ -16020,7 +16040,7 @@
     "nam": 2025
   },
   {
-    "id": 804,
+    "id": 803,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T5-25",
     "so_hd": "1694.0",
@@ -16040,7 +16060,7 @@
     "nam": 2025
   },
   {
-    "id": 805,
+    "id": 804,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05-164",
     "so_hd": "1008.0",
@@ -16060,7 +16080,7 @@
     "nam": 2025
   },
   {
-    "id": 806,
+    "id": 805,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05-164",
     "so_hd": "1008.0",
@@ -16080,7 +16100,7 @@
     "nam": 2025
   },
   {
-    "id": 807,
+    "id": 806,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05-164",
     "so_hd": "1008.0",
@@ -16100,7 +16120,7 @@
     "nam": 2025
   },
   {
-    "id": 808,
+    "id": 807,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05-164",
     "so_hd": "1009.0",
@@ -16120,7 +16140,7 @@
     "nam": 2025
   },
   {
-    "id": 809,
+    "id": 808,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05-164",
     "so_hd": "1009.0",
@@ -16140,7 +16160,7 @@
     "nam": 2025
   },
   {
-    "id": 810,
+    "id": 809,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04-164",
     "so_hd": "915.0",
@@ -16160,7 +16180,7 @@
     "nam": 2025
   },
   {
-    "id": 811,
+    "id": 810,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04-164",
     "so_hd": "915.0",
@@ -16180,7 +16200,7 @@
     "nam": 2025
   },
   {
-    "id": 812,
+    "id": 811,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04-164",
     "so_hd": "915.0",
@@ -16200,7 +16220,7 @@
     "nam": 2025
   },
   {
-    "id": 813,
+    "id": 812,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04-164",
     "so_hd": "916.0",
@@ -16220,7 +16240,7 @@
     "nam": 2025
   },
   {
-    "id": 814,
+    "id": 813,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04-164",
     "so_hd": "916.0",
@@ -16237,10 +16257,10 @@
     "nguoi_thu_huong": "Công ty CP Bia Sài Gòn- Khánh Hòa",
     "stk": "116000162154",
     "ngan_hang": "Ngân hàng TMCP Công thương Việt Nam, Chi nhánh 4, TP. HCM",
-    "nam": 1900
+    "nam": 2025
   },
   {
-    "id": 815,
+    "id": 814,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04-164",
     "so_hd": "916.0",
@@ -16260,7 +16280,7 @@
     "nam": 2025
   },
   {
-    "id": 816,
+    "id": 815,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP4.25",
     "so_hd": "1013210.0",
@@ -16280,7 +16300,7 @@
     "nam": 2025
   },
   {
-    "id": 817,
+    "id": 816,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP4.25",
     "so_hd": "958219.0",
@@ -16300,7 +16320,7 @@
     "nam": 2025
   },
   {
-    "id": 818,
+    "id": 817,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP4.25",
     "so_hd": "",
@@ -16317,10 +16337,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 2025
+    "nam": "N/A"
   },
   {
-    "id": 819,
+    "id": 818,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP4.25",
     "so_hd": "156.0",
@@ -16340,7 +16360,7 @@
     "nam": 2025
   },
   {
-    "id": 820,
+    "id": 819,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP5.25",
     "so_hd": "1313916.0",
@@ -16360,7 +16380,7 @@
     "nam": 2025
   },
   {
-    "id": 821,
+    "id": 820,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP5.25",
     "so_hd": "1271280.0",
@@ -16380,7 +16400,7 @@
     "nam": 2025
   },
   {
-    "id": 822,
+    "id": 821,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP5.25",
     "so_hd": "",
@@ -16397,10 +16417,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 1900
+    "nam": 2025
   },
   {
-    "id": 823,
+    "id": 822,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP5.25",
     "so_hd": "200.0",
@@ -16420,7 +16440,7 @@
     "nam": 2025
   },
   {
-    "id": 824,
+    "id": 823,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP5.25",
     "so_hd": "1395055.0",
@@ -16440,7 +16460,7 @@
     "nam": 2025
   },
   {
-    "id": 825,
+    "id": 824,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP5.25",
     "so_hd": "162832.0",
@@ -16460,7 +16480,7 @@
     "nam": 2025
   },
   {
-    "id": 826,
+    "id": 825,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP5.25",
     "so_hd": "",
@@ -16477,10 +16497,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 2025
+    "nam": "N/A"
   },
   {
-    "id": 827,
+    "id": 826,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP5.25",
     "so_hd": "220.0",
@@ -16500,7 +16520,7 @@
     "nam": 2025
   },
   {
-    "id": 828,
+    "id": 827,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "PBT 5.25",
     "so_hd": "201.0",
@@ -16520,7 +16540,7 @@
     "nam": 2025
   },
   {
-    "id": 829,
+    "id": 828,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "PBT 5.25",
     "so_hd": "109.0",
@@ -16540,7 +16560,7 @@
     "nam": 2025
   },
   {
-    "id": 830,
+    "id": 829,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "PBT 5.25",
     "so_hd": "129.0",
@@ -16560,7 +16580,7 @@
     "nam": 2025
   },
   {
-    "id": 831,
+    "id": 830,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "PBT 5.25",
     "so_hd": "128.0",
@@ -16580,7 +16600,7 @@
     "nam": 2025
   },
   {
-    "id": 832,
+    "id": 831,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "PBT 5.25",
     "so_hd": "42.0",
@@ -16600,7 +16620,7 @@
     "nam": 2025
   },
   {
-    "id": 833,
+    "id": 832,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "104566.0",
@@ -16620,7 +16640,7 @@
     "nam": 2025
   },
   {
-    "id": 834,
+    "id": 833,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "104956.0",
@@ -16640,7 +16660,7 @@
     "nam": 2025
   },
   {
-    "id": 835,
+    "id": 834,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "105748.0",
@@ -16660,7 +16680,7 @@
     "nam": 2025
   },
   {
-    "id": 836,
+    "id": 835,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "107238.0",
@@ -16680,7 +16700,7 @@
     "nam": 2025
   },
   {
-    "id": 837,
+    "id": 836,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "107370.0",
@@ -16700,7 +16720,7 @@
     "nam": 2025
   },
   {
-    "id": 838,
+    "id": 837,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "108029.0",
@@ -16720,7 +16740,7 @@
     "nam": 2025
   },
   {
-    "id": 839,
+    "id": 838,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "108687.0",
@@ -16740,7 +16760,7 @@
     "nam": 2025
   },
   {
-    "id": 840,
+    "id": 839,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "108703.0",
@@ -16760,7 +16780,7 @@
     "nam": 2025
   },
   {
-    "id": 841,
+    "id": 840,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "109617.0",
@@ -16780,7 +16800,7 @@
     "nam": 2025
   },
   {
-    "id": 842,
+    "id": 841,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "109637.0",
@@ -16800,7 +16820,7 @@
     "nam": 2025
   },
   {
-    "id": 843,
+    "id": 842,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "110745.0",
@@ -16820,7 +16840,7 @@
     "nam": 2025
   },
   {
-    "id": 844,
+    "id": 843,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "112874.0",
@@ -16840,7 +16860,7 @@
     "nam": 2025
   },
   {
-    "id": 845,
+    "id": 844,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_15-27.5.25",
     "so_hd": "113669.0",
@@ -16860,7 +16880,7 @@
     "nam": 2025
   },
   {
-    "id": 846,
+    "id": 845,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "BTP Q2-25",
     "so_hd": "22.0",
@@ -16880,7 +16900,7 @@
     "nam": 2025
   },
   {
-    "id": 847,
+    "id": 846,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "198197.0",
@@ -16900,7 +16920,7 @@
     "nam": 2025
   },
   {
-    "id": 848,
+    "id": 847,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "199773.0",
@@ -16920,7 +16940,7 @@
     "nam": 2025
   },
   {
-    "id": 849,
+    "id": 848,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "200206.0",
@@ -16940,7 +16960,7 @@
     "nam": 2025
   },
   {
-    "id": 850,
+    "id": 849,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "114010.0",
@@ -16960,7 +16980,7 @@
     "nam": 2025
   },
   {
-    "id": 851,
+    "id": 850,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "114033.0",
@@ -16980,7 +17000,7 @@
     "nam": 2025
   },
   {
-    "id": 852,
+    "id": 851,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "114479.0",
@@ -17000,7 +17020,7 @@
     "nam": 2025
   },
   {
-    "id": 853,
+    "id": 852,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "115681.0",
@@ -17020,7 +17040,7 @@
     "nam": 2025
   },
   {
-    "id": 854,
+    "id": 853,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "116096.0",
@@ -17040,7 +17060,7 @@
     "nam": 2025
   },
   {
-    "id": 855,
+    "id": 854,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "117087.0",
@@ -17060,7 +17080,7 @@
     "nam": 2025
   },
   {
-    "id": 856,
+    "id": 855,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "117090.0",
@@ -17080,7 +17100,7 @@
     "nam": 2025
   },
   {
-    "id": 857,
+    "id": 856,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "119492.0",
@@ -17100,7 +17120,7 @@
     "nam": 2025
   },
   {
-    "id": 858,
+    "id": 857,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "119807.0",
@@ -17120,7 +17140,7 @@
     "nam": 2025
   },
   {
-    "id": 859,
+    "id": 858,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "122842.0",
@@ -17140,7 +17160,7 @@
     "nam": 2025
   },
   {
-    "id": 860,
+    "id": 859,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "125043.0",
@@ -17160,7 +17180,7 @@
     "nam": 2025
   },
   {
-    "id": 861,
+    "id": 860,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_27/5-10/6/25",
     "so_hd": "125468.0",
@@ -17180,7 +17200,7 @@
     "nam": 2025
   },
   {
-    "id": 862,
+    "id": 861,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q2-2025",
     "so_hd": "112.0",
@@ -17200,7 +17220,7 @@
     "nam": 2025
   },
   {
-    "id": 863,
+    "id": 862,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q2-2025",
     "so_hd": "709.0",
@@ -17220,7 +17240,7 @@
     "nam": 2025
   },
   {
-    "id": 864,
+    "id": 863,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q2-2025",
     "so_hd": "208.0",
@@ -17233,6 +17253,26 @@
     "st_no_vat": 109091.0,
     "vat": 10909.0,
     "st_vat": 120000.0,
+    "ngay_tt": "2025-06-10",
+    "nguoi_thu_huong": "Trần Hoàng Tiến",
+    "stk": "104000066948",
+    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
+    "nam": 2025
+  },
+  {
+    "id": 864,
+    "loai_cp": "Hành chính phí",
+    "tieu_muc": "Mực in Q2-2025",
+    "so_hd": "208.0",
+    "ngay_hd": "2025-06-10",
+    "thang": "6/2025",
+    "ly_do": "Mưc in cho BP kho Nam Trung Bộ Quý 2 -2025",
+    "chi_tiet": "Sạc mực Kho NTB tại NM Khánh Hòa",
+    "chi_tiet_hd": "Mực in",
+    "kho": "Kho NTB tại  NM Khánh Hòa",
+    "st_no_vat": 545454.5,
+    "vat": 54545.0,
+    "st_vat": 600000.0,
     "ngay_tt": "2025-06-10",
     "nguoi_thu_huong": "Trần Hoàng Tiến",
     "stk": "104000066948",
@@ -17261,26 +17301,6 @@
   },
   {
     "id": 866,
-    "loai_cp": "Hành chính phí",
-    "tieu_muc": "Mực in Q2-2025",
-    "so_hd": "208.0",
-    "ngay_hd": "2025-06-10",
-    "thang": "6/2025",
-    "ly_do": "Mưc in cho BP kho Nam Trung Bộ Quý 2 -2025",
-    "chi_tiet": "Sạc mực Kho NTB tại NM Khánh Hòa",
-    "chi_tiet_hd": "Mực in",
-    "kho": "Kho NTB tại  NM Khánh Hòa",
-    "st_no_vat": 545454.5,
-    "vat": 54545.0,
-    "st_vat": 600000.0,
-    "ngay_tt": "2025-06-10",
-    "nguoi_thu_huong": "Trần Hoàng Tiến",
-    "stk": "104000066948",
-    "ngan_hang": "NH TMCP Công Thương Việt Nam -VietinBank",
-    "nam": 2025
-  },
-  {
-    "id": 867,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Hộp Mực Q2-2025",
     "so_hd": "215.0",
@@ -17300,7 +17320,7 @@
     "nam": 2025
   },
   {
-    "id": 868,
+    "id": 867,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T05-2025",
     "so_hd": "402404.0",
@@ -17320,7 +17340,7 @@
     "nam": 2025
   },
   {
-    "id": 869,
+    "id": 868,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T06-2025",
     "so_hd": "402404.0",
@@ -17340,7 +17360,7 @@
     "nam": 2025
   },
   {
-    "id": 870,
+    "id": 869,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Máy Tính 2025-1",
     "so_hd": "297.0",
@@ -17360,7 +17380,7 @@
     "nam": 2025
   },
   {
-    "id": 871,
+    "id": 870,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Máy Tính 2025-2",
     "so_hd": "299.0",
@@ -17380,7 +17400,7 @@
     "nam": 2025
   },
   {
-    "id": 872,
+    "id": 871,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "126345.0",
@@ -17400,7 +17420,7 @@
     "nam": 2025
   },
   {
-    "id": 873,
+    "id": 872,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "128441.0",
@@ -17420,7 +17440,7 @@
     "nam": 2025
   },
   {
-    "id": 874,
+    "id": 873,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "129392.0",
@@ -17440,7 +17460,7 @@
     "nam": 2025
   },
   {
-    "id": 875,
+    "id": 874,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "131350.0",
@@ -17460,7 +17480,7 @@
     "nam": 2025
   },
   {
-    "id": 876,
+    "id": 875,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "132232.0",
@@ -17480,7 +17500,7 @@
     "nam": 2025
   },
   {
-    "id": 877,
+    "id": 876,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "132703.0",
@@ -17500,7 +17520,7 @@
     "nam": 2025
   },
   {
-    "id": 878,
+    "id": 877,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "133603.0",
@@ -17520,7 +17540,7 @@
     "nam": 2025
   },
   {
-    "id": 879,
+    "id": 878,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "133987.0",
@@ -17540,7 +17560,7 @@
     "nam": 2025
   },
   {
-    "id": 880,
+    "id": 879,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "134971.0",
@@ -17560,7 +17580,7 @@
     "nam": 2025
   },
   {
-    "id": 881,
+    "id": 880,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "137461.0",
@@ -17580,7 +17600,7 @@
     "nam": 2025
   },
   {
-    "id": 882,
+    "id": 881,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_11/6-23/6/25",
     "so_hd": "137820.0",
@@ -17600,7 +17620,7 @@
     "nam": 2025
   },
   {
-    "id": 883,
+    "id": 882,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T06-25",
     "so_hd": "2180.0",
@@ -17620,7 +17640,7 @@
     "nam": 2025
   },
   {
-    "id": 884,
+    "id": 883,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T6-25",
     "so_hd": "2056.0",
@@ -17640,7 +17660,7 @@
     "nam": 2025
   },
   {
-    "id": 885,
+    "id": 884,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T06-2025",
     "so_hd": "2775.0",
@@ -17660,7 +17680,7 @@
     "nam": 2025
   },
   {
-    "id": 886,
+    "id": 885,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-25",
     "so_hd": "176.0",
@@ -17680,7 +17700,7 @@
     "nam": 2025
   },
   {
-    "id": 887,
+    "id": 886,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-25",
     "so_hd": "176.0",
@@ -17700,7 +17720,7 @@
     "nam": 2025
   },
   {
-    "id": 888,
+    "id": 887,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-25",
     "so_hd": "176.0",
@@ -17720,7 +17740,7 @@
     "nam": 2025
   },
   {
-    "id": 889,
+    "id": 888,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-25",
     "so_hd": "176.0",
@@ -17740,7 +17760,7 @@
     "nam": 2025
   },
   {
-    "id": 890,
+    "id": 889,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06-161",
     "so_hd": "1803.0",
@@ -17760,7 +17780,7 @@
     "nam": 2025
   },
   {
-    "id": 891,
+    "id": 890,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06-164",
     "so_hd": "1180.0",
@@ -17780,7 +17800,7 @@
     "nam": 2025
   },
   {
-    "id": 892,
+    "id": 891,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06-164",
     "so_hd": "1180.0",
@@ -17800,7 +17820,7 @@
     "nam": 2025
   },
   {
-    "id": 893,
+    "id": 892,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06-164",
     "so_hd": "1180.0",
@@ -17820,7 +17840,7 @@
     "nam": 2025
   },
   {
-    "id": 894,
+    "id": 893,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06-164",
     "so_hd": "1180.0",
@@ -17840,7 +17860,7 @@
     "nam": 2025
   },
   {
-    "id": 895,
+    "id": 894,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06-164",
     "so_hd": "1181.0",
@@ -17860,7 +17880,7 @@
     "nam": 2025
   },
   {
-    "id": 896,
+    "id": 895,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06-164",
     "so_hd": "1181.0",
@@ -17880,7 +17900,7 @@
     "nam": 2025
   },
   {
-    "id": 897,
+    "id": 896,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "138724.0",
@@ -17900,7 +17920,7 @@
     "nam": 2025
   },
   {
-    "id": 898,
+    "id": 897,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "138726.0",
@@ -17920,7 +17940,7 @@
     "nam": 2025
   },
   {
-    "id": 899,
+    "id": 898,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "140332.0",
@@ -17940,7 +17960,7 @@
     "nam": 2025
   },
   {
-    "id": 900,
+    "id": 899,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "141341.0",
@@ -17960,7 +17980,7 @@
     "nam": 2025
   },
   {
-    "id": 901,
+    "id": 900,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "141596.0",
@@ -17980,7 +18000,7 @@
     "nam": 2025
   },
   {
-    "id": 902,
+    "id": 901,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "142416.0",
@@ -18000,7 +18020,7 @@
     "nam": 2025
   },
   {
-    "id": 903,
+    "id": 902,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "143132.0",
@@ -18020,7 +18040,7 @@
     "nam": 2025
   },
   {
-    "id": 904,
+    "id": 903,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "143677.0",
@@ -18040,7 +18060,7 @@
     "nam": 2025
   },
   {
-    "id": 905,
+    "id": 904,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "144195.0",
@@ -18060,7 +18080,7 @@
     "nam": 2025
   },
   {
-    "id": 906,
+    "id": 905,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "144778.0",
@@ -18080,7 +18100,7 @@
     "nam": 2025
   },
   {
-    "id": 907,
+    "id": 906,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "145129.0",
@@ -18100,7 +18120,7 @@
     "nam": 2025
   },
   {
-    "id": 908,
+    "id": 907,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "145932.0",
@@ -18120,7 +18140,7 @@
     "nam": 2025
   },
   {
-    "id": 909,
+    "id": 908,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "146398.0",
@@ -18140,7 +18160,7 @@
     "nam": 2025
   },
   {
-    "id": 910,
+    "id": 909,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_24/6-04/7/25",
     "so_hd": "147714.0",
@@ -18160,7 +18180,7 @@
     "nam": 2025
   },
   {
-    "id": 911,
+    "id": 910,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_07/7-12/7/25",
     "so_hd": "150577.0",
@@ -18180,7 +18200,7 @@
     "nam": 2025
   },
   {
-    "id": 912,
+    "id": 911,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_07/7-12/7/25",
     "so_hd": "151468.0",
@@ -18200,7 +18220,7 @@
     "nam": 2025
   },
   {
-    "id": 913,
+    "id": 912,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_07/7-12/7/25",
     "so_hd": "151822.0",
@@ -18220,7 +18240,7 @@
     "nam": 2025
   },
   {
-    "id": 914,
+    "id": 913,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_07/7-12/7/25",
     "so_hd": "152761.0",
@@ -18240,7 +18260,7 @@
     "nam": 2025
   },
   {
-    "id": 915,
+    "id": 914,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_07/7-12/7/25",
     "so_hd": "153742.0",
@@ -18260,7 +18280,7 @@
     "nam": 2025
   },
   {
-    "id": 916,
+    "id": 915,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_07/7-12/7/25",
     "so_hd": "154255.0",
@@ -18280,7 +18300,7 @@
     "nam": 2025
   },
   {
-    "id": 917,
+    "id": 916,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_07/7-12/7/25",
     "so_hd": "154681.0",
@@ -18300,7 +18320,7 @@
     "nam": 2025
   },
   {
-    "id": 918,
+    "id": 917,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T07-25",
     "so_hd": "2557.0",
@@ -18320,7 +18340,7 @@
     "nam": 2025
   },
   {
-    "id": 919,
+    "id": 918,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T7-25",
     "so_hd": "2282.0",
@@ -18340,7 +18360,7 @@
     "nam": 2025
   },
   {
-    "id": 920,
+    "id": 919,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T6-NT",
     "so_hd": "806794.0",
@@ -18360,7 +18380,7 @@
     "nam": 2025
   },
   {
-    "id": 921,
+    "id": 920,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Vât tư y tế T7-BT",
     "so_hd": "225971.0",
@@ -18380,7 +18400,7 @@
     "nam": 2025
   },
   {
-    "id": 922,
+    "id": 921,
     "loai_cp": "HSE",
     "tieu_muc": "HSE Quý 3-25",
     "so_hd": "67.0",
@@ -18400,7 +18420,7 @@
     "nam": 2025
   },
   {
-    "id": 923,
+    "id": 922,
     "loai_cp": "HSE",
     "tieu_muc": "HSE Quý 3-25",
     "so_hd": "954.0",
@@ -18420,7 +18440,7 @@
     "nam": 2025
   },
   {
-    "id": 924,
+    "id": 923,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "155345.0",
@@ -18440,7 +18460,7 @@
     "nam": 2025
   },
   {
-    "id": 925,
+    "id": 924,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "157445.0",
@@ -18460,7 +18480,7 @@
     "nam": 2025
   },
   {
-    "id": 926,
+    "id": 925,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "157611.0",
@@ -18480,7 +18500,7 @@
     "nam": 2025
   },
   {
-    "id": 927,
+    "id": 926,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "158394.0",
@@ -18500,7 +18520,7 @@
     "nam": 2025
   },
   {
-    "id": 928,
+    "id": 927,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "159435.0",
@@ -18520,7 +18540,7 @@
     "nam": 2025
   },
   {
-    "id": 929,
+    "id": 928,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "159990.0",
@@ -18540,7 +18560,7 @@
     "nam": 2025
   },
   {
-    "id": 930,
+    "id": 929,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "161799.0",
@@ -18560,7 +18580,7 @@
     "nam": 2025
   },
   {
-    "id": 931,
+    "id": 930,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "163741.0",
@@ -18580,7 +18600,7 @@
     "nam": 2025
   },
   {
-    "id": 932,
+    "id": 931,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "164020.0",
@@ -18600,7 +18620,7 @@
     "nam": 2025
   },
   {
-    "id": 933,
+    "id": 932,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/7-22/7/25",
     "so_hd": "164883.0",
@@ -18620,7 +18640,7 @@
     "nam": 2025
   },
   {
-    "id": 934,
+    "id": 933,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T07-2025",
     "so_hd": "3370.0",
@@ -18640,7 +18660,7 @@
     "nam": 2025
   },
   {
-    "id": 935,
+    "id": 934,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T07-25",
     "so_hd": "212.0",
@@ -18660,7 +18680,7 @@
     "nam": 2025
   },
   {
-    "id": 936,
+    "id": 935,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T07-25",
     "so_hd": "212.0",
@@ -18680,7 +18700,7 @@
     "nam": 2025
   },
   {
-    "id": 937,
+    "id": 936,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T07-25",
     "so_hd": "212.0",
@@ -18700,7 +18720,7 @@
     "nam": 2025
   },
   {
-    "id": 938,
+    "id": 937,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T07-25",
     "so_hd": "212.0",
@@ -18720,7 +18740,7 @@
     "nam": 2025
   },
   {
-    "id": 939,
+    "id": 938,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T07-25",
     "so_hd": "212.0",
@@ -18740,7 +18760,7 @@
     "nam": 2025
   },
   {
-    "id": 940,
+    "id": 939,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T07-25",
     "so_hd": "212.0",
@@ -18760,7 +18780,7 @@
     "nam": 2025
   },
   {
-    "id": 941,
+    "id": 940,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T07-25",
     "so_hd": "212.0",
@@ -18780,7 +18800,7 @@
     "nam": 2025
   },
   {
-    "id": 942,
+    "id": 941,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T07-25",
     "so_hd": "212.0",
@@ -18800,7 +18820,7 @@
     "nam": 2025
   },
   {
-    "id": 943,
+    "id": 942,
     "loai_cp": "HSE",
     "tieu_muc": "HSE Q3.2025",
     "so_hd": "3210.0",
@@ -18820,7 +18840,7 @@
     "nam": 2025
   },
   {
-    "id": 944,
+    "id": 943,
     "loai_cp": "HSE",
     "tieu_muc": "HSE Q3.2025",
     "so_hd": "951.0",
@@ -18840,7 +18860,7 @@
     "nam": 2025
   },
   {
-    "id": 945,
+    "id": 944,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "165334.0",
@@ -18860,7 +18880,7 @@
     "nam": 2025
   },
   {
-    "id": 946,
+    "id": 945,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "165769.0",
@@ -18880,7 +18900,7 @@
     "nam": 2025
   },
   {
-    "id": 947,
+    "id": 946,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "166309.0",
@@ -18900,7 +18920,7 @@
     "nam": 2025
   },
   {
-    "id": 948,
+    "id": 947,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "168175.0",
@@ -18920,7 +18940,7 @@
     "nam": 2025
   },
   {
-    "id": 949,
+    "id": 948,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "170392.0",
@@ -18940,7 +18960,7 @@
     "nam": 2025
   },
   {
-    "id": 950,
+    "id": 949,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "170878.0",
@@ -18960,7 +18980,7 @@
     "nam": 2025
   },
   {
-    "id": 951,
+    "id": 950,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "171328.0",
@@ -18980,7 +19000,7 @@
     "nam": 2025
   },
   {
-    "id": 952,
+    "id": 951,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "171929.0",
@@ -19000,7 +19020,7 @@
     "nam": 2025
   },
   {
-    "id": 953,
+    "id": 952,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "173154.0",
@@ -19020,7 +19040,7 @@
     "nam": 2025
   },
   {
-    "id": 954,
+    "id": 953,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "174002.0",
@@ -19040,7 +19060,7 @@
     "nam": 2025
   },
   {
-    "id": 955,
+    "id": 954,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "174995.0",
@@ -19060,7 +19080,7 @@
     "nam": 2025
   },
   {
-    "id": 956,
+    "id": 955,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/7-04/8/25",
     "so_hd": "176314.0",
@@ -19080,7 +19100,7 @@
     "nam": 2025
   },
   {
-    "id": 957,
+    "id": 956,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-161",
     "so_hd": "1920.0",
@@ -19100,7 +19120,7 @@
     "nam": 2025
   },
   {
-    "id": 958,
+    "id": 957,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1300.0",
@@ -19120,7 +19140,7 @@
     "nam": 2025
   },
   {
-    "id": 959,
+    "id": 958,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1300.0",
@@ -19140,7 +19160,7 @@
     "nam": 2025
   },
   {
-    "id": 960,
+    "id": 959,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1300.0",
@@ -19160,7 +19180,7 @@
     "nam": 2025
   },
   {
-    "id": 961,
+    "id": 960,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1300.0",
@@ -19180,7 +19200,7 @@
     "nam": 2025
   },
   {
-    "id": 962,
+    "id": 961,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1300.0",
@@ -19200,7 +19220,7 @@
     "nam": 2025
   },
   {
-    "id": 963,
+    "id": 962,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1300.0",
@@ -19220,7 +19240,7 @@
     "nam": 2025
   },
   {
-    "id": 964,
+    "id": 963,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1300.0",
@@ -19240,7 +19260,7 @@
     "nam": 2025
   },
   {
-    "id": 965,
+    "id": 964,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1299.0",
@@ -19260,7 +19280,7 @@
     "nam": 2025
   },
   {
-    "id": 966,
+    "id": 965,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1299.0",
@@ -19280,7 +19300,7 @@
     "nam": 2025
   },
   {
-    "id": 967,
+    "id": 966,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T07-164",
     "so_hd": "1299.0",
@@ -19300,7 +19320,7 @@
     "nam": 2025
   },
   {
-    "id": 968,
+    "id": 967,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_05/8-11/8/25",
     "so_hd": "177522.0",
@@ -19320,7 +19340,7 @@
     "nam": 2025
   },
   {
-    "id": 969,
+    "id": 968,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_05/8-11/8/25",
     "so_hd": "178076.0",
@@ -19340,7 +19360,7 @@
     "nam": 2025
   },
   {
-    "id": 970,
+    "id": 969,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_05/8-11/8/25",
     "so_hd": "178952.0",
@@ -19360,7 +19380,7 @@
     "nam": 2025
   },
   {
-    "id": 971,
+    "id": 970,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_05/8-11/8/25",
     "so_hd": "180858.0",
@@ -19380,7 +19400,7 @@
     "nam": 2025
   },
   {
-    "id": 972,
+    "id": 971,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_05/8-11/8/25",
     "so_hd": "179131.0",
@@ -19400,7 +19420,7 @@
     "nam": 2025
   },
   {
-    "id": 973,
+    "id": 972,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_05/8-11/8/25",
     "so_hd": "182653.0",
@@ -19420,7 +19440,7 @@
     "nam": 2025
   },
   {
-    "id": 974,
+    "id": 973,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T08-25",
     "so_hd": "2891.0",
@@ -19440,7 +19460,7 @@
     "nam": 2025
   },
   {
-    "id": 975,
+    "id": 974,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T08-2025",
     "so_hd": "3844.0",
@@ -19460,7 +19480,7 @@
     "nam": 2025
   },
   {
-    "id": 976,
+    "id": 975,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T8-25",
     "so_hd": "2718.0",
@@ -19480,7 +19500,7 @@
     "nam": 2025
   },
   {
-    "id": 977,
+    "id": 976,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T08-25",
     "so_hd": "259.0",
@@ -19500,7 +19520,7 @@
     "nam": 2025
   },
   {
-    "id": 978,
+    "id": 977,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T08-25",
     "so_hd": "259.0",
@@ -19520,7 +19540,7 @@
     "nam": 2025
   },
   {
-    "id": 979,
+    "id": 978,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T08-25",
     "so_hd": "259.0",
@@ -19540,7 +19560,7 @@
     "nam": 2025
   },
   {
-    "id": 980,
+    "id": 979,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T08-25",
     "so_hd": "259.0",
@@ -19560,7 +19580,7 @@
     "nam": 2025
   },
   {
-    "id": 981,
+    "id": 980,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T08-25",
     "so_hd": "259.0",
@@ -19580,7 +19600,7 @@
     "nam": 2025
   },
   {
-    "id": 982,
+    "id": 981,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "183505.0",
@@ -19600,7 +19620,7 @@
     "nam": 2025
   },
   {
-    "id": 983,
+    "id": 982,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "185518.0",
@@ -19620,7 +19640,7 @@
     "nam": 2025
   },
   {
-    "id": 984,
+    "id": 983,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "186416.0",
@@ -19640,7 +19660,7 @@
     "nam": 2025
   },
   {
-    "id": 985,
+    "id": 984,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "187253.0",
@@ -19660,7 +19680,7 @@
     "nam": 2025
   },
   {
-    "id": 986,
+    "id": 985,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "188849.0",
@@ -19680,7 +19700,7 @@
     "nam": 2025
   },
   {
-    "id": 987,
+    "id": 986,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "189787.0",
@@ -19700,7 +19720,7 @@
     "nam": 2025
   },
   {
-    "id": 988,
+    "id": 987,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "190085.0",
@@ -19720,7 +19740,7 @@
     "nam": 2025
   },
   {
-    "id": 989,
+    "id": 988,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "191482.0",
@@ -19740,7 +19760,7 @@
     "nam": 2025
   },
   {
-    "id": 990,
+    "id": 989,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "190664.0",
@@ -19760,7 +19780,7 @@
     "nam": 2025
   },
   {
-    "id": 991,
+    "id": 990,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "192330.0",
@@ -19780,7 +19800,7 @@
     "nam": 2025
   },
   {
-    "id": 992,
+    "id": 991,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "193175.0",
@@ -19800,7 +19820,7 @@
     "nam": 2025
   },
   {
-    "id": 993,
+    "id": 992,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "194724.0",
@@ -19820,7 +19840,7 @@
     "nam": 2025
   },
   {
-    "id": 994,
+    "id": 993,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "195482.0",
@@ -19840,7 +19860,7 @@
     "nam": 2025
   },
   {
-    "id": 995,
+    "id": 994,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "195800.0",
@@ -19860,7 +19880,7 @@
     "nam": 2025
   },
   {
-    "id": 996,
+    "id": 995,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "197386.0",
@@ -19880,7 +19900,7 @@
     "nam": 2025
   },
   {
-    "id": 997,
+    "id": 996,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_12/8-29/8/25",
     "so_hd": "196613.0",
@@ -19900,7 +19920,7 @@
     "nam": 2025
   },
   {
-    "id": 998,
+    "id": 997,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T7-NT",
     "so_hd": "1409937.0",
@@ -19920,7 +19940,7 @@
     "nam": 2025
   },
   {
-    "id": 999,
+    "id": 998,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q3-2025",
     "so_hd": "618.0",
@@ -19940,7 +19960,7 @@
     "nam": 2025
   },
   {
-    "id": 1000,
+    "id": 999,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q3-2025",
     "so_hd": "81.0",
@@ -19960,7 +19980,7 @@
     "nam": 2025
   },
   {
-    "id": 1001,
+    "id": 1000,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q3-2025",
     "so_hd": "319.0",
@@ -19980,7 +20000,7 @@
     "nam": 2025
   },
   {
-    "id": 1002,
+    "id": 1001,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q3-2025",
     "so_hd": "319.0",
@@ -20000,7 +20020,7 @@
     "nam": 2025
   },
   {
-    "id": 1003,
+    "id": 1002,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-161",
     "so_hd": "2085.0",
@@ -20020,7 +20040,7 @@
     "nam": 2025
   },
   {
-    "id": 1004,
+    "id": 1003,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-161",
     "so_hd": "2086.0",
@@ -20040,7 +20060,7 @@
     "nam": 2025
   },
   {
-    "id": 1005,
+    "id": 1004,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1414.0",
@@ -20060,7 +20080,7 @@
     "nam": 2025
   },
   {
-    "id": 1006,
+    "id": 1005,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1414.0",
@@ -20080,7 +20100,7 @@
     "nam": 2025
   },
   {
-    "id": 1007,
+    "id": 1006,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1414.0",
@@ -20100,7 +20120,7 @@
     "nam": 2025
   },
   {
-    "id": 1008,
+    "id": 1007,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1414.0",
@@ -20120,7 +20140,7 @@
     "nam": 2025
   },
   {
-    "id": 1009,
+    "id": 1008,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1414.0",
@@ -20140,7 +20160,7 @@
     "nam": 2025
   },
   {
-    "id": 1010,
+    "id": 1009,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1414.0",
@@ -20160,7 +20180,7 @@
     "nam": 2025
   },
   {
-    "id": 1011,
+    "id": 1010,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1414.0",
@@ -20180,7 +20200,7 @@
     "nam": 2025
   },
   {
-    "id": 1012,
+    "id": 1011,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1413.0",
@@ -20200,7 +20220,7 @@
     "nam": 2025
   },
   {
-    "id": 1013,
+    "id": 1012,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1413.0",
@@ -20220,7 +20240,7 @@
     "nam": 2025
   },
   {
-    "id": 1014,
+    "id": 1013,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T08-164",
     "so_hd": "1413.0",
@@ -20240,7 +20260,7 @@
     "nam": 2025
   },
   {
-    "id": 1015,
+    "id": 1014,
     "loai_cp": "HSE",
     "tieu_muc": "HSE Quý 3-25 (T9)",
     "so_hd": "65.0",
@@ -20260,7 +20280,7 @@
     "nam": 2025
   },
   {
-    "id": 1016,
+    "id": 1015,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T09-25",
     "so_hd": "3367.0",
@@ -20280,7 +20300,7 @@
     "nam": 2025
   },
   {
-    "id": 1017,
+    "id": 1016,
     "loai_cp": "HSE",
     "tieu_muc": "HSE Quý 3-25 (T9-2)",
     "so_hd": "632.0",
@@ -20290,6 +20310,26 @@
     "chi_tiet": "Trang bị HSE 5S cho  3 kho ( Cột chắn INOX để phân lối đi)",
     "chi_tiet_hd": "Cột chắn INOX để phân lối đi",
     "kho": "Kho NTB tại  NM Khánh Hòa",
+    "st_no_vat": 2400000.0,
+    "vat": 192000.0,
+    "st_vat": 2592000.0,
+    "ngay_tt": "2025-09-15",
+    "nguoi_thu_huong": "Diệp Nhật Hoà",
+    "stk": "0581000573456",
+    "ngan_hang": "Ngân hàng Vietcombank",
+    "nam": 2025
+  },
+  {
+    "id": 1017,
+    "loai_cp": "HSE",
+    "tieu_muc": "HSE Quý 3-25 (T9-2)",
+    "so_hd": "632.0",
+    "ngay_hd": "2025-09-13",
+    "thang": "9/2025",
+    "ly_do": "Trang bị HSE 5S cho  3 kho",
+    "chi_tiet": "Trang bị HSE 5S cho  3 kho ( Cột chắn INOX để phân lối đi)",
+    "chi_tiet_hd": "Cột chắn INOX để phân lối đi",
+    "kho": "Kho NTB tại  NM Ninh Thuận",
     "st_no_vat": 2400000.0,
     "vat": 192000.0,
     "st_vat": 2592000.0,
@@ -20309,26 +20349,6 @@
     "ly_do": "Trang bị HSE 5S cho  3 kho",
     "chi_tiet": "Trang bị HSE 5S cho  3 kho ( Cột chắn INOX để phân lối đi)",
     "chi_tiet_hd": "Cột chắn INOX để phân lối đi",
-    "kho": "Kho NTB tại  NM Ninh Thuận",
-    "st_no_vat": 2400000.0,
-    "vat": 192000.0,
-    "st_vat": 2592000.0,
-    "ngay_tt": "2025-09-15",
-    "nguoi_thu_huong": "Diệp Nhật Hoà",
-    "stk": "0581000573456",
-    "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 2025
-  },
-  {
-    "id": 1019,
-    "loai_cp": "HSE",
-    "tieu_muc": "HSE Quý 3-25 (T9-2)",
-    "so_hd": "632.0",
-    "ngay_hd": "2025-09-13",
-    "thang": "9/2025",
-    "ly_do": "Trang bị HSE 5S cho  3 kho",
-    "chi_tiet": "Trang bị HSE 5S cho  3 kho ( Cột chắn INOX để phân lối đi)",
-    "chi_tiet_hd": "Cột chắn INOX để phân lối đi",
     "kho": "Kho KCN Bình Thuận",
     "st_no_vat": 2400000.0,
     "vat": 192000.0,
@@ -20340,7 +20360,7 @@
     "nam": 2025
   },
   {
-    "id": 1020,
+    "id": 1019,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T8-NT",
     "so_hd": "2013369.0",
@@ -20360,7 +20380,7 @@
     "nam": 2025
   },
   {
-    "id": 1021,
+    "id": 1020,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T07-2025",
     "so_hd": "663990.0",
@@ -20380,7 +20400,7 @@
     "nam": 2025
   },
   {
-    "id": 1022,
+    "id": 1021,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T08-2025",
     "so_hd": "663990.0",
@@ -20400,7 +20420,7 @@
     "nam": 2025
   },
   {
-    "id": 1023,
+    "id": 1022,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG T09-2025",
     "so_hd": "663990.0",
@@ -20420,7 +20440,7 @@
     "nam": 2025
   },
   {
-    "id": 1024,
+    "id": 1023,
     "loai_cp": "HSE",
     "tieu_muc": "KSK 2025",
     "so_hd": "16947.0",
@@ -20440,7 +20460,7 @@
     "nam": 2025
   },
   {
-    "id": 1025,
+    "id": 1024,
     "loai_cp": "HSE",
     "tieu_muc": "KSK 2025",
     "so_hd": "16947.0",
@@ -20460,7 +20480,7 @@
     "nam": 2025
   },
   {
-    "id": 1026,
+    "id": 1025,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T09-2025",
     "so_hd": "4447.0",
@@ -20480,7 +20500,7 @@
     "nam": 2025
   },
   {
-    "id": 1027,
+    "id": 1026,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "198655.0",
@@ -20500,7 +20520,7 @@
     "nam": 2025
   },
   {
-    "id": 1028,
+    "id": 1027,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "198806.0",
@@ -20520,7 +20540,7 @@
     "nam": 2025
   },
   {
-    "id": 1029,
+    "id": 1028,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "199481.0",
@@ -20540,7 +20560,7 @@
     "nam": 2025
   },
   {
-    "id": 1030,
+    "id": 1029,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "202266.0",
@@ -20560,7 +20580,7 @@
     "nam": 2025
   },
   {
-    "id": 1031,
+    "id": 1030,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "203342.0",
@@ -20580,7 +20600,7 @@
     "nam": 2025
   },
   {
-    "id": 1032,
+    "id": 1031,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "203709.0",
@@ -20600,7 +20620,7 @@
     "nam": 2025
   },
   {
-    "id": 1033,
+    "id": 1032,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "205122.0",
@@ -20620,7 +20640,7 @@
     "nam": 2025
   },
   {
-    "id": 1034,
+    "id": 1033,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "205908.0",
@@ -20640,7 +20660,7 @@
     "nam": 2025
   },
   {
-    "id": 1035,
+    "id": 1034,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "206018.0",
@@ -20660,7 +20680,7 @@
     "nam": 2025
   },
   {
-    "id": 1036,
+    "id": 1035,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "206828.0",
@@ -20680,7 +20700,7 @@
     "nam": 2025
   },
   {
-    "id": 1037,
+    "id": 1036,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "207466.0",
@@ -20700,7 +20720,7 @@
     "nam": 2025
   },
   {
-    "id": 1038,
+    "id": 1037,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "210736.0",
@@ -20720,7 +20740,7 @@
     "nam": 2025
   },
   {
-    "id": 1039,
+    "id": 1038,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "207660.0",
@@ -20740,7 +20760,7 @@
     "nam": 2025
   },
   {
-    "id": 1040,
+    "id": 1039,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "208435.0",
@@ -20760,7 +20780,7 @@
     "nam": 2025
   },
   {
-    "id": 1041,
+    "id": 1040,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "209072.0",
@@ -20780,7 +20800,7 @@
     "nam": 2025
   },
   {
-    "id": 1042,
+    "id": 1041,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "209213.0",
@@ -20800,7 +20820,7 @@
     "nam": 2025
   },
   {
-    "id": 1043,
+    "id": 1042,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "210664.0",
@@ -20820,7 +20840,7 @@
     "nam": 2025
   },
   {
-    "id": 1044,
+    "id": 1043,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "211437.0",
@@ -20840,7 +20860,7 @@
     "nam": 2025
   },
   {
-    "id": 1045,
+    "id": 1044,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "212263.0",
@@ -20860,7 +20880,7 @@
     "nam": 2025
   },
   {
-    "id": 1046,
+    "id": 1045,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "212831.0",
@@ -20880,7 +20900,7 @@
     "nam": 2025
   },
   {
-    "id": 1047,
+    "id": 1046,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "214371.0",
@@ -20900,7 +20920,7 @@
     "nam": 2025
   },
   {
-    "id": 1048,
+    "id": 1047,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "215831.0",
@@ -20920,7 +20940,7 @@
     "nam": 2025
   },
   {
-    "id": 1049,
+    "id": 1048,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "216056.0",
@@ -20940,7 +20960,7 @@
     "nam": 2025
   },
   {
-    "id": 1050,
+    "id": 1049,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "216627.0",
@@ -20960,7 +20980,7 @@
     "nam": 2025
   },
   {
-    "id": 1051,
+    "id": 1050,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "217600.0",
@@ -20980,7 +21000,7 @@
     "nam": 2025
   },
   {
-    "id": 1052,
+    "id": 1051,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "218108.0",
@@ -21000,7 +21020,7 @@
     "nam": 2025
   },
   {
-    "id": 1053,
+    "id": 1052,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "218370.0",
@@ -21020,7 +21040,7 @@
     "nam": 2025
   },
   {
-    "id": 1054,
+    "id": 1053,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "219189.0",
@@ -21040,7 +21060,7 @@
     "nam": 2025
   },
   {
-    "id": 1055,
+    "id": 1054,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "219711.0",
@@ -21060,7 +21080,7 @@
     "nam": 2025
   },
   {
-    "id": 1056,
+    "id": 1055,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_29/8-29/9/25",
     "so_hd": "221036.0",
@@ -21080,7 +21100,7 @@
     "nam": 2025
   },
   {
-    "id": 1057,
+    "id": 1056,
     "loai_cp": "HSE",
     "tieu_muc": "KSK 2025-Đ2",
     "so_hd": "17393.0",
@@ -21100,7 +21120,7 @@
     "nam": 2025
   },
   {
-    "id": 1058,
+    "id": 1057,
     "loai_cp": "HSE",
     "tieu_muc": "KSK 2025-Đ2",
     "so_hd": "17393.0",
@@ -21120,7 +21140,7 @@
     "nam": 2025
   },
   {
-    "id": 1059,
+    "id": 1058,
     "loai_cp": "HSE",
     "tieu_muc": "KSK 2025-Đ2",
     "so_hd": "17393.0",
@@ -21140,7 +21160,7 @@
     "nam": 2025
   },
   {
-    "id": 1060,
+    "id": 1059,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T09-25",
     "so_hd": "308.0",
@@ -21160,7 +21180,7 @@
     "nam": 2025
   },
   {
-    "id": 1061,
+    "id": 1060,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T09-25",
     "so_hd": "308.0",
@@ -21180,7 +21200,7 @@
     "nam": 2025
   },
   {
-    "id": 1062,
+    "id": 1061,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T09-25",
     "so_hd": "308.0",
@@ -21200,7 +21220,7 @@
     "nam": 2025
   },
   {
-    "id": 1063,
+    "id": 1062,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T09-25",
     "so_hd": "308.0",
@@ -21220,7 +21240,7 @@
     "nam": 2025
   },
   {
-    "id": 1064,
+    "id": 1063,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T09-25",
     "so_hd": "308.0",
@@ -21240,7 +21260,7 @@
     "nam": 2025
   },
   {
-    "id": 1065,
+    "id": 1064,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T09-25",
     "so_hd": "308.0",
@@ -21260,7 +21280,7 @@
     "nam": 2025
   },
   {
-    "id": 1066,
+    "id": 1065,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1543.0",
@@ -21280,7 +21300,7 @@
     "nam": 2025
   },
   {
-    "id": 1067,
+    "id": 1066,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1543.0",
@@ -21300,7 +21320,7 @@
     "nam": 2025
   },
   {
-    "id": 1068,
+    "id": 1067,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1543.0",
@@ -21320,7 +21340,7 @@
     "nam": 2025
   },
   {
-    "id": 1069,
+    "id": 1068,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1543.0",
@@ -21340,7 +21360,7 @@
     "nam": 2025
   },
   {
-    "id": 1070,
+    "id": 1069,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1543.0",
@@ -21360,7 +21380,7 @@
     "nam": 2025
   },
   {
-    "id": 1071,
+    "id": 1070,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1543.0",
@@ -21380,7 +21400,7 @@
     "nam": 2025
   },
   {
-    "id": 1072,
+    "id": 1071,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1543.0",
@@ -21400,7 +21420,7 @@
     "nam": 2025
   },
   {
-    "id": 1073,
+    "id": 1072,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1542.0",
@@ -21420,7 +21440,7 @@
     "nam": 2025
   },
   {
-    "id": 1074,
+    "id": 1073,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1542.0",
@@ -21440,7 +21460,7 @@
     "nam": 2025
   },
   {
-    "id": 1075,
+    "id": 1074,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-164",
     "so_hd": "1542.0",
@@ -21460,7 +21480,7 @@
     "nam": 2025
   },
   {
-    "id": 1076,
+    "id": 1075,
     "loai_cp": "HSE",
     "tieu_muc": "Camera-2025",
     "so_hd": "49.0",
@@ -21480,7 +21500,7 @@
     "nam": 2025
   },
   {
-    "id": 1077,
+    "id": 1076,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-161",
     "so_hd": "2233.0",
@@ -21500,7 +21520,7 @@
     "nam": 2025
   },
   {
-    "id": 1078,
+    "id": 1077,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-161",
     "so_hd": "2233.0",
@@ -21520,7 +21540,7 @@
     "nam": 2025
   },
   {
-    "id": 1079,
+    "id": 1078,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-161",
     "so_hd": "2225.0",
@@ -21540,7 +21560,7 @@
     "nam": 2025
   },
   {
-    "id": 1080,
+    "id": 1079,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-161",
     "so_hd": "2225.0",
@@ -21560,7 +21580,7 @@
     "nam": 2025
   },
   {
-    "id": 1081,
+    "id": 1080,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-161",
     "so_hd": "2225.0",
@@ -21580,7 +21600,7 @@
     "nam": 2025
   },
   {
-    "id": 1082,
+    "id": 1081,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T09-161",
     "so_hd": "2225.0",
@@ -21600,7 +21620,7 @@
     "nam": 2025
   },
   {
-    "id": 1083,
+    "id": 1082,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Thay thê LKMT-T9-25",
     "so_hd": "240.0",
@@ -21620,7 +21640,7 @@
     "nam": 2025
   },
   {
-    "id": 1084,
+    "id": 1083,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T10-25",
     "so_hd": "3283.0",
@@ -21640,7 +21660,7 @@
     "nam": 2025
   },
   {
-    "id": 1085,
+    "id": 1084,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T10-25",
     "so_hd": "3299.0",
@@ -21660,7 +21680,7 @@
     "nam": 2025
   },
   {
-    "id": 1086,
+    "id": 1085,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "TSCD-T10.25",
     "so_hd": "645.0",
@@ -21680,7 +21700,7 @@
     "nam": 2025
   },
   {
-    "id": 1087,
+    "id": 1086,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "TSCD-T10.25",
     "so_hd": "082",
@@ -21700,7 +21720,7 @@
     "nam": 2025
   },
   {
-    "id": 1088,
+    "id": 1087,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T9",
     "so_hd": "1009.0",
@@ -21720,7 +21740,7 @@
     "nam": 2025
   },
   {
-    "id": 1089,
+    "id": 1088,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T9",
     "so_hd": "1009.0",
@@ -21740,7 +21760,7 @@
     "nam": 2025
   },
   {
-    "id": 1090,
+    "id": 1089,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T9",
     "so_hd": "1009.0",
@@ -21760,7 +21780,7 @@
     "nam": 2025
   },
   {
-    "id": 1091,
+    "id": 1090,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T9",
     "so_hd": "1009.0",
@@ -21780,7 +21800,7 @@
     "nam": 2025
   },
   {
-    "id": 1092,
+    "id": 1091,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T9",
     "so_hd": "2603905.0",
@@ -21800,7 +21820,7 @@
     "nam": 2025
   },
   {
-    "id": 1093,
+    "id": 1092,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T10-25",
     "so_hd": "3923.0",
@@ -21820,7 +21840,7 @@
     "nam": 2025
   },
   {
-    "id": 1094,
+    "id": 1093,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "TSCD-T10.25-2",
     "so_hd": "515.0",
@@ -21840,7 +21860,7 @@
     "nam": 2025
   },
   {
-    "id": 1095,
+    "id": 1094,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T10-2025",
     "so_hd": "4961.0",
@@ -21860,7 +21880,7 @@
     "nam": 2025
   },
   {
-    "id": 1096,
+    "id": 1095,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T10-25",
     "so_hd": "343.0",
@@ -21880,7 +21900,7 @@
     "nam": 2025
   },
   {
-    "id": 1097,
+    "id": 1096,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T10-25",
     "so_hd": "343.0",
@@ -21900,7 +21920,7 @@
     "nam": 2025
   },
   {
-    "id": 1098,
+    "id": 1097,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T10-25",
     "so_hd": "343.0",
@@ -21920,7 +21940,7 @@
     "nam": 2025
   },
   {
-    "id": 1099,
+    "id": 1098,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T10-25",
     "so_hd": "343.0",
@@ -21940,7 +21960,7 @@
     "nam": 2025
   },
   {
-    "id": 1100,
+    "id": 1099,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T10-25",
     "so_hd": "343.0",
@@ -21960,7 +21980,7 @@
     "nam": 2025
   },
   {
-    "id": 1101,
+    "id": 1100,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25",
     "so_hd": "3784.0",
@@ -21980,7 +22000,7 @@
     "nam": 2025
   },
   {
-    "id": 1102,
+    "id": 1101,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25",
     "so_hd": "85.0",
@@ -22000,7 +22020,7 @@
     "nam": 2025
   },
   {
-    "id": 1103,
+    "id": 1102,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25",
     "so_hd": "504.0",
@@ -22020,7 +22040,7 @@
     "nam": 2025
   },
   {
-    "id": 1104,
+    "id": 1103,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25",
     "so_hd": "509.0",
@@ -22040,7 +22060,7 @@
     "nam": 2025
   },
   {
-    "id": 1105,
+    "id": 1104,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "221.0",
@@ -22060,7 +22080,7 @@
     "nam": 2025
   },
   {
-    "id": 1106,
+    "id": 1105,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "1730.0",
@@ -22080,7 +22100,7 @@
     "nam": 2025
   },
   {
-    "id": 1107,
+    "id": 1106,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "2694.0",
@@ -22100,7 +22120,7 @@
     "nam": 2025
   },
   {
-    "id": 1108,
+    "id": 1107,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "4181.0",
@@ -22120,7 +22140,7 @@
     "nam": 2025
   },
   {
-    "id": 1109,
+    "id": 1108,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "4845.0",
@@ -22140,7 +22160,7 @@
     "nam": 2025
   },
   {
-    "id": 1110,
+    "id": 1109,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "5815.0",
@@ -22160,7 +22180,7 @@
     "nam": 2025
   },
   {
-    "id": 1111,
+    "id": 1110,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "6020.0",
@@ -22180,7 +22200,7 @@
     "nam": 2025
   },
   {
-    "id": 1112,
+    "id": 1111,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "6798.0",
@@ -22200,7 +22220,7 @@
     "nam": 2025
   },
   {
-    "id": 1113,
+    "id": 1112,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "8169.0",
@@ -22220,7 +22240,7 @@
     "nam": 2025
   },
   {
-    "id": 1114,
+    "id": 1113,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "10466.0",
@@ -22240,7 +22260,7 @@
     "nam": 2025
   },
   {
-    "id": 1115,
+    "id": 1114,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "10784.0",
@@ -22260,7 +22280,7 @@
     "nam": 2025
   },
   {
-    "id": 1116,
+    "id": 1115,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "12173.0",
@@ -22280,7 +22300,7 @@
     "nam": 2025
   },
   {
-    "id": 1117,
+    "id": 1116,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "12504.0",
@@ -22300,7 +22320,7 @@
     "nam": 2025
   },
   {
-    "id": 1118,
+    "id": 1117,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "13907.0",
@@ -22320,7 +22340,7 @@
     "nam": 2025
   },
   {
-    "id": 1119,
+    "id": 1118,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "15715.0",
@@ -22340,7 +22360,7 @@
     "nam": 2025
   },
   {
-    "id": 1120,
+    "id": 1119,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "16244.0",
@@ -22360,7 +22380,7 @@
     "nam": 2025
   },
   {
-    "id": 1121,
+    "id": 1120,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "17026.0",
@@ -22380,7 +22400,7 @@
     "nam": 2025
   },
   {
-    "id": 1122,
+    "id": 1121,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "17858.0",
@@ -22400,7 +22420,7 @@
     "nam": 2025
   },
   {
-    "id": 1123,
+    "id": 1122,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "18233.0",
@@ -22420,7 +22440,7 @@
     "nam": 2025
   },
   {
-    "id": 1124,
+    "id": 1123,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "19160.0",
@@ -22440,7 +22460,7 @@
     "nam": 2025
   },
   {
-    "id": 1125,
+    "id": 1124,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "19712.0",
@@ -22460,7 +22480,7 @@
     "nam": 2025
   },
   {
-    "id": 1126,
+    "id": 1125,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "21207.0",
@@ -22480,7 +22500,7 @@
     "nam": 2025
   },
   {
-    "id": 1127,
+    "id": 1126,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "21892.0",
@@ -22500,7 +22520,7 @@
     "nam": 2025
   },
   {
-    "id": 1128,
+    "id": 1127,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "22193.0",
@@ -22520,7 +22540,7 @@
     "nam": 2025
   },
   {
-    "id": 1129,
+    "id": 1128,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "22893.0",
@@ -22540,7 +22560,7 @@
     "nam": 2025
   },
   {
-    "id": 1130,
+    "id": 1129,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "23716.0",
@@ -22560,7 +22580,7 @@
     "nam": 2025
   },
   {
-    "id": 1131,
+    "id": 1130,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "221844.0",
@@ -22580,7 +22600,7 @@
     "nam": 2025
   },
   {
-    "id": 1132,
+    "id": 1131,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/9-30/10/25",
     "so_hd": "222112.0",
@@ -22600,7 +22620,7 @@
     "nam": 2025
   },
   {
-    "id": 1133,
+    "id": 1132,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25-2",
     "so_hd": "201.0",
@@ -22620,7 +22640,7 @@
     "nam": 2025
   },
   {
-    "id": 1134,
+    "id": 1133,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25-2",
     "so_hd": "175.0",
@@ -22640,7 +22660,7 @@
     "nam": 2025
   },
   {
-    "id": 1135,
+    "id": 1134,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25-2",
     "so_hd": "955.0",
@@ -22660,7 +22680,7 @@
     "nam": 2025
   },
   {
-    "id": 1136,
+    "id": 1135,
     "loai_cp": "HSE",
     "tieu_muc": "PCCC T10- 052",
     "so_hd": "86.0",
@@ -22680,7 +22700,7 @@
     "nam": 2025
   },
   {
-    "id": 1137,
+    "id": 1136,
     "loai_cp": "HSE",
     "tieu_muc": "PCCC T10- 052",
     "so_hd": "2943.0",
@@ -22700,7 +22720,7 @@
     "nam": 2025
   },
   {
-    "id": 1138,
+    "id": 1137,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25-3",
     "so_hd": "672638.0",
@@ -22720,7 +22740,7 @@
     "nam": 2025
   },
   {
-    "id": 1139,
+    "id": 1138,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25-3",
     "so_hd": "202.0",
@@ -22740,7 +22760,7 @@
     "nam": 2025
   },
   {
-    "id": 1140,
+    "id": 1139,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25-3",
     "so_hd": "672638.0",
@@ -22760,7 +22780,7 @@
     "nam": 2025
   },
   {
-    "id": 1141,
+    "id": 1140,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25-3",
     "so_hd": "202.0",
@@ -22780,7 +22800,7 @@
     "nam": 2025
   },
   {
-    "id": 1142,
+    "id": 1141,
     "loai_cp": "HSE",
     "tieu_muc": "CSVCT10-25-3",
     "so_hd": "699.0",
@@ -22797,10 +22817,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 1900
+    "nam": 2025
   },
   {
-    "id": 1143,
+    "id": 1142,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP10.25",
     "so_hd": "3030356.0",
@@ -22820,7 +22840,7 @@
     "nam": 2025
   },
   {
-    "id": 1144,
+    "id": 1143,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP10.25",
     "so_hd": "3030356.0",
@@ -22840,7 +22860,7 @@
     "nam": 2025
   },
   {
-    "id": 1145,
+    "id": 1144,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP10.25",
     "so_hd": "2579.0",
@@ -22860,7 +22880,7 @@
     "nam": 2025
   },
   {
-    "id": 1146,
+    "id": 1145,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP10.25",
     "so_hd": "5692.0",
@@ -22880,7 +22900,7 @@
     "nam": 2025
   },
   {
-    "id": 1147,
+    "id": 1146,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP10.25",
     "so_hd": "0.0",
@@ -22897,10 +22917,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 2025
+    "nam": "N/A"
   },
   {
-    "id": 1148,
+    "id": 1147,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP10.25",
     "so_hd": "21.0",
@@ -22920,7 +22940,7 @@
     "nam": 2025
   },
   {
-    "id": 1149,
+    "id": 1148,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP10.25",
     "so_hd": "25.0",
@@ -22940,7 +22960,7 @@
     "nam": 2025
   },
   {
-    "id": 1150,
+    "id": 1149,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-161",
     "so_hd": "2376.0",
@@ -22960,7 +22980,7 @@
     "nam": 2025
   },
   {
-    "id": 1151,
+    "id": 1150,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-161",
     "so_hd": "2376.0",
@@ -22980,7 +23000,7 @@
     "nam": 2025
   },
   {
-    "id": 1152,
+    "id": 1151,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-161",
     "so_hd": "2377.0",
@@ -23000,7 +23020,7 @@
     "nam": 2025
   },
   {
-    "id": 1153,
+    "id": 1152,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-161",
     "so_hd": "2377.0",
@@ -23020,7 +23040,7 @@
     "nam": 2025
   },
   {
-    "id": 1154,
+    "id": 1153,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-161",
     "so_hd": "2377.0",
@@ -23040,7 +23060,7 @@
     "nam": 2025
   },
   {
-    "id": 1155,
+    "id": 1154,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1668.0",
@@ -23060,7 +23080,7 @@
     "nam": 2025
   },
   {
-    "id": 1156,
+    "id": 1155,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1668.0",
@@ -23080,7 +23100,7 @@
     "nam": 2025
   },
   {
-    "id": 1157,
+    "id": 1156,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1668.0",
@@ -23100,7 +23120,7 @@
     "nam": 2025
   },
   {
-    "id": 1158,
+    "id": 1157,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1668.0",
@@ -23120,7 +23140,7 @@
     "nam": 2025
   },
   {
-    "id": 1159,
+    "id": 1158,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1668.0",
@@ -23140,7 +23160,7 @@
     "nam": 2025
   },
   {
-    "id": 1160,
+    "id": 1159,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1668.0",
@@ -23160,7 +23180,7 @@
     "nam": 2025
   },
   {
-    "id": 1161,
+    "id": 1160,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1668.0",
@@ -23180,7 +23200,7 @@
     "nam": 2025
   },
   {
-    "id": 1162,
+    "id": 1161,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1669.0",
@@ -23200,7 +23220,7 @@
     "nam": 2025
   },
   {
-    "id": 1163,
+    "id": 1162,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1669.0",
@@ -23220,7 +23240,7 @@
     "nam": 2025
   },
   {
-    "id": 1164,
+    "id": 1163,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T10-164",
     "so_hd": "1669.0",
@@ -23240,7 +23260,7 @@
     "nam": 2025
   },
   {
-    "id": 1165,
+    "id": 1164,
     "loai_cp": "HSE",
     "tieu_muc": "PCCC T10- 052- Đ2",
     "so_hd": "389.0",
@@ -23260,7 +23280,7 @@
     "nam": 2025
   },
   {
-    "id": 1166,
+    "id": 1165,
     "loai_cp": "HSE",
     "tieu_muc": "PCCC T10- 052- Đ2",
     "so_hd": "388.0",
@@ -23280,7 +23300,7 @@
     "nam": 2025
   },
   {
-    "id": 1167,
+    "id": 1166,
     "loai_cp": "HSE",
     "tieu_muc": "PCCC T10- 052- Đ2",
     "so_hd": "127.0",
@@ -23300,7 +23320,7 @@
     "nam": 2025
   },
   {
-    "id": 1168,
+    "id": 1167,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q4-2025",
     "so_hd": "803340.0",
@@ -23320,7 +23340,7 @@
     "nam": 2025
   },
   {
-    "id": 1169,
+    "id": 1168,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q4-2025",
     "so_hd": "803340.0",
@@ -23340,7 +23360,7 @@
     "nam": 2025
   },
   {
-    "id": 1170,
+    "id": 1169,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q4-2025",
     "so_hd": "803340.0",
@@ -23360,7 +23380,7 @@
     "nam": 2025
   },
   {
-    "id": 1171,
+    "id": 1170,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T10",
     "so_hd": "3172484.0",
@@ -23380,7 +23400,7 @@
     "nam": 2025
   },
   {
-    "id": 1172,
+    "id": 1171,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T10",
     "so_hd": "3172484.0",
@@ -23400,7 +23420,7 @@
     "nam": 2025
   },
   {
-    "id": 1173,
+    "id": 1172,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T10",
     "so_hd": "3172484.0",
@@ -23420,7 +23440,7 @@
     "nam": 2025
   },
   {
-    "id": 1174,
+    "id": 1173,
     "loai_cp": "HSE",
     "tieu_muc": "GC Dầu T10.25-052",
     "so_hd": "1091.0",
@@ -23440,7 +23460,7 @@
     "nam": 2025
   },
   {
-    "id": 1175,
+    "id": 1174,
     "loai_cp": "HSE",
     "tieu_muc": "GC Dầu T10.25-052",
     "so_hd": "1110.0",
@@ -23460,7 +23480,7 @@
     "nam": 2025
   },
   {
-    "id": 1176,
+    "id": 1175,
     "loai_cp": "HSE",
     "tieu_muc": "GC Dầu T10.25-052",
     "so_hd": "87.0",
@@ -23480,7 +23500,7 @@
     "nam": 2025
   },
   {
-    "id": 1177,
+    "id": 1176,
     "loai_cp": "HSE",
     "tieu_muc": "GC Dầu T10.25-052",
     "so_hd": "91.0",
@@ -23500,7 +23520,7 @@
     "nam": 2025
   },
   {
-    "id": 1178,
+    "id": 1177,
     "loai_cp": "HSE",
     "tieu_muc": "LN,Máyin T10.25-052",
     "so_hd": "8.0",
@@ -23520,7 +23540,7 @@
     "nam": 2025
   },
   {
-    "id": 1179,
+    "id": 1178,
     "loai_cp": "HSE",
     "tieu_muc": "LN,Máyin T10.25-052",
     "so_hd": "410.0",
@@ -23540,7 +23560,7 @@
     "nam": 2025
   },
   {
-    "id": 1180,
+    "id": 1179,
     "loai_cp": "HSE",
     "tieu_muc": "LN,Máyin T10.25-052",
     "so_hd": "610.0",
@@ -23560,7 +23580,7 @@
     "nam": 2025
   },
   {
-    "id": 1181,
+    "id": 1180,
     "loai_cp": "HSE",
     "tieu_muc": "LN,Máyin T10.25-052",
     "so_hd": "25.0",
@@ -23580,7 +23600,7 @@
     "nam": 2025
   },
   {
-    "id": 1182,
+    "id": 1181,
     "loai_cp": "HSE",
     "tieu_muc": "Thang kho-2025",
     "so_hd": "142.0",
@@ -23600,7 +23620,7 @@
     "nam": 2025
   },
   {
-    "id": 1183,
+    "id": 1182,
     "loai_cp": "HSE",
     "tieu_muc": "Thang kho-2025",
     "so_hd": "144.0",
@@ -23620,7 +23640,7 @@
     "nam": 2025
   },
   {
-    "id": 1184,
+    "id": 1183,
     "loai_cp": "HSE",
     "tieu_muc": "Thang kho-2025",
     "so_hd": "146.0",
@@ -23640,7 +23660,7 @@
     "nam": 2025
   },
   {
-    "id": 1185,
+    "id": 1184,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T11-2025",
     "so_hd": "5704.0",
@@ -23660,7 +23680,7 @@
     "nam": 2025
   },
   {
-    "id": 1186,
+    "id": 1185,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T11-25",
     "so_hd": "394.0",
@@ -23680,7 +23700,7 @@
     "nam": 2025
   },
   {
-    "id": 1187,
+    "id": 1186,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T11-25",
     "so_hd": "394.0",
@@ -23700,7 +23720,7 @@
     "nam": 2025
   },
   {
-    "id": 1188,
+    "id": 1187,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T11-25",
     "so_hd": "394.0",
@@ -23720,7 +23740,7 @@
     "nam": 2025
   },
   {
-    "id": 1189,
+    "id": 1188,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T11-25",
     "so_hd": "394.0",
@@ -23740,7 +23760,7 @@
     "nam": 2025
   },
   {
-    "id": 1190,
+    "id": 1189,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1740.0",
@@ -23760,7 +23780,7 @@
     "nam": 2025
   },
   {
-    "id": 1191,
+    "id": 1190,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1740.0",
@@ -23780,7 +23800,7 @@
     "nam": 2025
   },
   {
-    "id": 1192,
+    "id": 1191,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1740.0",
@@ -23800,7 +23820,7 @@
     "nam": 2025
   },
   {
-    "id": 1193,
+    "id": 1192,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1740.0",
@@ -23820,7 +23840,7 @@
     "nam": 2025
   },
   {
-    "id": 1194,
+    "id": 1193,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1740.0",
@@ -23840,7 +23860,7 @@
     "nam": 2025
   },
   {
-    "id": 1195,
+    "id": 1194,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1740.0",
@@ -23860,7 +23880,7 @@
     "nam": 2025
   },
   {
-    "id": 1196,
+    "id": 1195,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1739.0",
@@ -23880,7 +23900,7 @@
     "nam": 2025
   },
   {
-    "id": 1197,
+    "id": 1196,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1739.0",
@@ -23900,7 +23920,7 @@
     "nam": 2025
   },
   {
-    "id": 1198,
+    "id": 1197,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-164",
     "so_hd": "1739.0",
@@ -23920,7 +23940,7 @@
     "nam": 2025
   },
   {
-    "id": 1199,
+    "id": 1198,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-161",
     "so_hd": "2565.0",
@@ -23940,7 +23960,7 @@
     "nam": 2025
   },
   {
-    "id": 1200,
+    "id": 1199,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-161",
     "so_hd": "2565.0",
@@ -23960,7 +23980,7 @@
     "nam": 2025
   },
   {
-    "id": 1201,
+    "id": 1200,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-161",
     "so_hd": "2566.0",
@@ -23980,7 +24000,7 @@
     "nam": 2025
   },
   {
-    "id": 1202,
+    "id": 1201,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-161",
     "so_hd": "2566.0",
@@ -24000,7 +24020,7 @@
     "nam": 2025
   },
   {
-    "id": 1203,
+    "id": 1202,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T11-161",
     "so_hd": "2566.0",
@@ -24020,7 +24040,7 @@
     "nam": 2025
   },
   {
-    "id": 1204,
+    "id": 1203,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "399033.0",
@@ -24040,7 +24060,7 @@
     "nam": 2025
   },
   {
-    "id": 1205,
+    "id": 1204,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "403106.0",
@@ -24060,7 +24080,7 @@
     "nam": 2025
   },
   {
-    "id": 1206,
+    "id": 1205,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "407150.0",
@@ -24080,7 +24100,7 @@
     "nam": 2025
   },
   {
-    "id": 1207,
+    "id": 1206,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "413915.0",
@@ -24100,7 +24120,7 @@
     "nam": 2025
   },
   {
-    "id": 1208,
+    "id": 1207,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "27483.0",
@@ -24120,7 +24140,7 @@
     "nam": 2025
   },
   {
-    "id": 1209,
+    "id": 1208,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "28035.0",
@@ -24140,7 +24160,7 @@
     "nam": 2025
   },
   {
-    "id": 1210,
+    "id": 1209,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "30349.0",
@@ -24160,7 +24180,7 @@
     "nam": 2025
   },
   {
-    "id": 1211,
+    "id": 1210,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "31734.0",
@@ -24180,7 +24200,7 @@
     "nam": 2025
   },
   {
-    "id": 1212,
+    "id": 1211,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "31878.0",
@@ -24200,7 +24220,7 @@
     "nam": 2025
   },
   {
-    "id": 1213,
+    "id": 1212,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "33642.0",
@@ -24220,7 +24240,7 @@
     "nam": 2025
   },
   {
-    "id": 1214,
+    "id": 1213,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "34252.0",
@@ -24240,7 +24260,7 @@
     "nam": 2025
   },
   {
-    "id": 1215,
+    "id": 1214,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "35944.0",
@@ -24260,7 +24280,7 @@
     "nam": 2025
   },
   {
-    "id": 1216,
+    "id": 1215,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "37534.0",
@@ -24280,7 +24300,7 @@
     "nam": 2025
   },
   {
-    "id": 1217,
+    "id": 1216,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "37840.0",
@@ -24300,7 +24320,7 @@
     "nam": 2025
   },
   {
-    "id": 1218,
+    "id": 1217,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "39184.0",
@@ -24320,7 +24340,7 @@
     "nam": 2025
   },
   {
-    "id": 1219,
+    "id": 1218,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "39473.0",
@@ -24340,7 +24360,7 @@
     "nam": 2025
   },
   {
-    "id": 1220,
+    "id": 1219,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "39967.0",
@@ -24360,7 +24380,7 @@
     "nam": 2025
   },
   {
-    "id": 1221,
+    "id": 1220,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "40809.0",
@@ -24380,7 +24400,7 @@
     "nam": 2025
   },
   {
-    "id": 1222,
+    "id": 1221,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "41008.0",
@@ -24400,7 +24420,7 @@
     "nam": 2025
   },
   {
-    "id": 1223,
+    "id": 1222,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "41540.0",
@@ -24420,7 +24440,7 @@
     "nam": 2025
   },
   {
-    "id": 1224,
+    "id": 1223,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "43252.0",
@@ -24440,7 +24460,7 @@
     "nam": 2025
   },
   {
-    "id": 1225,
+    "id": 1224,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "43467.0",
@@ -24460,7 +24480,7 @@
     "nam": 2025
   },
   {
-    "id": 1226,
+    "id": 1225,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "44420.0",
@@ -24480,7 +24500,7 @@
     "nam": 2025
   },
   {
-    "id": 1227,
+    "id": 1226,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "45390.0",
@@ -24500,7 +24520,7 @@
     "nam": 2025
   },
   {
-    "id": 1228,
+    "id": 1227,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "45874.0",
@@ -24520,7 +24540,7 @@
     "nam": 2025
   },
   {
-    "id": 1229,
+    "id": 1228,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "47787.0",
@@ -24540,7 +24560,7 @@
     "nam": 2025
   },
   {
-    "id": 1230,
+    "id": 1229,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/11-29/11/25",
     "so_hd": "47810.0",
@@ -24560,7 +24580,7 @@
     "nam": 2025
   },
   {
-    "id": 1231,
+    "id": 1230,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q4-2025",
     "so_hd": "117.0",
@@ -24580,7 +24600,7 @@
     "nam": 2025
   },
   {
-    "id": 1232,
+    "id": 1231,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q4-2025",
     "so_hd": "515.0",
@@ -24600,7 +24620,7 @@
     "nam": 2025
   },
   {
-    "id": 1233,
+    "id": 1232,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q4-2025",
     "so_hd": "495.0",
@@ -24620,7 +24640,7 @@
     "nam": 2025
   },
   {
-    "id": 1234,
+    "id": 1233,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q4-2025",
     "so_hd": "495.0",
@@ -24640,7 +24660,7 @@
     "nam": 2025
   },
   {
-    "id": 1235,
+    "id": 1234,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Máy Tính 2025-3",
     "so_hd": "647.0",
@@ -24660,7 +24680,7 @@
     "nam": 2025
   },
   {
-    "id": 1236,
+    "id": 1235,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Máy Tính 2025-4",
     "so_hd": "646.0",
@@ -24680,7 +24700,7 @@
     "nam": 2025
   },
   {
-    "id": 1237,
+    "id": 1236,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T12-25",
     "so_hd": "4573.0",
@@ -24700,7 +24720,7 @@
     "nam": 2025
   },
   {
-    "id": 1238,
+    "id": 1237,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T11-25",
     "so_hd": "395227.0",
@@ -24720,7 +24740,7 @@
     "nam": 2025
   },
   {
-    "id": 1239,
+    "id": 1238,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T11-25",
     "so_hd": "395227.0",
@@ -24740,7 +24760,7 @@
     "nam": 2025
   },
   {
-    "id": 1240,
+    "id": 1239,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T11-25",
     "so_hd": "395227.0",
@@ -24760,7 +24780,7 @@
     "nam": 2025
   },
   {
-    "id": 1241,
+    "id": 1240,
     "loai_cp": "HSE",
     "tieu_muc": "MAYDO-T12-2025",
     "so_hd": "1570.0",
@@ -24780,7 +24800,7 @@
     "nam": 2025
   },
   {
-    "id": 1242,
+    "id": 1241,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T12-25",
     "so_hd": "4270.0",
@@ -24800,7 +24820,7 @@
     "nam": 2025
   },
   {
-    "id": 1243,
+    "id": 1242,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T12-25",
     "so_hd": "4224.0",
@@ -24820,7 +24840,7 @@
     "nam": 2025
   },
   {
-    "id": 1244,
+    "id": 1243,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T12-2025",
     "so_hd": "6184.0",
@@ -24840,7 +24860,7 @@
     "nam": 2025
   },
   {
-    "id": 1245,
+    "id": 1244,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "48621.0",
@@ -24860,7 +24880,7 @@
     "nam": 2025
   },
   {
-    "id": 1246,
+    "id": 1245,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "52014.0",
@@ -24880,7 +24900,7 @@
     "nam": 2025
   },
   {
-    "id": 1247,
+    "id": 1246,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "52372.0",
@@ -24900,7 +24920,7 @@
     "nam": 2025
   },
   {
-    "id": 1248,
+    "id": 1247,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "55371.0",
@@ -24920,7 +24940,7 @@
     "nam": 2025
   },
   {
-    "id": 1249,
+    "id": 1248,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "55703.0",
@@ -24940,7 +24960,7 @@
     "nam": 2025
   },
   {
-    "id": 1250,
+    "id": 1249,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "56519.0",
@@ -24960,7 +24980,7 @@
     "nam": 2025
   },
   {
-    "id": 1251,
+    "id": 1250,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "57146.0",
@@ -24980,7 +25000,7 @@
     "nam": 2025
   },
   {
-    "id": 1252,
+    "id": 1251,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "57945.0",
@@ -25000,7 +25020,7 @@
     "nam": 2025
   },
   {
-    "id": 1253,
+    "id": 1252,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "58328.0",
@@ -25020,7 +25040,7 @@
     "nam": 2025
   },
   {
-    "id": 1254,
+    "id": 1253,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "58879.0",
@@ -25040,7 +25060,7 @@
     "nam": 2025
   },
   {
-    "id": 1255,
+    "id": 1254,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "59887.0",
@@ -25060,7 +25080,7 @@
     "nam": 2025
   },
   {
-    "id": 1256,
+    "id": 1255,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "61528.0",
@@ -25080,7 +25100,7 @@
     "nam": 2025
   },
   {
-    "id": 1257,
+    "id": 1256,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "61961.0",
@@ -25100,7 +25120,7 @@
     "nam": 2025
   },
   {
-    "id": 1258,
+    "id": 1257,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "63342.0",
@@ -25120,7 +25140,7 @@
     "nam": 2025
   },
   {
-    "id": 1259,
+    "id": 1258,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "64272.0",
@@ -25140,7 +25160,7 @@
     "nam": 2025
   },
   {
-    "id": 1260,
+    "id": 1259,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "64346.0",
@@ -25160,7 +25180,7 @@
     "nam": 2025
   },
   {
-    "id": 1261,
+    "id": 1260,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "66165.0",
@@ -25180,7 +25200,7 @@
     "nam": 2025
   },
   {
-    "id": 1262,
+    "id": 1261,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "66306.0",
@@ -25200,7 +25220,7 @@
     "nam": 2025
   },
   {
-    "id": 1263,
+    "id": 1262,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "66518.0",
@@ -25220,7 +25240,7 @@
     "nam": 2025
   },
   {
-    "id": 1264,
+    "id": 1263,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "68717.0",
@@ -25240,7 +25260,7 @@
     "nam": 2025
   },
   {
-    "id": 1265,
+    "id": 1264,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "68893.0",
@@ -25260,7 +25280,7 @@
     "nam": 2025
   },
   {
-    "id": 1266,
+    "id": 1265,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "69778.0",
@@ -25280,7 +25300,7 @@
     "nam": 2025
   },
   {
-    "id": 1267,
+    "id": 1266,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "71543.0",
@@ -25300,7 +25320,7 @@
     "nam": 2025
   },
   {
-    "id": 1268,
+    "id": 1267,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "71579.0",
@@ -25320,7 +25340,7 @@
     "nam": 2025
   },
   {
-    "id": 1269,
+    "id": 1268,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "71619.0",
@@ -25340,7 +25360,7 @@
     "nam": 2025
   },
   {
-    "id": 1270,
+    "id": 1269,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "71629.0",
@@ -25360,7 +25380,7 @@
     "nam": 2025
   },
   {
-    "id": 1271,
+    "id": 1270,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_30/11-26/12/25",
     "so_hd": "71837.0",
@@ -25380,7 +25400,7 @@
     "nam": 2025
   },
   {
-    "id": 1272,
+    "id": 1271,
     "loai_cp": "Phí Vận chuyển",
     "tieu_muc": "VC Châu Hà T12-25",
     "so_hd": "1447.0",
@@ -25400,7 +25420,7 @@
     "nam": 2025
   },
   {
-    "id": 1273,
+    "id": 1272,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T12-25",
     "so_hd": "434.0",
@@ -25420,7 +25440,7 @@
     "nam": 2025
   },
   {
-    "id": 1274,
+    "id": 1273,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T12-25",
     "so_hd": "434.0",
@@ -25440,7 +25460,7 @@
     "nam": 2025
   },
   {
-    "id": 1275,
+    "id": 1274,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T12-25",
     "so_hd": "434.0",
@@ -25460,7 +25480,7 @@
     "nam": 2025
   },
   {
-    "id": 1276,
+    "id": 1275,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T12-25",
     "so_hd": "434.0",
@@ -25480,7 +25500,7 @@
     "nam": 2025
   },
   {
-    "id": 1277,
+    "id": 1276,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T12-25",
     "so_hd": "434.0",
@@ -25500,7 +25520,7 @@
     "nam": 2025
   },
   {
-    "id": 1278,
+    "id": 1277,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2853.0",
@@ -25520,7 +25540,7 @@
     "nam": 2025
   },
   {
-    "id": 1279,
+    "id": 1278,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2853.0",
@@ -25540,7 +25560,7 @@
     "nam": 2025
   },
   {
-    "id": 1280,
+    "id": 1279,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2854.0",
@@ -25560,7 +25580,7 @@
     "nam": 2025
   },
   {
-    "id": 1281,
+    "id": 1280,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2854.0",
@@ -25580,7 +25600,7 @@
     "nam": 2025
   },
   {
-    "id": 1282,
+    "id": 1281,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2854.0",
@@ -25600,7 +25620,7 @@
     "nam": 2025
   },
   {
-    "id": 1283,
+    "id": 1282,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1881.0",
@@ -25620,7 +25640,7 @@
     "nam": 2025
   },
   {
-    "id": 1284,
+    "id": 1283,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1881.0",
@@ -25640,7 +25660,7 @@
     "nam": 2025
   },
   {
-    "id": 1285,
+    "id": 1284,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1881.0",
@@ -25660,7 +25680,7 @@
     "nam": 2025
   },
   {
-    "id": 1286,
+    "id": 1285,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1881.0",
@@ -25680,7 +25700,7 @@
     "nam": 2025
   },
   {
-    "id": 1287,
+    "id": 1286,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1881.0",
@@ -25700,7 +25720,7 @@
     "nam": 2025
   },
   {
-    "id": 1288,
+    "id": 1287,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1881.0",
@@ -25720,7 +25740,7 @@
     "nam": 2025
   },
   {
-    "id": 1289,
+    "id": 1288,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1880.0",
@@ -25740,7 +25760,7 @@
     "nam": 2025
   },
   {
-    "id": 1290,
+    "id": 1289,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1880.0",
@@ -25760,7 +25780,7 @@
     "nam": 2025
   },
   {
-    "id": 1291,
+    "id": 1290,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1880.0",
@@ -25780,7 +25800,7 @@
     "nam": 2025
   },
   {
-    "id": 1292,
+    "id": 1291,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1882.0",
@@ -25800,7 +25820,7 @@
     "nam": 2025
   },
   {
-    "id": 1293,
+    "id": 1292,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1882.0",
@@ -25820,7 +25840,7 @@
     "nam": 2025
   },
   {
-    "id": 1294,
+    "id": 1293,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1886.0",
@@ -25840,7 +25860,7 @@
     "nam": 2025
   },
   {
-    "id": 1295,
+    "id": 1294,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1894.0",
@@ -25860,7 +25880,7 @@
     "nam": 2025
   },
   {
-    "id": 1296,
+    "id": 1295,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1894.0",
@@ -25880,7 +25900,7 @@
     "nam": 2025
   },
   {
-    "id": 1297,
+    "id": 1296,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1894.0",
@@ -25900,7 +25920,7 @@
     "nam": 2025
   },
   {
-    "id": 1298,
+    "id": 1297,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1894.0",
@@ -25920,7 +25940,7 @@
     "nam": 2025
   },
   {
-    "id": 1299,
+    "id": 1298,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1894.0",
@@ -25940,7 +25960,7 @@
     "nam": 2025
   },
   {
-    "id": 1300,
+    "id": 1299,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1892.0",
@@ -25960,7 +25980,7 @@
     "nam": 2025
   },
   {
-    "id": 1301,
+    "id": 1300,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1892.0",
@@ -25980,7 +26000,7 @@
     "nam": 2025
   },
   {
-    "id": 1302,
+    "id": 1301,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-164",
     "so_hd": "1892.0",
@@ -25997,10 +26017,10 @@
     "nguoi_thu_huong": "Công ty CP Bia Sài Gòn- Khánh Hòa",
     "stk": "116000162154",
     "ngan_hang": "Ngân hàng TMCP Công thương Việt Nam, Chi nhánh 4, TP. HCM",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1303,
+    "id": 1302,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2862.0",
@@ -26017,10 +26037,10 @@
     "nguoi_thu_huong": "CÔNG TY TRÁCH NHIỆM HỮU HẠN BIA SÀI GÒN - NINH THUẬN",
     "stk": "0721000777999",
     "ngan_hang": "Ngân hàng Vietcombank-CN Kỳ Đồng",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1304,
+    "id": 1303,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2862.0",
@@ -26037,10 +26057,10 @@
     "nguoi_thu_huong": "CÔNG TY TRÁCH NHIỆM HỮU HẠN BIA SÀI GÒN - NINH THUẬN",
     "stk": "0721000777999",
     "ngan_hang": "Ngân hàng Vietcombank-CN Kỳ Đồng",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1305,
+    "id": 1304,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2863.0",
@@ -26057,10 +26077,10 @@
     "nguoi_thu_huong": "CÔNG TY TRÁCH NHIỆM HỮU HẠN BIA SÀI GÒN - NINH THUẬN",
     "stk": "0721000777999",
     "ngan_hang": "Ngân hàng Vietcombank-CN Kỳ Đồng",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1306,
+    "id": 1305,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T12-161",
     "so_hd": "2863.0",
@@ -26077,10 +26097,10 @@
     "nguoi_thu_huong": "CÔNG TY TRÁCH NHIỆM HỮU HẠN BIA SÀI GÒN - NINH THUẬN",
     "stk": "0721000777999",
     "ngan_hang": "Ngân hàng Vietcombank-CN Kỳ Đồng",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1307,
+    "id": 1306,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T12-25",
     "so_hd": "467940.0",
@@ -26100,7 +26120,7 @@
     "nam": 2026
   },
   {
-    "id": 1308,
+    "id": 1307,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T12-25",
     "so_hd": "467940.0",
@@ -26120,7 +26140,7 @@
     "nam": 2026
   },
   {
-    "id": 1309,
+    "id": 1308,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T12-25",
     "so_hd": "467940.0",
@@ -26140,7 +26160,7 @@
     "nam": 2026
   },
   {
-    "id": 1310,
+    "id": 1309,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T1-26",
     "so_hd": "27.0",
@@ -26160,7 +26180,7 @@
     "nam": 2026
   },
   {
-    "id": 1311,
+    "id": 1310,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T01-26",
     "so_hd": "240.0",
@@ -26180,7 +26200,7 @@
     "nam": 2026
   },
   {
-    "id": 1312,
+    "id": 1311,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T01-2026",
     "so_hd": "185.0",
@@ -26200,7 +26220,7 @@
     "nam": 2026
   },
   {
-    "id": 1313,
+    "id": 1312,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01-161",
     "so_hd": "276.0",
@@ -26220,7 +26240,7 @@
     "nam": 2026
   },
   {
-    "id": 1314,
+    "id": 1313,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01-161",
     "so_hd": "276.0",
@@ -26240,7 +26260,7 @@
     "nam": 2026
   },
   {
-    "id": 1315,
+    "id": 1314,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01-161",
     "so_hd": "277.0",
@@ -26260,7 +26280,7 @@
     "nam": 2026
   },
   {
-    "id": 1316,
+    "id": 1315,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01-161",
     "so_hd": "277.0",
@@ -26280,7 +26300,7 @@
     "nam": 2026
   },
   {
-    "id": 1317,
+    "id": 1316,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01-161",
     "so_hd": "277.0",
@@ -26300,7 +26320,7 @@
     "nam": 2026
   },
   {
-    "id": 1318,
+    "id": 1317,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T01-26",
     "so_hd": "16.0",
@@ -26320,7 +26340,7 @@
     "nam": 2026
   },
   {
-    "id": 1319,
+    "id": 1318,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T01-26",
     "so_hd": "16.0",
@@ -26340,7 +26360,7 @@
     "nam": 2026
   },
   {
-    "id": 1320,
+    "id": 1319,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T01-26",
     "so_hd": "16.0",
@@ -26360,7 +26380,7 @@
     "nam": 2026
   },
   {
-    "id": 1321,
+    "id": 1320,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T01-26",
     "so_hd": "16.0",
@@ -26380,7 +26400,7 @@
     "nam": 2026
   },
   {
-    "id": 1322,
+    "id": 1321,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "1205.0",
@@ -26400,7 +26420,7 @@
     "nam": 2026
   },
   {
-    "id": 1323,
+    "id": 1322,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "26763.0",
@@ -26420,7 +26440,7 @@
     "nam": 2026
   },
   {
-    "id": 1324,
+    "id": 1323,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "1850.0",
@@ -26440,7 +26460,7 @@
     "nam": 2026
   },
   {
-    "id": 1325,
+    "id": 1324,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "1867.0",
@@ -26460,7 +26480,7 @@
     "nam": 2026
   },
   {
-    "id": 1326,
+    "id": 1325,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "4774.0",
@@ -26480,7 +26500,7 @@
     "nam": 2026
   },
   {
-    "id": 1327,
+    "id": 1326,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "5325.0",
@@ -26500,7 +26520,7 @@
     "nam": 2026
   },
   {
-    "id": 1328,
+    "id": 1327,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "5353.0",
@@ -26520,7 +26540,7 @@
     "nam": 2026
   },
   {
-    "id": 1329,
+    "id": 1328,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "7331.0",
@@ -26540,7 +26560,7 @@
     "nam": 2026
   },
   {
-    "id": 1330,
+    "id": 1329,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "9865.0",
@@ -26560,7 +26580,7 @@
     "nam": 2026
   },
   {
-    "id": 1331,
+    "id": 1330,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "9911.0",
@@ -26580,7 +26600,7 @@
     "nam": 2026
   },
   {
-    "id": 1332,
+    "id": 1331,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "12555.0",
@@ -26600,7 +26620,7 @@
     "nam": 2026
   },
   {
-    "id": 1333,
+    "id": 1332,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "12625.0",
@@ -26620,7 +26640,7 @@
     "nam": 2026
   },
   {
-    "id": 1334,
+    "id": 1333,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "12761.0",
@@ -26640,7 +26660,7 @@
     "nam": 2026
   },
   {
-    "id": 1335,
+    "id": 1334,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "16200.0",
@@ -26660,7 +26680,7 @@
     "nam": 2026
   },
   {
-    "id": 1336,
+    "id": 1335,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "16247.0",
@@ -26680,7 +26700,7 @@
     "nam": 2026
   },
   {
-    "id": 1337,
+    "id": 1336,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "16569.0",
@@ -26700,7 +26720,7 @@
     "nam": 2026
   },
   {
-    "id": 1338,
+    "id": 1337,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "19291.0",
@@ -26720,7 +26740,7 @@
     "nam": 2026
   },
   {
-    "id": 1339,
+    "id": 1338,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "20071.0",
@@ -26740,7 +26760,7 @@
     "nam": 2026
   },
   {
-    "id": 1340,
+    "id": 1339,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "20902.0",
@@ -26760,7 +26780,7 @@
     "nam": 2026
   },
   {
-    "id": 1341,
+    "id": 1340,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "23715.0",
@@ -26780,7 +26800,7 @@
     "nam": 2026
   },
   {
-    "id": 1342,
+    "id": 1341,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "24140.0",
@@ -26800,7 +26820,7 @@
     "nam": 2026
   },
   {
-    "id": 1343,
+    "id": 1342,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_02/01-28/01",
     "so_hd": "24855.0",
@@ -26820,7 +26840,7 @@
     "nam": 2026
   },
   {
-    "id": 1344,
+    "id": 1343,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "123.0",
@@ -26837,10 +26857,10 @@
     "nguoi_thu_huong": "Công ty CP Bia Sài Gòn- Khánh Hòa",
     "stk": "116000162154",
     "ngan_hang": "Ngân hàng TMCP Công thương Việt Nam, Chi nhánh 4, TP. HCM",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1345,
+    "id": 1344,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "123.0",
@@ -26857,10 +26877,10 @@
     "nguoi_thu_huong": "Công ty CP Bia Sài Gòn- Khánh Hòa",
     "stk": "116000162154",
     "ngan_hang": "Ngân hàng TMCP Công thương Việt Nam, Chi nhánh 4, TP. HCM",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1346,
+    "id": 1345,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "123.0",
@@ -26877,10 +26897,10 @@
     "nguoi_thu_huong": "Công ty CP Bia Sài Gòn- Khánh Hòa",
     "stk": "116000162154",
     "ngan_hang": "Ngân hàng TMCP Công thương Việt Nam, Chi nhánh 4, TP. HCM",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1347,
+    "id": 1346,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "123.0",
@@ -26897,10 +26917,10 @@
     "nguoi_thu_huong": "Công ty CP Bia Sài Gòn- Khánh Hòa",
     "stk": "116000162154",
     "ngan_hang": "Ngân hàng TMCP Công thương Việt Nam, Chi nhánh 4, TP. HCM",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1348,
+    "id": 1347,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "123.0",
@@ -26917,10 +26937,10 @@
     "nguoi_thu_huong": "Công ty CP Bia Sài Gòn- Khánh Hòa",
     "stk": "116000162154",
     "ngan_hang": "Ngân hàng TMCP Công thương Việt Nam, Chi nhánh 4, TP. HCM",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1349,
+    "id": 1348,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "123.0",
@@ -26937,10 +26957,10 @@
     "nguoi_thu_huong": "Công ty CP Bia Sài Gòn- Khánh Hòa",
     "stk": "116000162154",
     "ngan_hang": "Ngân hàng TMCP Công thương Việt Nam, Chi nhánh 4, TP. HCM",
-    "nam": 2026
+    "nam": 2025
   },
   {
-    "id": 1350,
+    "id": 1349,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "122.0",
@@ -26960,7 +26980,7 @@
     "nam": 2026
   },
   {
-    "id": 1351,
+    "id": 1350,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "122.0",
@@ -26980,7 +27000,7 @@
     "nam": 2026
   },
   {
-    "id": 1352,
+    "id": 1351,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "122.0",
@@ -27000,7 +27020,7 @@
     "nam": 2026
   },
   {
-    "id": 1353,
+    "id": 1352,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T01.26-164",
     "so_hd": "124.0",
@@ -27020,7 +27040,7 @@
     "nam": 2026
   },
   {
-    "id": 1354,
+    "id": 1353,
     "loai_cp": "Hà̀nh chính phi",
     "tieu_muc": "Tất Niên 2025",
     "so_hd": "125.0",
@@ -27040,7 +27060,7 @@
     "nam": 2026
   },
   {
-    "id": 1355,
+    "id": 1354,
     "loai_cp": "Hà̀nh chính phi",
     "tieu_muc": "Tất Niên 2025",
     "so_hd": "125.0",
@@ -27060,7 +27080,7 @@
     "nam": 2026
   },
   {
-    "id": 1356,
+    "id": 1355,
     "loai_cp": "Hà̀nh chính phi",
     "tieu_muc": "Tất Niên 2025",
     "so_hd": "103.0",
@@ -27080,7 +27100,7 @@
     "nam": 2026
   },
   {
-    "id": 1357,
+    "id": 1356,
     "loai_cp": "Hà̀nh chính phi",
     "tieu_muc": "Tất Niên 2025",
     "so_hd": "103.0",
@@ -27100,7 +27120,7 @@
     "nam": 2026
   },
   {
-    "id": 1358,
+    "id": 1357,
     "loai_cp": "Hà̀nh chính phi",
     "tieu_muc": "Tất Niên 2025",
     "so_hd": "150.0",
@@ -27120,7 +27140,7 @@
     "nam": 2026
   },
   {
-    "id": 1359,
+    "id": 1358,
     "loai_cp": "Hà̀nh chính phi",
     "tieu_muc": "Tất Niên 2025",
     "so_hd": "150.0",
@@ -27140,7 +27160,7 @@
     "nam": 2026
   },
   {
-    "id": 1360,
+    "id": 1359,
     "loai_cp": "Hà̀nh chính phi",
     "tieu_muc": "Tất Niên 2025",
     "so_hd": "172.0",
@@ -27149,7 +27169,7 @@
     "ly_do": "Tiền tất niên 2025 các kho NTB",
     "chi_tiet": "Tiền tất niên 2025 các kho NTB",
     "chi_tiet_hd": "Tiền Món ăn",
-    "kho": "",
+    "kho": "Khác",
     "st_no_vat": 478000.0,
     "vat": 38240.0,
     "st_vat": 516240.0,
@@ -27160,7 +27180,7 @@
     "nam": 2026
   },
   {
-    "id": 1361,
+    "id": 1360,
     "loai_cp": "Hà̀nh chính phi",
     "tieu_muc": "Tất Niên 2025",
     "so_hd": "172.0",
@@ -27169,7 +27189,7 @@
     "ly_do": "Tiền tất niên 2025 các kho NTB",
     "chi_tiet": "Tiền tất niên 2025 các kho NTB",
     "chi_tiet_hd": "Tiền Bia",
-    "kho": "",
+    "kho": "Khác",
     "st_no_vat": 350000.0,
     "vat": 35000.0,
     "st_vat": 385000.0,
@@ -27180,7 +27200,7 @@
     "nam": 2026
   },
   {
-    "id": 1362,
+    "id": 1361,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T01.26",
     "so_hd": "1103267.0",
@@ -27200,7 +27220,7 @@
     "nam": 2026
   },
   {
-    "id": 1363,
+    "id": 1362,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T01.26",
     "so_hd": "1103267.0",
@@ -27220,7 +27240,7 @@
     "nam": 2026
   },
   {
-    "id": 1364,
+    "id": 1363,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T01.26",
     "so_hd": "1103267.0",
@@ -27240,7 +27260,7 @@
     "nam": 2026
   },
   {
-    "id": 1365,
+    "id": 1364,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T2-26",
     "so_hd": "365.0",
@@ -27260,7 +27280,7 @@
     "nam": 2026
   },
   {
-    "id": 1366,
+    "id": 1365,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T02-2026",
     "so_hd": "572.0",
@@ -27280,7 +27300,7 @@
     "nam": 2026
   },
   {
-    "id": 1367,
+    "id": 1366,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-26",
     "so_hd": "59.0",
@@ -27300,7 +27320,7 @@
     "nam": 2026
   },
   {
-    "id": 1368,
+    "id": 1367,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-26",
     "so_hd": "59.0",
@@ -27320,7 +27340,7 @@
     "nam": 2026
   },
   {
-    "id": 1369,
+    "id": 1368,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-26",
     "so_hd": "59.0",
@@ -27340,7 +27360,7 @@
     "nam": 2026
   },
   {
-    "id": 1370,
+    "id": 1369,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-26",
     "so_hd": "59.0",
@@ -27360,7 +27380,7 @@
     "nam": 2026
   },
   {
-    "id": 1371,
+    "id": 1370,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T02-26",
     "so_hd": "59.0",
@@ -27380,7 +27400,7 @@
     "nam": 2026
   },
   {
-    "id": 1372,
+    "id": 1371,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "223.0",
@@ -27400,7 +27420,7 @@
     "nam": 2026
   },
   {
-    "id": 1373,
+    "id": 1372,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "223.0",
@@ -27420,7 +27440,7 @@
     "nam": 2026
   },
   {
-    "id": 1374,
+    "id": 1373,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "223.0",
@@ -27440,7 +27460,7 @@
     "nam": 2026
   },
   {
-    "id": 1375,
+    "id": 1374,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "223.0",
@@ -27460,7 +27480,7 @@
     "nam": 2026
   },
   {
-    "id": 1376,
+    "id": 1375,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "223.0",
@@ -27480,7 +27500,7 @@
     "nam": 2026
   },
   {
-    "id": 1377,
+    "id": 1376,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "223.0",
@@ -27500,7 +27520,7 @@
     "nam": 2026
   },
   {
-    "id": 1378,
+    "id": 1377,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "222.0",
@@ -27520,7 +27540,7 @@
     "nam": 2026
   },
   {
-    "id": 1379,
+    "id": 1378,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "222.0",
@@ -27540,7 +27560,7 @@
     "nam": 2026
   },
   {
-    "id": 1380,
+    "id": 1379,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-164",
     "so_hd": "222.0",
@@ -27560,7 +27580,7 @@
     "nam": 2026
   },
   {
-    "id": 1381,
+    "id": 1380,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "27829.0",
@@ -27580,7 +27600,7 @@
     "nam": 2026
   },
   {
-    "id": 1382,
+    "id": 1381,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "28235.0",
@@ -27600,7 +27620,7 @@
     "nam": 2026
   },
   {
-    "id": 1383,
+    "id": 1382,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "30689.0",
@@ -27620,7 +27640,7 @@
     "nam": 2026
   },
   {
-    "id": 1384,
+    "id": 1383,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "30751.0",
@@ -27640,7 +27660,7 @@
     "nam": 2026
   },
   {
-    "id": 1385,
+    "id": 1384,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "31757.0",
@@ -27660,7 +27680,7 @@
     "nam": 2026
   },
   {
-    "id": 1386,
+    "id": 1385,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "33076.0",
@@ -27680,7 +27700,7 @@
     "nam": 2026
   },
   {
-    "id": 1387,
+    "id": 1386,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "33629.0",
@@ -27700,7 +27720,7 @@
     "nam": 2026
   },
   {
-    "id": 1388,
+    "id": 1387,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "34854.0",
@@ -27720,7 +27740,7 @@
     "nam": 2026
   },
   {
-    "id": 1389,
+    "id": 1388,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "36559.0",
@@ -27740,7 +27760,7 @@
     "nam": 2026
   },
   {
-    "id": 1390,
+    "id": 1389,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "36578.0",
@@ -27760,7 +27780,7 @@
     "nam": 2026
   },
   {
-    "id": 1391,
+    "id": 1390,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "37546.0",
@@ -27780,7 +27800,7 @@
     "nam": 2026
   },
   {
-    "id": 1392,
+    "id": 1391,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "38004.0",
@@ -27800,7 +27820,7 @@
     "nam": 2026
   },
   {
-    "id": 1393,
+    "id": 1392,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "39557.0",
@@ -27820,7 +27840,7 @@
     "nam": 2026
   },
   {
-    "id": 1394,
+    "id": 1393,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "39601.0",
@@ -27840,7 +27860,7 @@
     "nam": 2026
   },
   {
-    "id": 1395,
+    "id": 1394,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "40630.0",
@@ -27860,7 +27880,7 @@
     "nam": 2026
   },
   {
-    "id": 1396,
+    "id": 1395,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "41347.0",
@@ -27880,7 +27900,7 @@
     "nam": 2026
   },
   {
-    "id": 1397,
+    "id": 1396,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "41613.0",
@@ -27900,7 +27920,27 @@
     "nam": 2026
   },
   {
-    "id": 1399,
+    "id": 1397,
+    "loai_cp": "Chưa phân loại",
+    "tieu_muc": "DXN_31/01-27/02",
+    "so_hd": "47422.0",
+    "ngay_hd": "2026-02-24",
+    "thang": "2/2026",
+    "ly_do": "Thanh toán tiền mua dầu xe nâng Bình Thuận Tháng 02/2026",
+    "chi_tiet": "thanh toán dầu 3 xe nâng từ 31/01-27/02 tại kho KCN Bình Thuận",
+    "chi_tiet_hd": "",
+    "kho": "Kho KCN Bình Thuận",
+    "st_no_vat": 462963.0,
+    "vat": 37037.04,
+    "st_vat": 500000.0,
+    "ngay_tt": "2026-02-27",
+    "nguoi_thu_huong": "Diệp Nhật Hoà",
+    "stk": "0581000573456",
+    "ngan_hang": "Ngân hàng Vietcombank",
+    "nam": 2026
+  },
+  {
+    "id": 1398,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "47742.0",
@@ -27920,7 +27960,7 @@
     "nam": 2026
   },
   {
-    "id": 1400,
+    "id": 1399,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "48890.0",
@@ -27940,7 +27980,7 @@
     "nam": 2026
   },
   {
-    "id": 1401,
+    "id": 1400,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "49882.0",
@@ -27960,7 +28000,7 @@
     "nam": 2026
   },
   {
-    "id": 1402,
+    "id": 1401,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_31/01-27/02",
     "so_hd": "49952.0",
@@ -27980,7 +28020,7 @@
     "nam": 2026
   },
   {
-    "id": 1403,
+    "id": 1402,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-161",
     "so_hd": "512.0",
@@ -28000,7 +28040,7 @@
     "nam": 2026
   },
   {
-    "id": 1404,
+    "id": 1403,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-161",
     "so_hd": "512.0",
@@ -28020,7 +28060,7 @@
     "nam": 2026
   },
   {
-    "id": 1405,
+    "id": 1404,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-161",
     "so_hd": "513.0",
@@ -28040,7 +28080,7 @@
     "nam": 2026
   },
   {
-    "id": 1406,
+    "id": 1405,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-161",
     "so_hd": "513.0",
@@ -28060,7 +28100,7 @@
     "nam": 2026
   },
   {
-    "id": 1407,
+    "id": 1406,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T02.26-161",
     "so_hd": "513.0",
@@ -28080,7 +28120,7 @@
     "nam": 2026
   },
   {
-    "id": 1408,
+    "id": 1407,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T03-26",
     "so_hd": "716.0",
@@ -28100,7 +28140,7 @@
     "nam": 2026
   },
   {
-    "id": 1409,
+    "id": 1408,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T3-26",
     "so_hd": "504.0",
@@ -28120,7 +28160,7 @@
     "nam": 2026
   },
   {
-    "id": 1410,
+    "id": 1409,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T02-7.26",
     "so_hd": "1758938.0",
@@ -28140,7 +28180,7 @@
     "nam": 2026
   },
   {
-    "id": 1411,
+    "id": 1410,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T02-7.26",
     "so_hd": "1758938.0",
@@ -28160,7 +28200,7 @@
     "nam": 2026
   },
   {
-    "id": 1412,
+    "id": 1411,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Cước Viễn thông T02-7.26",
     "so_hd": "1758938.0",
@@ -28180,7 +28220,7 @@
     "nam": 2026
   },
   {
-    "id": 1413,
+    "id": 1412,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q1-2026",
     "so_hd": "200318.0",
@@ -28200,7 +28240,7 @@
     "nam": 2026
   },
   {
-    "id": 1414,
+    "id": 1413,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q1-2026",
     "so_hd": "200318.0",
@@ -28220,7 +28260,7 @@
     "nam": 2026
   },
   {
-    "id": 1415,
+    "id": 1414,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q1-2026",
     "so_hd": "200318.0",
@@ -28240,7 +28280,7 @@
     "nam": 2026
   },
   {
-    "id": 1416,
+    "id": 1415,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T03-2026",
     "so_hd": "1099.0",
@@ -28260,7 +28300,7 @@
     "nam": 2026
   },
   {
-    "id": 1417,
+    "id": 1416,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-26",
     "so_hd": "99.0",
@@ -28280,7 +28320,7 @@
     "nam": 2026
   },
   {
-    "id": 1418,
+    "id": 1417,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-26",
     "so_hd": "99.0",
@@ -28300,7 +28340,7 @@
     "nam": 2026
   },
   {
-    "id": 1419,
+    "id": 1418,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-26",
     "so_hd": "99.0",
@@ -28320,7 +28360,7 @@
     "nam": 2026
   },
   {
-    "id": 1420,
+    "id": 1419,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T03-26",
     "so_hd": "99.0",
@@ -28340,7 +28380,7 @@
     "nam": 2026
   },
   {
-    "id": 1421,
+    "id": 1420,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-161",
     "so_hd": "792.0",
@@ -28360,7 +28400,7 @@
     "nam": 2026
   },
   {
-    "id": 1422,
+    "id": 1421,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-161",
     "so_hd": "792.0",
@@ -28380,7 +28420,7 @@
     "nam": 2026
   },
   {
-    "id": 1423,
+    "id": 1422,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-161",
     "so_hd": "793.0",
@@ -28400,7 +28440,7 @@
     "nam": 2026
   },
   {
-    "id": 1424,
+    "id": 1423,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-161",
     "so_hd": "793.0",
@@ -28420,7 +28460,7 @@
     "nam": 2026
   },
   {
-    "id": 1425,
+    "id": 1424,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-161",
     "so_hd": "793.0",
@@ -28440,7 +28480,7 @@
     "nam": 2026
   },
   {
-    "id": 1426,
+    "id": 1425,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "52358.0",
@@ -28460,7 +28500,7 @@
     "nam": 2026
   },
   {
-    "id": 1427,
+    "id": 1426,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "53238.0",
@@ -28480,7 +28520,7 @@
     "nam": 2026
   },
   {
-    "id": 1428,
+    "id": 1427,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "55297.0",
@@ -28500,7 +28540,7 @@
     "nam": 2026
   },
   {
-    "id": 1429,
+    "id": 1428,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "57245.0",
@@ -28520,7 +28560,7 @@
     "nam": 2026
   },
   {
-    "id": 1430,
+    "id": 1429,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "57389.0",
@@ -28540,7 +28580,7 @@
     "nam": 2026
   },
   {
-    "id": 1431,
+    "id": 1430,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "59608.0",
@@ -28560,7 +28600,7 @@
     "nam": 2026
   },
   {
-    "id": 1432,
+    "id": 1431,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "59610.0",
@@ -28580,7 +28620,7 @@
     "nam": 2026
   },
   {
-    "id": 1433,
+    "id": 1432,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "59650.0",
@@ -28600,7 +28640,7 @@
     "nam": 2026
   },
   {
-    "id": 1434,
+    "id": 1433,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "61282.0",
@@ -28620,7 +28660,7 @@
     "nam": 2026
   },
   {
-    "id": 1435,
+    "id": 1434,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "61875.0",
@@ -28640,7 +28680,7 @@
     "nam": 2026
   },
   {
-    "id": 1436,
+    "id": 1435,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "62829.0",
@@ -28660,7 +28700,7 @@
     "nam": 2026
   },
   {
-    "id": 1437,
+    "id": 1436,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "64139.0",
@@ -28680,7 +28720,7 @@
     "nam": 2026
   },
   {
-    "id": 1438,
+    "id": 1437,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "64141.0",
@@ -28700,7 +28740,7 @@
     "nam": 2026
   },
   {
-    "id": 1439,
+    "id": 1438,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "66475.0",
@@ -28720,7 +28760,7 @@
     "nam": 2026
   },
   {
-    "id": 1440,
+    "id": 1439,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "66888.0",
@@ -28740,7 +28780,7 @@
     "nam": 2026
   },
   {
-    "id": 1441,
+    "id": 1440,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "67347.0",
@@ -28760,7 +28800,7 @@
     "nam": 2026
   },
   {
-    "id": 1442,
+    "id": 1441,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "67348.0",
@@ -28780,7 +28820,7 @@
     "nam": 2026
   },
   {
-    "id": 1443,
+    "id": 1442,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "68699.0",
@@ -28800,7 +28840,7 @@
     "nam": 2026
   },
   {
-    "id": 1444,
+    "id": 1443,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "69777.0",
@@ -28820,7 +28860,7 @@
     "nam": 2026
   },
   {
-    "id": 1445,
+    "id": 1444,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "70436.0",
@@ -28840,7 +28880,7 @@
     "nam": 2026
   },
   {
-    "id": 1446,
+    "id": 1445,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "71619.0",
@@ -28860,7 +28900,7 @@
     "nam": 2026
   },
   {
-    "id": 1447,
+    "id": 1446,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "73681.0",
@@ -28880,7 +28920,7 @@
     "nam": 2026
   },
   {
-    "id": 1448,
+    "id": 1447,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "73778.0",
@@ -28900,7 +28940,7 @@
     "nam": 2026
   },
   {
-    "id": 1449,
+    "id": 1448,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "74374.0",
@@ -28920,7 +28960,7 @@
     "nam": 2026
   },
   {
-    "id": 1450,
+    "id": 1449,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "76444.0",
@@ -28940,7 +28980,7 @@
     "nam": 2026
   },
   {
-    "id": 1451,
+    "id": 1450,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "76467.0",
@@ -28960,7 +29000,7 @@
     "nam": 2026
   },
   {
-    "id": 1452,
+    "id": 1451,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "76521.0",
@@ -28980,7 +29020,7 @@
     "nam": 2026
   },
   {
-    "id": 1453,
+    "id": 1452,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "78964.0",
@@ -29000,7 +29040,7 @@
     "nam": 2026
   },
   {
-    "id": 1454,
+    "id": 1453,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "78980.0",
@@ -29020,7 +29060,7 @@
     "nam": 2026
   },
   {
-    "id": 1455,
+    "id": 1454,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "80567.0",
@@ -29040,7 +29080,7 @@
     "nam": 2026
   },
   {
-    "id": 1456,
+    "id": 1455,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_28/02-31/03",
     "so_hd": "81659.0",
@@ -29060,7 +29100,7 @@
     "nam": 2026
   },
   {
-    "id": 1457,
+    "id": 1456,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T03-26 (L2)",
     "so_hd": "1029.0",
@@ -29080,7 +29120,7 @@
     "nam": 2026
   },
   {
-    "id": 1458,
+    "id": 1457,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T03-26 (L2)",
     "so_hd": "1029.0",
@@ -29100,7 +29140,7 @@
     "nam": 2026
   },
   {
-    "id": 1459,
+    "id": 1458,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "343.0",
@@ -29120,7 +29160,7 @@
     "nam": 2026
   },
   {
-    "id": 1460,
+    "id": 1459,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "343.0",
@@ -29140,7 +29180,7 @@
     "nam": 2026
   },
   {
-    "id": 1461,
+    "id": 1460,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "343.0",
@@ -29160,7 +29200,7 @@
     "nam": 2026
   },
   {
-    "id": 1462,
+    "id": 1461,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "343.0",
@@ -29180,7 +29220,7 @@
     "nam": 2026
   },
   {
-    "id": 1463,
+    "id": 1462,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "343.0",
@@ -29200,7 +29240,7 @@
     "nam": 2026
   },
   {
-    "id": 1464,
+    "id": 1463,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "343.0",
@@ -29220,7 +29260,7 @@
     "nam": 2026
   },
   {
-    "id": 1465,
+    "id": 1464,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "342.0",
@@ -29240,7 +29280,7 @@
     "nam": 2026
   },
   {
-    "id": 1466,
+    "id": 1465,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "342.0",
@@ -29260,7 +29300,7 @@
     "nam": 2026
   },
   {
-    "id": 1467,
+    "id": 1466,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T03.26-164",
     "so_hd": "342.0",
@@ -29280,7 +29320,7 @@
     "nam": 2026
   },
   {
-    "id": 1468,
+    "id": 1467,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T4-26",
     "so_hd": "1047.0",
@@ -29300,7 +29340,7 @@
     "nam": 2026
   },
   {
-    "id": 1469,
+    "id": 1468,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "82704.0",
@@ -29320,7 +29360,7 @@
     "nam": 2026
   },
   {
-    "id": 1470,
+    "id": 1469,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "83589.0",
@@ -29340,7 +29380,7 @@
     "nam": 2026
   },
   {
-    "id": 1471,
+    "id": 1470,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "85720.0",
@@ -29360,7 +29400,7 @@
     "nam": 2026
   },
   {
-    "id": 1472,
+    "id": 1471,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "87525.0",
@@ -29380,7 +29420,7 @@
     "nam": 2026
   },
   {
-    "id": 1473,
+    "id": 1472,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "89340.0",
@@ -29400,7 +29440,7 @@
     "nam": 2026
   },
   {
-    "id": 1474,
+    "id": 1473,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "90198.0",
@@ -29420,7 +29460,7 @@
     "nam": 2026
   },
   {
-    "id": 1475,
+    "id": 1474,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "91348.0",
@@ -29440,7 +29480,7 @@
     "nam": 2026
   },
   {
-    "id": 1476,
+    "id": 1475,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "94092.0",
@@ -29460,7 +29500,7 @@
     "nam": 2026
   },
   {
-    "id": 1477,
+    "id": 1476,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "94390.0",
@@ -29480,7 +29520,7 @@
     "nam": 2026
   },
   {
-    "id": 1478,
+    "id": 1477,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "95323.0",
@@ -29500,7 +29540,7 @@
     "nam": 2026
   },
   {
-    "id": 1479,
+    "id": 1478,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "96193.0",
@@ -29520,7 +29560,7 @@
     "nam": 2026
   },
   {
-    "id": 1480,
+    "id": 1479,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "96844.0",
@@ -29540,7 +29580,7 @@
     "nam": 2026
   },
   {
-    "id": 1481,
+    "id": 1480,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "98002.0",
@@ -29560,7 +29600,7 @@
     "nam": 2026
   },
   {
-    "id": 1482,
+    "id": 1481,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "100616.0",
@@ -29580,7 +29620,7 @@
     "nam": 2026
   },
   {
-    "id": 1483,
+    "id": 1482,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "101417.0",
@@ -29600,7 +29640,7 @@
     "nam": 2026
   },
   {
-    "id": 1484,
+    "id": 1483,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "101492.0",
@@ -29620,7 +29660,7 @@
     "nam": 2026
   },
   {
-    "id": 1485,
+    "id": 1484,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "102264.0",
@@ -29637,10 +29677,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 1900
+    "nam": 2026
   },
   {
-    "id": 1486,
+    "id": 1485,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_01/04-22/04",
     "so_hd": "102286.0",
@@ -29657,10 +29697,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 1900
+    "nam": 2026
   },
   {
-    "id": 1487,
+    "id": 1486,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "CCDC T4-26",
     "so_hd": "0.0",
@@ -29677,10 +29717,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 1900
+    "nam": 2026
   },
   {
-    "id": 1488,
+    "id": 1487,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "CCDC T4-26",
     "so_hd": "0.0",
@@ -29700,7 +29740,7 @@
     "nam": 2026
   },
   {
-    "id": 1489,
+    "id": 1488,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T4-2026",
     "so_hd": "1662.0",
@@ -29720,7 +29760,7 @@
     "nam": 2026
   },
   {
-    "id": 1490,
+    "id": 1489,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP4.26",
     "so_hd": "",
@@ -29737,10 +29777,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 2026
+    "nam": "N/A"
   },
   {
-    "id": 1491,
+    "id": 1490,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP4.26",
     "so_hd": "",
@@ -29757,10 +29797,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 2026
+    "nam": "N/A"
   },
   {
-    "id": 1492,
+    "id": 1491,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP4.26",
     "so_hd": "0.0",
@@ -29777,10 +29817,10 @@
     "nguoi_thu_huong": "Diệp Nhật Hoà",
     "stk": "0581000573456",
     "ngan_hang": "Ngân hàng Vietcombank",
-    "nam": 2026
+    "nam": "N/A"
   },
   {
-    "id": 1493,
+    "id": 1492,
     "loai_cp": "Công tác phí",
     "tieu_muc": "CTP4.26",
     "so_hd": "24.0",
@@ -29800,7 +29840,7 @@
     "nam": 2026
   },
   {
-    "id": 1494,
+    "id": 1493,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-161",
     "so_hd": "1072.0",
@@ -29820,7 +29860,7 @@
     "nam": 2026
   },
   {
-    "id": 1495,
+    "id": 1494,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-161",
     "so_hd": "1072.0",
@@ -29840,7 +29880,7 @@
     "nam": 2026
   },
   {
-    "id": 1496,
+    "id": 1495,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-161",
     "so_hd": "1073.0",
@@ -29860,7 +29900,7 @@
     "nam": 2026
   },
   {
-    "id": 1497,
+    "id": 1496,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-161",
     "so_hd": "1073.0",
@@ -29880,7 +29920,7 @@
     "nam": 2026
   },
   {
-    "id": 1498,
+    "id": 1497,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-161",
     "so_hd": "1073.0",
@@ -29900,7 +29940,7 @@
     "nam": 2026
   },
   {
-    "id": 1499,
+    "id": 1498,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-26",
     "so_hd": "163.0",
@@ -29920,7 +29960,7 @@
     "nam": 2026
   },
   {
-    "id": 1500,
+    "id": 1499,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-26",
     "so_hd": "163.0",
@@ -29940,7 +29980,7 @@
     "nam": 2026
   },
   {
-    "id": 1501,
+    "id": 1500,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-26",
     "so_hd": "163.0",
@@ -29960,7 +30000,7 @@
     "nam": 2026
   },
   {
-    "id": 1502,
+    "id": 1501,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-26",
     "so_hd": "163.0",
@@ -29980,7 +30020,7 @@
     "nam": 2026
   },
   {
-    "id": 1503,
+    "id": 1502,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T04-26",
     "so_hd": "163.0",
@@ -30000,7 +30040,7 @@
     "nam": 2026
   },
   {
-    "id": 1504,
+    "id": 1503,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "443.0",
@@ -30020,7 +30060,7 @@
     "nam": 2026
   },
   {
-    "id": 1505,
+    "id": 1504,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "443.0",
@@ -30040,7 +30080,7 @@
     "nam": 2026
   },
   {
-    "id": 1506,
+    "id": 1505,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "443.0",
@@ -30060,7 +30100,7 @@
     "nam": 2026
   },
   {
-    "id": 1507,
+    "id": 1506,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "443.0",
@@ -30080,7 +30120,7 @@
     "nam": 2026
   },
   {
-    "id": 1508,
+    "id": 1507,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "443.0",
@@ -30100,7 +30140,7 @@
     "nam": 2026
   },
   {
-    "id": 1509,
+    "id": 1508,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "443.0",
@@ -30120,7 +30160,7 @@
     "nam": 2026
   },
   {
-    "id": 1510,
+    "id": 1509,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "442.0",
@@ -30140,7 +30180,7 @@
     "nam": 2026
   },
   {
-    "id": 1511,
+    "id": 1510,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "442.0",
@@ -30160,7 +30200,7 @@
     "nam": 2026
   },
   {
-    "id": 1512,
+    "id": 1511,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "442.0",
@@ -30180,7 +30220,7 @@
     "nam": 2026
   },
   {
-    "id": 1513,
+    "id": 1512,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "444.0",
@@ -30200,7 +30240,7 @@
     "nam": 2026
   },
   {
-    "id": 1514,
+    "id": 1513,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T04.26-164",
     "so_hd": "444.0",
@@ -30220,7 +30260,7 @@
     "nam": 2026
   },
   {
-    "id": 1515,
+    "id": 1514,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "CCDC T5-26",
     "so_hd": "132.0",
@@ -30240,7 +30280,7 @@
     "nam": 2026
   },
   {
-    "id": 1516,
+    "id": 1515,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "CCDC T5-26",
     "so_hd": "31.0",
@@ -30260,7 +30300,7 @@
     "nam": 2026
   },
   {
-    "id": 1517,
+    "id": 1516,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T5-26",
     "so_hd": "1412.0",
@@ -30280,7 +30320,7 @@
     "nam": 2026
   },
   {
-    "id": 1518,
+    "id": 1517,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "104416.0",
@@ -30300,7 +30340,7 @@
     "nam": 2026
   },
   {
-    "id": 1519,
+    "id": 1518,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "106822.0",
@@ -30320,7 +30360,7 @@
     "nam": 2026
   },
   {
-    "id": 1520,
+    "id": 1519,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "107352.0",
@@ -30340,7 +30380,7 @@
     "nam": 2026
   },
   {
-    "id": 1521,
+    "id": 1520,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "107720.0",
@@ -30360,7 +30400,7 @@
     "nam": 2026
   },
   {
-    "id": 1522,
+    "id": 1521,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "111018.0",
@@ -30380,7 +30420,7 @@
     "nam": 2026
   },
   {
-    "id": 1523,
+    "id": 1522,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "111053.0",
@@ -30400,7 +30440,7 @@
     "nam": 2026
   },
   {
-    "id": 1524,
+    "id": 1523,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "113086.0",
@@ -30420,7 +30460,7 @@
     "nam": 2026
   },
   {
-    "id": 1525,
+    "id": 1524,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "114507.0",
@@ -30440,7 +30480,7 @@
     "nam": 2026
   },
   {
-    "id": 1526,
+    "id": 1525,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "114777.0",
@@ -30460,7 +30500,7 @@
     "nam": 2026
   },
   {
-    "id": 1527,
+    "id": 1526,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "114818.0",
@@ -30480,7 +30520,7 @@
     "nam": 2026
   },
   {
-    "id": 1528,
+    "id": 1527,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "117115.0",
@@ -30500,7 +30540,7 @@
     "nam": 2026
   },
   {
-    "id": 1529,
+    "id": 1528,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "117131.0",
@@ -30520,7 +30560,7 @@
     "nam": 2026
   },
   {
-    "id": 1530,
+    "id": 1529,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "117161.0",
@@ -30540,7 +30580,7 @@
     "nam": 2026
   },
   {
-    "id": 1531,
+    "id": 1530,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "119569.0",
@@ -30560,7 +30600,7 @@
     "nam": 2026
   },
   {
-    "id": 1532,
+    "id": 1531,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "119758.0",
@@ -30580,7 +30620,7 @@
     "nam": 2026
   },
   {
-    "id": 1533,
+    "id": 1532,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "119787.0",
@@ -30600,7 +30640,7 @@
     "nam": 2026
   },
   {
-    "id": 1534,
+    "id": 1533,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "121786.0",
@@ -30620,7 +30660,7 @@
     "nam": 2026
   },
   {
-    "id": 1535,
+    "id": 1534,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "122374.0",
@@ -30640,7 +30680,7 @@
     "nam": 2026
   },
   {
-    "id": 1536,
+    "id": 1535,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "122422.0",
@@ -30660,7 +30700,7 @@
     "nam": 2026
   },
   {
-    "id": 1537,
+    "id": 1536,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "125219.0",
@@ -30680,7 +30720,7 @@
     "nam": 2026
   },
   {
-    "id": 1538,
+    "id": 1537,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "126062.0",
@@ -30700,7 +30740,7 @@
     "nam": 2026
   },
   {
-    "id": 1539,
+    "id": 1538,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "126095.0",
@@ -30720,7 +30760,7 @@
     "nam": 2026
   },
   {
-    "id": 1540,
+    "id": 1539,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "127923.0",
@@ -30740,7 +30780,7 @@
     "nam": 2026
   },
   {
-    "id": 1541,
+    "id": 1540,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "128553.0",
@@ -30760,7 +30800,7 @@
     "nam": 2026
   },
   {
-    "id": 1542,
+    "id": 1541,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_23/04-22/05",
     "so_hd": "128585.0",
@@ -30780,7 +30820,7 @@
     "nam": 2026
   },
   {
-    "id": 1543,
+    "id": 1542,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "Máy Tính 2026-5",
     "so_hd": "339.0",
@@ -30800,7 +30840,7 @@
     "nam": 2026
   },
   {
-    "id": 1544,
+    "id": 1543,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T5-2026",
     "so_hd": "2236.0",
@@ -30820,7 +30860,7 @@
     "nam": 2026
   },
   {
-    "id": 1545,
+    "id": 1544,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-26",
     "so_hd": "202.0",
@@ -30840,7 +30880,7 @@
     "nam": 2026
   },
   {
-    "id": 1546,
+    "id": 1545,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-26",
     "so_hd": "202.0",
@@ -30860,7 +30900,7 @@
     "nam": 2026
   },
   {
-    "id": 1547,
+    "id": 1546,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-26",
     "so_hd": "202.0",
@@ -30880,7 +30920,7 @@
     "nam": 2026
   },
   {
-    "id": 1548,
+    "id": 1547,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-26",
     "so_hd": "202.0",
@@ -30900,7 +30940,7 @@
     "nam": 2026
   },
   {
-    "id": 1549,
+    "id": 1548,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T05-26",
     "so_hd": "202.0",
@@ -30920,7 +30960,7 @@
     "nam": 2026
   },
   {
-    "id": 1550,
+    "id": 1549,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-161",
     "so_hd": "1272.0",
@@ -30940,7 +30980,7 @@
     "nam": 2026
   },
   {
-    "id": 1551,
+    "id": 1550,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-161",
     "so_hd": "1272.0",
@@ -30960,7 +31000,7 @@
     "nam": 2026
   },
   {
-    "id": 1552,
+    "id": 1551,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-161",
     "so_hd": "1273.0",
@@ -30980,7 +31020,7 @@
     "nam": 2026
   },
   {
-    "id": 1553,
+    "id": 1552,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-161",
     "so_hd": "1273.0",
@@ -31000,7 +31040,7 @@
     "nam": 2026
   },
   {
-    "id": 1554,
+    "id": 1553,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-161",
     "so_hd": "1273.0",
@@ -31020,7 +31060,7 @@
     "nam": 2026
   },
   {
-    "id": 1555,
+    "id": 1554,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "576.0",
@@ -31040,7 +31080,7 @@
     "nam": 2026
   },
   {
-    "id": 1556,
+    "id": 1555,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "576.0",
@@ -31060,7 +31100,7 @@
     "nam": 2026
   },
   {
-    "id": 1557,
+    "id": 1556,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "576.0",
@@ -31080,7 +31120,7 @@
     "nam": 2026
   },
   {
-    "id": 1558,
+    "id": 1557,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "576.0",
@@ -31100,7 +31140,7 @@
     "nam": 2026
   },
   {
-    "id": 1559,
+    "id": 1558,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "576.0",
@@ -31120,7 +31160,7 @@
     "nam": 2026
   },
   {
-    "id": 1560,
+    "id": 1559,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "576.0",
@@ -31140,7 +31180,7 @@
     "nam": 2026
   },
   {
-    "id": 1561,
+    "id": 1560,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "591.0",
@@ -31160,7 +31200,7 @@
     "nam": 2026
   },
   {
-    "id": 1562,
+    "id": 1561,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "575.0",
@@ -31180,7 +31220,7 @@
     "nam": 2026
   },
   {
-    "id": 1563,
+    "id": 1562,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "575.0",
@@ -31200,7 +31240,7 @@
     "nam": 2026
   },
   {
-    "id": 1564,
+    "id": 1563,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "575.0",
@@ -31220,7 +31260,7 @@
     "nam": 2026
   },
   {
-    "id": 1565,
+    "id": 1564,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "577.0",
@@ -31240,7 +31280,7 @@
     "nam": 2026
   },
   {
-    "id": 1566,
+    "id": 1565,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "592.0",
@@ -31260,7 +31300,7 @@
     "nam": 2026
   },
   {
-    "id": 1567,
+    "id": 1566,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "577.0",
@@ -31280,7 +31320,7 @@
     "nam": 2026
   },
   {
-    "id": 1568,
+    "id": 1567,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T05.26-164",
     "so_hd": "577.0",
@@ -31300,7 +31340,7 @@
     "nam": 2026
   },
   {
-    "id": 1569,
+    "id": 1568,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q2-2026",
     "so_hd": "408673.0",
@@ -31320,7 +31360,7 @@
     "nam": 2026
   },
   {
-    "id": 1570,
+    "id": 1569,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q2-2026",
     "so_hd": "408673.0",
@@ -31340,7 +31380,7 @@
     "nam": 2026
   },
   {
-    "id": 1571,
+    "id": 1570,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "XĂNG Q2-2026",
     "so_hd": "408673.0",
@@ -31360,7 +31400,7 @@
     "nam": 2026
   },
   {
-    "id": 1572,
+    "id": 1571,
     "loai_cp": "Nguyên Vật liệu",
     "tieu_muc": "CO PE T06-26",
     "so_hd": "1638.0",
@@ -31380,7 +31420,7 @@
     "nam": 2026
   },
   {
-    "id": 1573,
+    "id": 1572,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T6-26",
     "so_hd": "1926.0",
@@ -31400,7 +31440,7 @@
     "nam": 2026
   },
   {
-    "id": 1574,
+    "id": 1573,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "CCDC T6-26",
     "so_hd": "159.0",
@@ -31420,7 +31460,7 @@
     "nam": 2026
   },
   {
-    "id": 1575,
+    "id": 1574,
     "loai_cp": "Phí bảo trì",
     "tieu_muc": "CCDC T6-26",
     "so_hd": "610.0",
@@ -31440,7 +31480,7 @@
     "nam": 2026
   },
   {
-    "id": 1576,
+    "id": 1575,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2026",
     "so_hd": "267.0",
@@ -31460,7 +31500,7 @@
     "nam": 2026
   },
   {
-    "id": 1577,
+    "id": 1576,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2026",
     "so_hd": "210.0",
@@ -31480,7 +31520,7 @@
     "nam": 2026
   },
   {
-    "id": 1578,
+    "id": 1577,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2026",
     "so_hd": "1036.0",
@@ -31500,7 +31540,7 @@
     "nam": 2026
   },
   {
-    "id": 1579,
+    "id": 1578,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q1-2026",
     "so_hd": "1036.0",
@@ -31520,7 +31560,7 @@
     "nam": 2026
   },
   {
-    "id": 1580,
+    "id": 1579,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q2-2026",
     "so_hd": "55.0",
@@ -31540,7 +31580,7 @@
     "nam": 2026
   },
   {
-    "id": 1581,
+    "id": 1580,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q2-2026",
     "so_hd": "677.0",
@@ -31560,7 +31600,7 @@
     "nam": 2026
   },
   {
-    "id": 1582,
+    "id": 1581,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q2-2026",
     "so_hd": "2767.0",
@@ -31580,7 +31620,7 @@
     "nam": 2026
   },
   {
-    "id": 1583,
+    "id": 1582,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "Mực in Q2-2026",
     "so_hd": "2767.0",
@@ -31600,7 +31640,7 @@
     "nam": 2026
   },
   {
-    "id": 1584,
+    "id": 1583,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PPL T05.26-164",
     "so_hd": "578.0",
@@ -31620,7 +31660,7 @@
     "nam": 2026
   },
   {
-    "id": 1585,
+    "id": 1584,
     "loai_cp": "Hành chính phí",
     "tieu_muc": "DCT T6-2026",
     "so_hd": "2739.0",
@@ -31640,7 +31680,7 @@
     "nam": 2026
   },
   {
-    "id": 1586,
+    "id": 1585,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "131457.0",
@@ -31660,7 +31700,7 @@
     "nam": 2026
   },
   {
-    "id": 1587,
+    "id": 1586,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "131983.0",
@@ -31680,7 +31720,7 @@
     "nam": 2026
   },
   {
-    "id": 1588,
+    "id": 1587,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "132004.0",
@@ -31700,7 +31740,7 @@
     "nam": 2026
   },
   {
-    "id": 1589,
+    "id": 1588,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "133274.0",
@@ -31720,7 +31760,7 @@
     "nam": 2026
   },
   {
-    "id": 1590,
+    "id": 1589,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "133958.0",
@@ -31740,7 +31780,7 @@
     "nam": 2026
   },
   {
-    "id": 1591,
+    "id": 1590,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "134093.0",
@@ -31760,7 +31800,7 @@
     "nam": 2026
   },
   {
-    "id": 1592,
+    "id": 1591,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "135550.0",
@@ -31780,7 +31820,7 @@
     "nam": 2026
   },
   {
-    "id": 1593,
+    "id": 1592,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "136407.0",
@@ -31800,7 +31840,7 @@
     "nam": 2026
   },
   {
-    "id": 1594,
+    "id": 1593,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "136438.0",
@@ -31820,7 +31860,7 @@
     "nam": 2026
   },
   {
-    "id": 1595,
+    "id": 1594,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "139831.0",
@@ -31840,7 +31880,7 @@
     "nam": 2026
   },
   {
-    "id": 1596,
+    "id": 1595,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "140868.0",
@@ -31860,7 +31900,7 @@
     "nam": 2026
   },
   {
-    "id": 1597,
+    "id": 1596,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "141912.0",
@@ -31880,7 +31920,7 @@
     "nam": 2026
   },
   {
-    "id": 1598,
+    "id": 1597,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "144502.0",
@@ -31900,7 +31940,7 @@
     "nam": 2026
   },
   {
-    "id": 1599,
+    "id": 1598,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "145462.0",
@@ -31920,7 +31960,7 @@
     "nam": 2026
   },
   {
-    "id": 1600,
+    "id": 1599,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "145903.0",
@@ -31940,7 +31980,7 @@
     "nam": 2026
   },
   {
-    "id": 1601,
+    "id": 1600,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "148325.0",
@@ -31960,7 +32000,7 @@
     "nam": 2026
   },
   {
-    "id": 1602,
+    "id": 1601,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "148686.0",
@@ -31980,7 +32020,7 @@
     "nam": 2026
   },
   {
-    "id": 1603,
+    "id": 1602,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "150213.0",
@@ -32000,7 +32040,7 @@
     "nam": 2026
   },
   {
-    "id": 1604,
+    "id": 1603,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "151962.0",
@@ -32020,7 +32060,7 @@
     "nam": 2026
   },
   {
-    "id": 1605,
+    "id": 1604,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "152927.0",
@@ -32040,7 +32080,7 @@
     "nam": 2026
   },
   {
-    "id": 1606,
+    "id": 1605,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "153335.0",
@@ -32060,7 +32100,7 @@
     "nam": 2026
   },
   {
-    "id": 1607,
+    "id": 1606,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "154880.0",
@@ -32080,7 +32120,7 @@
     "nam": 2026
   },
   {
-    "id": 1608,
+    "id": 1607,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "156652.0",
@@ -32100,7 +32140,7 @@
     "nam": 2026
   },
   {
-    "id": 1609,
+    "id": 1608,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "157642.0",
@@ -32120,7 +32160,7 @@
     "nam": 2026
   },
   {
-    "id": 1610,
+    "id": 1609,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "158060.0",
@@ -32140,7 +32180,7 @@
     "nam": 2026
   },
   {
-    "id": 1611,
+    "id": 1610,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "158977.0",
@@ -32160,7 +32200,7 @@
     "nam": 2026
   },
   {
-    "id": 1612,
+    "id": 1611,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "160776.0",
@@ -32180,7 +32220,7 @@
     "nam": 2026
   },
   {
-    "id": 1613,
+    "id": 1612,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "161420.0",
@@ -32200,7 +32240,7 @@
     "nam": 2026
   },
   {
-    "id": 1614,
+    "id": 1613,
     "loai_cp": "Phí nhiên liệu",
     "tieu_muc": "DXN_25/05-27/06",
     "so_hd": "161443.0",
@@ -32220,7 +32260,7 @@
     "nam": 2026
   },
   {
-    "id": 1615,
+    "id": 1614,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-161",
     "so_hd": "1543.0",
@@ -32240,7 +32280,7 @@
     "nam": 2026
   },
   {
-    "id": 1616,
+    "id": 1615,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-161",
     "so_hd": "1543.0",
@@ -32260,7 +32300,7 @@
     "nam": 2026
   },
   {
-    "id": 1617,
+    "id": 1616,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-161",
     "so_hd": "1544.0",
@@ -32280,7 +32320,7 @@
     "nam": 2026
   },
   {
-    "id": 1618,
+    "id": 1617,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-161",
     "so_hd": "1544.0",
@@ -32300,7 +32340,7 @@
     "nam": 2026
   },
   {
-    "id": 1619,
+    "id": 1618,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-161",
     "so_hd": "1544.0",
@@ -32320,7 +32360,7 @@
     "nam": 2026
   },
   {
-    "id": 1620,
+    "id": 1619,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-26",
     "so_hd": "261.0",
@@ -32340,7 +32380,7 @@
     "nam": 2026
   },
   {
-    "id": 1621,
+    "id": 1620,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-26",
     "so_hd": "261.0",
@@ -32360,7 +32400,7 @@
     "nam": 2026
   },
   {
-    "id": 1622,
+    "id": 1621,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-26",
     "so_hd": "261.0",
@@ -32380,7 +32420,7 @@
     "nam": 2026
   },
   {
-    "id": 1623,
+    "id": 1622,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-26",
     "so_hd": "261.0",
@@ -32400,7 +32440,7 @@
     "nam": 2026
   },
   {
-    "id": 1624,
+    "id": 1623,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-26",
     "so_hd": "261.0",
@@ -32420,7 +32460,7 @@
     "nam": 2026
   },
   {
-    "id": 1625,
+    "id": 1624,
     "loai_cp": "BỐC XẾP",
     "tieu_muc": "BX T06-26",
     "so_hd": "261.0",
@@ -32440,7 +32480,7 @@
     "nam": 2026
   },
   {
-    "id": 1626,
+    "id": 1625,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "735.0",
@@ -32460,7 +32500,7 @@
     "nam": 2026
   },
   {
-    "id": 1627,
+    "id": 1626,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "735.0",
@@ -32480,7 +32520,7 @@
     "nam": 2026
   },
   {
-    "id": 1628,
+    "id": 1627,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "735.0",
@@ -32500,7 +32540,7 @@
     "nam": 2026
   },
   {
-    "id": 1629,
+    "id": 1628,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "735.0",
@@ -32520,7 +32560,7 @@
     "nam": 2026
   },
   {
-    "id": 1630,
+    "id": 1629,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "735.0",
@@ -32540,7 +32580,7 @@
     "nam": 2026
   },
   {
-    "id": 1631,
+    "id": 1630,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "735.0",
@@ -32560,7 +32600,7 @@
     "nam": 2026
   },
   {
-    "id": 1632,
+    "id": 1631,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "734.0",
@@ -32580,7 +32620,7 @@
     "nam": 2026
   },
   {
-    "id": 1633,
+    "id": 1632,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "734.0",
@@ -32600,7 +32640,7 @@
     "nam": 2026
   },
   {
-    "id": 1634,
+    "id": 1633,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "734.0",
@@ -32620,7 +32660,7 @@
     "nam": 2026
   },
   {
-    "id": 1635,
+    "id": 1634,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "736.0",
@@ -32640,7 +32680,7 @@
     "nam": 2026
   },
   {
-    "id": 1636,
+    "id": 1635,
     "loai_cp": "PVH.NMay",
     "tieu_muc": "PVH T06.26-164",
     "so_hd": "736.0",
@@ -32660,7 +32700,7 @@
     "nam": 2026
   },
   {
-    "id": 1637,
+    "id": 1636,
     "loai_cp": "THUÊ KHO",
     "tieu_muc": "TK T7-26",
     "so_hd": "2430.0",
@@ -32677,6 +32717,106 @@
     "nguoi_thu_huong": "CTY CP TM BIA SÀI GÒN NAM TRUNG BỘ",
     "stk": "1027937979",
     "ngan_hang": "Ngân hàng TM CP Ngoại Thương Việt Nam (Vietcombank) - CN Kỳ Đồng",
+    "nam": 2026
+  },
+  {
+    "id": 1637,
+    "loai_cp": "Hành chính phí",
+    "tieu_muc": "Mực in Q3-2026",
+    "so_hd": "840.0",
+    "ngay_hd": "2026-07-21",
+    "thang": "7/2026",
+    "ly_do": "Mưc in cho BP kho Nam Trung Bộ Quý 3 /2026",
+    "chi_tiet": "Sạc mực Kho NTB tại NM Ninh Thuận",
+    "chi_tiet_hd": "Mực in",
+    "kho": "Kho NTB tại  NM Ninh Thuận",
+    "st_no_vat": 185186.0,
+    "vat": 14814.0,
+    "st_vat": 200000.0,
+    "ngay_tt": "2026-07-21",
+    "nguoi_thu_huong": "Diệp Nhật Hoà",
+    "stk": "0581000573456",
+    "ngan_hang": "Ngân hàng Vietcombank",
+    "nam": 2026
+  },
+  {
+    "id": 1638,
+    "loai_cp": "Hành chính phí",
+    "tieu_muc": "Mực in Q3-2026",
+    "so_hd": "123.0",
+    "ngay_hd": "2026-07-18",
+    "thang": "7/2026",
+    "ly_do": "Mưc in cho BP kho Nam Trung Bộ Quý 3 /2026",
+    "chi_tiet": "Sạc mực Kho Bình Thuận",
+    "chi_tiet_hd": "Mực in",
+    "kho": "Kho KCN Bình Thuận",
+    "st_no_vat": 240741.0,
+    "vat": -1.0,
+    "st_vat": 0.0,
+    "ngay_tt": "2026-07-21",
+    "nguoi_thu_huong": "Diệp Nhật Hoà",
+    "stk": "0581000573456",
+    "ngan_hang": "Ngân hàng Vietcombank",
+    "nam": 2026
+  },
+  {
+    "id": 1639,
+    "loai_cp": "Hành chính phí",
+    "tieu_muc": "Mực in Q3-2026",
+    "so_hd": "3345.0",
+    "ngay_hd": "2026-07-17",
+    "thang": "7/2026",
+    "ly_do": "Mưc in cho BP kho Nam Trung Bộ Quý 3 /2026",
+    "chi_tiet": "Sạc mực cho NV Đại diện nhà máy Phú Yên",
+    "chi_tiet_hd": "Mực in",
+    "kho": "Team đại diện NM Phú Yên",
+    "st_no_vat": 111111.0,
+    "vat": 0.0,
+    "st_vat": 0.0,
+    "ngay_tt": "2026-07-21",
+    "nguoi_thu_huong": "Diệp Nhật Hoà",
+    "stk": "0581000573456",
+    "ngan_hang": "Ngân hàng Vietcombank",
+    "nam": 2026
+  },
+  {
+    "id": 1640,
+    "loai_cp": "Hành chính phí",
+    "tieu_muc": "Mực in Q3-2026",
+    "so_hd": "3345.0",
+    "ngay_hd": "2026-07-17",
+    "thang": "7/2026",
+    "ly_do": "Mưc in cho BP kho Nam Trung Bộ Quý 3 /2026",
+    "chi_tiet": "Sạc mực Kho NTB tại NM Khánh Hòa",
+    "chi_tiet_hd": "Mực in",
+    "kho": "Kho NTB tại  NM Khánh Hòa",
+    "st_no_vat": 333333.0,
+    "vat": 0.0,
+    "st_vat": 0.0,
+    "ngay_tt": "2026-07-21",
+    "nguoi_thu_huong": "Diệp Nhật Hoà",
+    "stk": "0581000573456",
+    "ngan_hang": "Ngân hàng Vietcombank",
+    "nam": 2026
+  },
+  {
+    "id": 1641,
+    "loai_cp": "Nguyên Vật liệu",
+    "tieu_muc": "CO PE T07-26",
+    "so_hd": "2363.0",
+    "ngay_hd": "2026-07-21",
+    "thang": "7/2026",
+    "ly_do": "Thanh toán màng PE quấn máy  cho Nm Ninh Thuận",
+    "chi_tiet": "Thanh toán màng PE quấn máy  cho Nm Ninh Thuận",
+    "chi_tiet_hd": "Tại  Kho  NM Ninh Thuận",
+    "kho": "Kho NTB tại  NM Ninh Thuận",
+    "st_no_vat": 109710000.0,
+    "vat": 0.0,
+    "st_vat": 118486800.0,
+    "ngay_tt": "2026-07-21",
+    "nguoi_thu_huong": "DNTN Thương mại CAO HÙNG",
+    "stk": "0121000104694",
+    "ngan_hang": "Ngân hàng Vietcombank",
     "nam": 2026
   }
 ]
