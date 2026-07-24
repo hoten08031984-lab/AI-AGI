@@ -5,25 +5,49 @@ import time
 import json
 import sys
 import threading
+import unicodedata
 import openpyxl
 
 sys.stdout.reconfigure(encoding='utf-8')
 
+def clean_str(val):
+    if val is None:
+        return ''
+    s = str(val).strip()
+    return unicodedata.normalize('NFC', s)
+
+def normalize_loai_cp(val):
+    s = clean_str(val)
+    if not s or s.lower() == 'none':
+        return 'Chưa phân loại'
+    s_lower = s.lower()
+    # Unify all typos & accent variants of Hành chính phí
+    if 'hành' in s_lower or 'hanh' in s_lower or 'hà' in s_lower and 'chí' in s_lower or 'hà' in s_lower and 'chi' in s_lower:
+        if 'chí' in s_lower or 'chi' in s_lower:
+            return 'Hành chính phí'
+    if 'công tác' in s_lower or 'cong tac' in s_lower or 'cô' in s_lower and 'tá' in s_lower:
+        return 'Công tác phí'
+    if 'bảo trì' in s_lower or 'bao tri' in s_lower:
+        return 'Phí bảo trì'
+    return s
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PORT = 8080
-DIRECTORY = r"D:\AI AGI_2"
-EXCEL_PATH = r"D:\AI AGI_2\THEO DOI HOP DONG-2_Optimized.xlsx"
-JS_DATA_PATH = r"D:\AI AGI_2\dashboard_data.js"
-JSON_DATA_PATH = r"D:\AI AGI_2\dashboard_data.json"
+DIRECTORY = BASE_DIR
+EXCEL_PATH = os.path.join(BASE_DIR, "THEO DOI HOP DONG-2_Optimized.xlsx")
+JS_DATA_PATH = os.path.join(BASE_DIR, "dashboard_data.js")
+JSON_DATA_PATH = os.path.join(BASE_DIR, "dashboard_data.json")
 
 last_mtime = 0
 last_check_time = 0
 extract_lock = threading.Lock()
 
-def extract_excel_data():
+def extract_excel_data(force=False):
     global last_mtime, last_check_time
     
     now = time.time()
-    if now - last_check_time < 3:
+    if not force and now - last_check_time < 2:
         return False
 
     if not extract_lock.acquire(blocking=False):
@@ -36,10 +60,10 @@ def extract_excel_data():
             return False
         
         current_mtime = os.path.getmtime(EXCEL_PATH)
-        if current_mtime <= last_mtime:
+        if not force and current_mtime <= last_mtime:
             return False  # No change
 
-        print(f"[{time.strftime('%H:%M:%S')}] Phát hiện file Excel thay đổi! Đang cập nhật dữ liệu Dashboard...")
+        print(f"[{time.strftime('%H:%M:%S')}] Phát hiện kiểm tra Excel (Force={force})! Đang đọc và cập nhật dữ liệu...")
         
         vals = None
         abs_src = os.path.abspath(EXCEL_PATH)
@@ -90,8 +114,15 @@ def extract_excel_data():
                 finally:
                     pythoncom.CoUninitialize()
         except Exception as e_com:
-            print(f"Lỗi win32com: {e_com}")
-            return False
+            print(f"Lỗi win32com: {e_com}, đang dùng openpyxl...")
+            try:
+                wb_ox = openpyxl.load_workbook(abs_src, data_only=True)
+                if 'CHI' in wb_ox.sheetnames:
+                    ws_ox = wb_ox['CHI']
+                    vals = [list(row) for row in ws_ox.iter_rows(values_only=True)]
+            except Exception as e_ox:
+                print(f"Lỗi openpyxl: {e_ox}")
+                return False
 
 
         if not vals:
@@ -108,16 +139,16 @@ def extract_excel_data():
             r_padded = list(r) + [None] * (17 - len(r))
 
             raw_loai_cp = r_padded[0]
-            loai_cp = str(raw_loai_cp).strip() if (raw_loai_cp is not None and str(raw_loai_cp).strip() != '') else 'Chưa phân loại'
+            loai_cp = normalize_loai_cp(raw_loai_cp)
 
-            tieu_muc = str(r_padded[1]).strip() if r_padded[1] is not None else ''
-            so_hd = str(r_padded[2]).strip() if r_padded[2] is not None else ''
-            ngay_hd = str(r_padded[3])[:10] if r_padded[3] is not None else ''
-            thang = str(r_padded[4]).strip() if r_padded[4] is not None else ''
-            ly_do = str(r_padded[5]).strip() if r_padded[5] is not None else ''
-            chi_tiet = str(r_padded[6]).strip() if r_padded[6] is not None else ''
-            chi_tiet_hd = str(r_padded[7]).strip() if r_padded[7] is not None else ''
-            kho = str(r_padded[8]).strip() if r_padded[8] is not None else ''
+            tieu_muc = clean_str(r_padded[1])
+            so_hd = clean_str(r_padded[2])
+            ngay_hd = clean_str(r_padded[3])[:10]
+            thang = clean_str(r_padded[4])
+            ly_do = clean_str(r_padded[5])
+            chi_tiet = clean_str(r_padded[6])
+            chi_tiet_hd = clean_str(r_padded[7])
+            kho = clean_str(r_padded[8])
 
             try: st_no_vat = float(r_padded[9]) if r_padded[9] is not None else 0.0
             except: st_no_vat = 0.0
@@ -128,10 +159,10 @@ def extract_excel_data():
             try: st_vat = float(r_padded[11]) if r_padded[11] is not None else 0.0
             except: st_vat = 0.0
 
-            ngay_tt = str(r_padded[12])[:10] if r_padded[12] is not None else ''
-            nguoi_thu_huong = str(r_padded[13]).strip() if r_padded[13] is not None else ''
-            stk = str(r_padded[14]).strip() if r_padded[14] is not None else ''
-            ngan_hang = str(r_padded[15]).strip() if r_padded[15] is not None else ''
+            ngay_tt = clean_str(r_padded[12])[:10]
+            nguoi_thu_huong = clean_str(r_padded[13])
+            stk = clean_str(r_padded[14])
+            ngan_hang = clean_str(r_padded[15])
 
             try:
                 parsed_nam = int(float(r_padded[16])) if r_padded[16] is not None else 0
@@ -207,8 +238,16 @@ class AutoUpdateHandler(http.server.SimpleHTTPRequestHandler):
 
     def do_GET(self):
         try:
-            if self.path in ('/', '/index.html'):
-                extract_excel_data()
+            if self.path.startswith('/api/refresh'):
+                success = extract_excel_data(force=True)
+                self.send_response(200)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.end_headers()
+                res = json.dumps({"status": "ok", "success": success}).encode('utf-8')
+                self.wfile.write(res)
+                return
+            elif self.path in ('/', '/index.html') or self.path.startswith('/index.html'):
+                extract_excel_data(force=True)
         except Exception as e:
             print(f"Lỗi trong do_GET: {e}")
         return super().do_GET()

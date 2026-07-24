@@ -565,6 +565,22 @@ body {
   background: rgba(255, 255, 255, 0.04);
 }
 
+.data-table tfoot {
+  position: sticky;
+  bottom: 0;
+}
+
+.table-total-row {
+  background: rgba(15, 23, 42, 0.98) !important;
+  border-top: 2px solid var(--accent-cyan);
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.4);
+}
+
+.table-total-row td {
+  padding: 1.1rem 1.1rem !important;
+  font-size: 0.92rem !important;
+}
+
 /* Cyber Badges with Neon Glow */
 .badge {
   display: inline-flex;

@@ -201,19 +201,19 @@
         <table class="data-table" id="detail-table">
           <thead>
             <tr>
-              <th data-sort="id">STT <i class="fas fa-sort"></i></th>
-              <th data-sort="loai_cp">Loại CP (Cột A) <i class="fas fa-sort"></i></th>
-              <th data-sort="tieu_muc">Tiểu Mục <i class="fas fa-sort"></i></th>
+              <th data-sort="thang">Tháng <i class="fas fa-sort"></i></th>
+              <th data-sort="tieu_muc">Tiểu Mục CP <i class="fas fa-sort"></i></th>
               <th data-sort="so_hd">Số HĐ <i class="fas fa-sort"></i></th>
               <th data-sort="ngay_hd">Ngày HĐ <i class="fas fa-sort"></i></th>
               <th data-sort="ly_do">Lý Do Thanh Toán <i class="fas fa-sort"></i></th>
-              <th data-sort="kho">Kho <i class="fas fa-sort"></i></th>
-              <th data-sort="st_vat" style="text-align:right">Số Tiền (VAT) <i class="fas fa-sort"></i></th>
-              <th data-sort="nguoi_thu_huong">Người Thụ Hưởng <i class="fas fa-sort"></i></th>
-              <th data-sort="nam">Năm <i class="fas fa-sort"></i></th>
+              <th data-sort="chi_tiet_hd">Chi Tiết HĐ <i class="fas fa-sort"></i></th>
+              <th data-sort="st_no_vat" style="text-align:right">Số Tiền Chưa VAT <i class="fas fa-sort"></i></th>
+              <th data-sort="vat" style="text-align:right">VAT <i class="fas fa-sort"></i></th>
+              <th data-sort="st_vat" style="text-align:right">Số Tiền VAT <i class="fas fa-sort"></i></th>
             </tr>
           </thead>
           <tbody id="detail-tbody"></tbody>
+          <tfoot id="detail-tfoot"></tfoot>
         </table>
       </div>
 
@@ -231,7 +231,9 @@
   </footer>
 
   <!-- JS Scripts -->
-  <script src="dashboard_data.js?v=1641"></script>
-  <script src="app.js?v=1641"></script>
+  <script>
+    document.write('<script src="dashboard_data.js?v=' + Date.now() + '"><\/script>');
+    document.write('<script src="app.js?v=' + Date.now() + '"><\/script>');
+  </script>
 </body>
 </html>

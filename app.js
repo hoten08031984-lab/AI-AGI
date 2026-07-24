@@ -12,7 +12,7 @@ let currentFilters = {
 let tableState = {
   page: 1,
   pageSize: 12,
-  sortCol: 'id',
+  sortCol: 'thang',
   sortDir: 'asc'
 };
 
@@ -185,7 +185,7 @@ function setupEventListeners() {
       const icon = document.getElementById('icon-refresh');
       if (icon) icon.classList.add('fa-spin');
       try {
-        await fetch('/index.html', { cache: 'no-store' });
+        await fetch('/api/refresh?t=' + Date.now(), { cache: 'no-store' });
       } catch (e) {}
       window.location.href = window.location.pathname + '?t=' + Date.now();
     });
@@ -561,22 +561,42 @@ function renderDataTable() {
 
   const tbody = document.getElementById('detail-tbody');
   if (pageItems.length === 0) {
-    tbody.innerHTML = `<tr><td colspan="10" style="text-align:center; padding: 2rem; color: var(--text-muted)">Không tìm thấy dữ liệu phù hợp</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="9" style="text-align:center; padding: 2rem; color: var(--text-muted)">Không tìm thấy dữ liệu phù hợp</td></tr>`;
   } else {
-    tbody.innerHTML = pageItems.map(item => `
-      <tr>
-        <td><strong>#${item.id}</strong></td>
-        <td><span class="badge badge-blue">${item.loai_cp}</span></td>
-        <td>${item.tieu_muc || '-'}</td>
-        <td>${item.so_hd || '-'}</td>
-        <td>${item.ngay_hd || '-'}</td>
-        <td title="${item.ly_do}">${item.ly_do.length > 30 ? item.ly_do.substring(0, 30) + '...' : item.ly_do}</td>
-        <td><span class="badge badge-purple">${item.kho}</span></td>
-        <td style="font-weight:700; color:var(--accent-blue); text-align:right">${formatVND(item.st_vat)}</td>
-        <td style="font-size:0.82rem; color:var(--text-muted)">${item.nguoi_thu_huong || '-'}</td>
-        <td><span class="badge badge-emerald">${(item.nam && item.nam !== 'N/A' && Number(item.nam) > 1900) ? 'Năm ' + item.nam : 'Chưa có năm'}</span></td>
+    tbody.innerHTML = pageItems.map(item => {
+      const chiTietHD = item.chi_tiet_hd || item.chi_tiet || '-';
+      const lyDo = item.ly_do || '-';
+      return `
+        <tr>
+          <td><span class="badge badge-emerald">${item.thang || '-'}</span></td>
+          <td>${item.tieu_muc || '-'}</td>
+          <td><strong>${item.so_hd || '-'}</strong></td>
+          <td>${item.ngay_hd || '-'}</td>
+          <td title="${lyDo}">${lyDo.length > 30 ? lyDo.substring(0, 30) + '...' : lyDo}</td>
+          <td title="${chiTietHD}">${chiTietHD.length > 30 ? chiTietHD.substring(0, 30) + '...' : chiTietHD}</td>
+          <td style="font-weight:600; text-align:right; color:#38bdf8">${formatVND(item.st_no_vat)}</td>
+          <td style="font-weight:600; text-align:right; color:#f59e0b">${formatVND(item.vat)}</td>
+          <td style="font-weight:700; text-align:right; color:#34d399">${formatVND(item.st_vat)}</td>
+        </tr>
+      `;
+    }).join('');
+  }
+
+  // Calculate Grand Totals for Footer Row across all filtered items
+  const totalStNoVat = filteredData.reduce((sum, item) => sum + (item.st_no_vat || 0), 0);
+  const totalVat = filteredData.reduce((sum, item) => sum + (item.vat || 0), 0);
+  const totalStVat = filteredData.reduce((sum, item) => sum + (item.st_vat || 0), 0);
+
+  const tfoot = document.getElementById('detail-tfoot');
+  if (tfoot) {
+    tfoot.innerHTML = `
+      <tr class="table-total-row">
+        <td colspan="6" style="text-align:right; font-weight:800; color:var(--accent-cyan);">TỔNG CỘNG (${filteredData.length.toLocaleString('vi-VN')} MỤC):</td>
+        <td style="text-align:right; font-weight:800; color:#38bdf8;">${formatVND(totalStNoVat)}</td>
+        <td style="text-align:right; font-weight:800; color:#f59e0b;">${formatVND(totalVat)}</td>
+        <td style="text-align:right; font-weight:800; color:#34d399;">${formatVND(totalStVat)}</td>
       </tr>
-    `).join('');
+    `;
   }
 
   // Update Pagination Info
