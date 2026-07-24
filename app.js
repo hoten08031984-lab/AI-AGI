@@ -39,8 +39,19 @@ const formatShortVND = (amount) => {
 document.addEventListener('DOMContentLoaded', () => {
   initFilterDropdowns();
   setupEventListeners();
+  updateSyncBadge();
   applyFilters();
 });
+
+function updateSyncBadge() {
+  const badge = document.getElementById('sync-badge');
+  if (!badge) return;
+  if (window.SYNC_INFO && window.SYNC_INFO.last_updated) {
+    badge.innerHTML = `<i class="fas fa-check-circle" style="color:#10b981; margin-right:4px;"></i> Đã đồng bộ lúc: ${window.SYNC_INFO.last_updated}`;
+  } else {
+    badge.innerHTML = `<i class="fas fa-check-circle" style="color:#10b981; margin-right:4px;"></i> Dữ liệu sẵn sàng`;
+  }
+}
 
 // Populate Filter Options dynamically
 function initFilterDropdowns() {
